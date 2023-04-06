@@ -1,0 +1,3 @@
+set(FW2_CMAKE_VERSION           02)
+set(FW2_WP_KR_CMAKE_VERSION     01)
+set(APP_CMAKE_VERSION           01)
