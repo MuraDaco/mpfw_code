@@ -1,21 +1,21 @@
 [submodule "libs/mpfw_code_libs_sdk_nxp"]
 	path = libs/mpfw_code_libs_sdk_nxp
-	url = file:///Volumes/Archive20210515/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_sdk_nxp.git
+	url = ssh://work@192.168.8.134/mnt/mypass_2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_sdk_nxp.git
 [submodule "libs/mpfw_code_libs_fw2_core_core"]
 	path = libs/mpfw_code_libs_fw2_core_core
-	url = file:///Volumes/Archive20210515/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_fw2_core_core.git
+	url = ssh://work@192.168.8.134/mnt/mypass_2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_fw2_core_core.git
 [submodule "libs/mpfw_code_libs_fw2_wrapper_resources"]
 	path = libs/mpfw_code_libs_fw2_wrapper_resources
-	url = file:///Volumes/Archive20210515/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_fw2_wrapper_resources.git
+	url = ssh://work@192.168.8.134/mnt/mypass_2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_fw2_wrapper_resources.git
 [submodule "libs/mpfw_code_libs_fw2_wrapper_core"]
 	path = libs/mpfw_code_libs_fw2_wrapper_core
-	url = file:///Volumes/Archive20210515/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_fw2_wrapper_core.git
+	url = ssh://work@192.168.8.134/mnt/mypass_2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_fw2_wrapper_core.git
 [submodule "libs/mpfw_code_libs_common"]
 	path = libs/mpfw_code_libs_common
-	url = file:///Volumes/Archive20210515/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_common.git
+	url = ssh://work@192.168.8.134/mnt/mypass_2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_common.git
 [submodule "apps/mpfw_code_apps_tst_20221206"]
 	path = apps/mpfw_code_apps_tst_20221206
-	url = file:///Volumes/Archive20210515/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_apps_tst_20221206.git
+	url = ssh://work@192.168.8.134/mnt/mypass_2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_apps_tst_20221206.git
 [submodule "main/mpfw_code_main_tst_20221229"]
 	path = main/mpfw_code_main_tst_20221229
-	url = file:///Volumes/Archive20210515/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_tst_20221229.git
+	url = ssh://work@192.168.8.134/mnt/mypass_2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_tst_20221229.git
