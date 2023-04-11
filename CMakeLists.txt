@@ -2,6 +2,7 @@
 # DEBUG BUILD
 ###############     ###############     ###############     ###############     ###############
 
+### WARNING - l'opzione "-DFW2_LIB_CONFIG_DIR=libs/tst_20221206/src" non funziona dato che non esiste la directory "libs/tst_20221206/src"
 
 ####################
 # PLATFORM MAC BUILD
