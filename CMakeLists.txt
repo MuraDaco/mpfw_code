@@ -55,14 +55,15 @@
 # PLATFORM NXP BUILD
 ####################
 # fw2_lib configuration file directory setting
-# cmake -S . -B apps/tst_20221229/wsp/cmake/build_as_lib/nxp/rls -G "Unix Makefiles" -DAPP_NAME=tst_20221229 -DWP_PLATFORM_NXP=ON  -DCMAKE_TOOLCHAIN_FILE=./arm-none-eabi-gcc.cmake -DFW2_CMAKE_VERSION=   -DAPP_CMAKE_VERSION=   -DFW2_LIB_CONFIG_DIR=libs/tst_20221206/src -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON
-# cmake -S . -B apps/tst_20221229/wsp/cmake/build_as_lib/nxp/rls -G "Unix Makefiles" -DAPP_NAME=tst_20221229 -DWP_PLATFORM_NXP=ON  -DCMAKE_TOOLCHAIN_FILE=./arm-none-eabi-gcc.cmake -DFW2_CMAKE_VERSION=   -DAPP_CMAKE_VERSION=   -DFW2_LIB_CONFIG_DIR=                      -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON
-# cmake -S . -B apps/tst_20221229/wsp/cmake/build_as_lib/nxp/rls -G "Unix Makefiles" -DAPP_NAME=tst_20221229 -DWP_PLATFORM_NXP=ON  -DCMAKE_TOOLCHAIN_FILE=./arm-none-eabi-gcc.cmake -DFW2_CMAKE_VERSION=01 -DAPP_CMAKE_VERSION=   -DFW2_LIB_CONFIG_DIR=                      -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON
-# cmake -S . -B apps/tst_20221229/wsp/cmake/build_as_lib/nxp/rls -G "Unix Makefiles" -DAPP_NAME=tst_20221229 -DWP_PLATFORM_NXP=ON  -DCMAKE_TOOLCHAIN_FILE=./arm-none-eabi-gcc.cmake -DFW2_CMAKE_VERSION=02 -DAPP_CMAKE_VERSION=01 -DFW2_LIB_CONFIG_DIR=                      -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON
-# cmake -S . -B apps/tst_20221229/wsp/cmake/build_as_lib/nxp/rls -G "Unix Makefiles" -DAPP_NAME=tst_20221229 -DWP_PLATFORM_NXP=ON  -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON
-# cmake --build apps/tst_20221229/wsp/cmake/build_as_lib/nxp/rls --clean-first -- -j 4
-# apps/tst_20221229/wsp/cmake/build_as_lib/nxp/rls/apps/tst_20221229/wsp/cmake/project/subdir/tst_20221229.out
-# apps/tst_20221229/wsp/cmake/build_as_lib/nxp/rls/apps/tst_20221229/wsp/cmake/project/subdir/v_${APP_CMAKE_VERSION}/tst_20221229.out
+# cmake -S . -B main/mpfw_code_main_tst_20221229/wsp/cmake/build_as_lib/nxp/rls -G "Unix Makefiles" -DAPP_NAME=tst_20221229 -DWP_PLATFORM_NXP=ON  -DCMAKE_TOOLCHAIN_FILE=./arm-none-eabi-gcc.cmake -DFW2_CMAKE_VERSION=   -DAPP_CMAKE_VERSION=   -DFW2_LIB_CONFIG_DIR=libs/tst_20221206/src -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON
+# cmake -S . -B main/mpfw_code_main_tst_20221229/wsp/cmake/build_as_lib/nxp/rls -G "Unix Makefiles" -DAPP_NAME=tst_20221229 -DWP_PLATFORM_NXP=ON  -DCMAKE_TOOLCHAIN_FILE=./arm-none-eabi-gcc.cmake -DFW2_CMAKE_VERSION=   -DAPP_CMAKE_VERSION=   -DFW2_LIB_CONFIG_DIR=                      -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON
+# cmake -S . -B main/mpfw_code_main_tst_20221229/wsp/cmake/build_as_lib/nxp/rls -G "Unix Makefiles" -DAPP_NAME=tst_20221229 -DWP_PLATFORM_NXP=ON  -DCMAKE_TOOLCHAIN_FILE=./arm-none-eabi-gcc.cmake -DFW2_CMAKE_VERSION=01 -DAPP_CMAKE_VERSION=   -DFW2_LIB_CONFIG_DIR=                      -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON
+# cmake -S . -B main/mpfw_code_main_tst_20221229/wsp/cmake/build_as_lib/nxp/rls -G "Unix Makefiles" -DAPP_NAME=tst_20221229 -DWP_PLATFORM_NXP=ON  -DCMAKE_TOOLCHAIN_FILE=./arm-none-eabi-gcc.cmake -DFW2_CMAKE_VERSION=02 -DAPP_CMAKE_VERSION=01 -DFW2_LIB_CONFIG_DIR=                      -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON
+# cmake -S . -B main/mpfw_code_main_tst_20221229/wsp/cmake/build_as_lib/nxp/rls -G "Unix Makefiles" -DAPP_NAME=tst_20221229 -DWP_PLATFORM_NXP=ON                                                                                                                                            -DCMAKE_BUILD_TYPE=Release -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON
+# cp main/mpfw_code_main_tst_20221229/wsp/cmake/project/link_script/rls/*.ld main/mpfw_code_main_tst_20221229/wsp/cmake/build_as_lib/nxp/rls/main/mpfw_code_main_tst_20221229/wsp/cmake/project/subdir/v_01
+# cmake --build main/mpfw_code_main_tst_20221229/wsp/cmake/build_as_lib/nxp/rls --clean-first -- -j 4
+# main/mpfw_code_main_tst_20221229/wsp/cmake/build_as_lib/nxp/rls/main/mpfw_code_main_tst_20221229/wsp/cmake/project/subdir/tst_20221229.out
+# main/mpfw_code_main_tst_20221229/wsp/cmake/build_as_lib/nxp/rls/main/mpfw_code_main_tst_20221229/wsp/cmake/project/subdir/v_${APP_CMAKE_VERSION}/tst_20221229.out
 
 cmake_minimum_required(VERSION 3.16)
 
