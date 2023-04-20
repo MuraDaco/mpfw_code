@@ -19,7 +19,7 @@ set(RELATIVE_PATH__LIBS_FW2_WP_RS_PRJ           ${RELATIVE_PATH__LIBS_FW2_WP_RS}
 set(RELATIVE_PATH__LIBS_FW2_WP_KR               ${RELATIVE_PATH__LIBS}/mpfw_code_libs_fw2_wrapper_core/${WP_PLATFORM_STR}               )
 set(RELATIVE_PATH__LIBS_FW2_WP_KR_PRJ           ${RELATIVE_PATH__LIBS_FW2_WP_KR}/wsp/cmake/project/${STR_FW2_WP_KR_CMAKE_VERSION}       )
 
-set(RELATIVE_PATH__APPS_XXX                     ${RELATIVE_PATH__APPS}/mpfw_code_apps_tst_20221206                                      )
+set(RELATIVE_PATH__APPS_XXX                     ${RELATIVE_PATH__APPS}/mpfw_code_apps_${APP_NAME}                                       )
 set(RELATIVE_PATH__APPS_XXX_PRJ                 ${RELATIVE_PATH__APPS_XXX}/wsp/cmake/project                                            )
 set(RELATIVE_PATH__APPS_XXX_SRC                 ${RELATIVE_PATH__APPS_XXX}/src                                                          )
 
