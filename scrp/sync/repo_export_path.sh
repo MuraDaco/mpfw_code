@@ -62,8 +62,13 @@ option_set=0
         echo_chk_clrd 1 31 "WARNING - this command can only be executed once on terminal session or after that you restore the path"
     } || {
 
-        path_pre_mpfw_code=${PWD%/mpfw_code/*}
-        PATH_REPO_MPFW_CODE="$path_pre_mpfw_code/mpfw_code"
+        path_basename=$(basename $PWD)
+        [ "$path_basename" = "mpfw_code" ] && {
+            PATH_REPO_MPFW_CODE="$PWD"
+        } || {
+            path_pre_mpfw_code=${PWD%/mpfw_code/*}
+            PATH_REPO_MPFW_CODE="$path_pre_mpfw_code/mpfw_code"
+        }
         [ -d "$PATH_REPO_MPFW_CODE/cmake" ] && {
             echo_chk_clrd 1 32 "OK ---- \"$PATH_REPO_MPFW_CODE\" is a valid mpfw_code path: \"cmake\" subdirectroy exists"
 
