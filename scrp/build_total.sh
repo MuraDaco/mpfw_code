@@ -4,6 +4,35 @@ source build_functions.sh
 
 param_display
 
+
+{
+    [ "$option_r" = "remove" ]      ||
+    [ "$option_r" = "remove_exit" ]
+} && {
+
+    {
+        [ -f "$mpfw_code_path/CMakeLists.txt" ] &&
+        [ -f "$mpfw_code_path/cmake/arm-none-eabi-gcc.cmake" ]
+    } && (
+        cd $mpfw_code_path
+        [ -d "main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type" ] && {
+            [ "$option_test" = "test_on" ] && {
+                echo_chk_clrd 1 33 "Nothing has be done - Test is on"
+            } || {
+                rm -rf main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type
+            }
+            echo_chk_clrd 1 32 "\"$mpfw_code_path/main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type\" directory is removed"
+        } || {
+            echo_chk_clrd 1 33 "\"$mpfw_code_path/main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type\" directory is already removed"
+        }
+    ) || {
+        echo_chk_clrd 1 31 "ERROR - \"$mpfw_code_path/CMakeLists.txt\" or \"$mpfw_code_path/cmake/arm-none-eabi-gcc.cmake\" files do not exist"
+    }
+
+}
+
+[ "$option_r" = "remove_exit" ] && exit 0
+
 {
     [ -f "$mpfw_code_path/CMakeLists.txt" ] &&
     [ -f "$mpfw_code_path/cmake/arm-none-eabi-gcc.cmake" ]
@@ -11,9 +40,17 @@ param_display
     pwd_backup="$PWD"
     cd $mpfw_code_path
 
-    cmake -S . -B main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type -G "Unix Makefiles" $toolchain_cmake $platform_cmake -DMAIN_NAME=$main_name -DAPP_NAME=tst_20221206 $build_type_cmake $verbose_cmake && {
-        cp main/mpfw_code_main_$main_name/wsp/cmake/project/link_script/$build_type/*.ld main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type/main/mpfw_code_main_$main_name/wsp/cmake/project/subdir/v_01 && {
-            cmake --build main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type $clean_cmake -- -j 1
+    [ "$option_test" = "test_on" ] && {
+        echo_chk_clrd 1 33 "Nothing has be done - Test is on"
+    } || {
+        cmake -S . -B main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type -G "Unix Makefiles" $toolchain_cmake $platform_cmake -DWP_PLATFORM_STR=$platform -DMAIN_NAME=$main_name -DAPP_NAME=tst_20221206 $build_type_cmake $verbose_cmake && {
+            [ "$option_skip" = "skip_build" ] && {
+                echo_chk_clrd 1 33 "No build performed - option \"skip\" is active"
+            } || {
+                cp main/mpfw_code_main_$main_name/wsp/cmake/project/link_script/$build_type/*.ld main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type/main/mpfw_code_main_$main_name/wsp/cmake/project/subdir/v_01 && {
+                    cmake --build main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type $clean_cmake -- -j 1
+                }
+            }
         }
     }
 
@@ -22,12 +59,12 @@ param_display
     echo
     echo
     echo_chk_clrd 1 33 "the following commands have been executed under \"$PWD\" directory"
-    echo_chk_clrd 1 33 "cmake -S . -B main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type -G \"Unix Makefiles\" $toolchain_cmake $platform_cmake -DMAIN_NAME=$main_name -DAPP_NAME=tst_20221206 $build_type_cmake $verbose_cmake"
+    echo_chk_clrd 1 33 "cmake -S . -B main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type -G \"Unix Makefiles\" $toolchain_cmake $platform_cmake -DWP_PLATFORM_STR=$platform -DMAIN_NAME=$main_name -DAPP_NAME=tst_20221206 $build_type_cmake $verbose_cmake"
     echo_chk_clrd 1 33 "cmake --build main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type $clean_cmake -- -j 1"
     echo        
 
 ) || {
-    echo "ERROR - neither \"CMakeLists.txt\" nor \"./cmake/arm-none-eabi-gcc.cmake\" files exist"
+    echo_chk_clrd 1 31 "ERROR - neither \"CMakeLists.txt\" nor \"./cmake/arm-none-eabi-gcc.cmake\" files exist"
 }
 
 param_display

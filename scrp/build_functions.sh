@@ -1,4 +1,3 @@
-
 function echo_chk_clrd {
     echo -e "\033[$1;$2m""dbg msg - `basename $0` -> $3""\033[0;0m" > /dev/stderr
 }
@@ -15,14 +14,14 @@ function param_display {
     echo_chk_clrd 1 32 "build_type_cmake:   $build_type_cmake"
     echo_chk_clrd 1 32 "verbose_cmake:      $verbose_cmake"
     echo_chk_clrd 1 32 "clean_cmake:        $clean_cmake"
+    echo_chk_clrd 1 32 "remove option:      $option_r"
     
     echo
 
 }
 
+function param_parsing {
 
-    platform_default="stm"
-    build_type_default="dbg"
     main_name=${PWD#*main/mpfw_code_main_}
     main_name=${main_name%%/*}
     path_basename=$(basename $PWD)
@@ -37,119 +36,79 @@ function param_display {
         echo_chk_clrd 1 31 "No valid \"mpfw_code\" path: \"$mpfw_code_path\""
         exit 1
     }
-
-    [ "$1" = -v ] && {
-        shift
-        verbose_cmake="-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON"
-    } || {
-        verbose_cmake="-DCMAKE_VERBOSE_MAKEFILE:BOOL=OFF"
+    
+    scrip_config_file_path="$PWD/scrp/build_script_config.txt"
+    [ ! -f "$scrip_config_file_path" ] && {
+        scrip_config_file_path=${PWD%/mpfw_code/*}/mpfw_code/scrp/build_script_config.txt
+        [ ! -f "$scrip_config_file_path" ] && {
+            echo_chk_clrd 1 31 "ERROR - No script config file (\"build_script_config.txt\") is detected. exit 1"
+            exit 1
+        }
     }
-
-    [ "$1" = -c ] && {
-        shift
-        clean_cmake="--clean-first"
-    } || {
-        clean_cmake=
-    }
-
-    case "$1" in
-        "nxp" | "stm" | "mac")
-            platform="$1"
-            shift
-        ;;
-        "rls" | "dbg")
-            build_type="$1"
-            shift
-        ;;
-        *)
-            [ "$1" ] && {
-                [ ! "$1" = "-main" ] && {
-                    echo_chk_clrd 1 31 "wrong parameter"
-                    exit 1
-                }
-            } || {
-                platform="$platform_default"
-                build_type="$build_type_default"
-            }
-        ;;
-    esac
-
-
-    case "$1" in
-        "nxp" | "stm" | "mac")
-            [ ! "$platform" ] && platform="$1" || { 
-                echo_chk_clrd 1 31  "Error - 2nd parameter is wrong: \"platform\" is already set"
-                exit 1 
-            }
-            shift
-        ;;
-        "rls" | "dbg")
-            [ ! "$build_type" ] && build_type="$1" || {
-                echo_chk_clrd 1 31  "Error - 2nd parameter is wrong: \"build_type\" is already set"
-                exit 1
-            }
-            shift
-        ;;
-        *)
-            [ "$1" ] && {
-                [ ! "$1" = "-main" ] && {
-                    echo_chk_clrd 1 31 "wrong parameter"
-                    exit 1
-                }
-            } || {
-                [ "$platform" ] && {
-                    build_type="$build_type_default"
-                } || {
-                    [ "$build_type" ] && platform="$platform_default"
-                }
-            }
-        ;;
-    esac
-
-    [ ! "$main_name" ] && {
-        [ "$1" = "-main" ] && {
-            shift
-            main_name="$1"
-            [ ! -d "$mpfw_code_path/main/mpfw_code_main_${main_name}" ] && {
-                echo_chk_clrd 1 31 "No valid \"main name app\" selected: \"$main_name\""
-                exit 1
-            }
-            true
+    
+    while (( $# )) 
+    do
+        param=$(git config -f "$scrip_config_file_path" -l | cut -d. -f1,2 | grep ".$1$" | uniq)
+        param_type=${param%.*}
+        param_value=${param#*.}
+        [ "$param_type" ] && {
+            echo "param_type:  $param_type"
+            echo "param_value: $param_value"
+            case "$param_type" in
+                "option")
+                    parameter=$(git config -f "$scrip_config_file_path" --get option.$param_value.parameter ) && {
+                        value=$(    git config -f "$scrip_config_file_path" --get option.$param_value.value ) && {
+                            eval "$parameter=\"$value\""
+                        }
+                    }
+                ;;
+                "platform")
+                    [ ! "$platform" ] && {
+                        platform=$param_value
+                    } || {
+                        echo_chk_clrd 1 31 "WARNING - \"platform\" parameter is already set to \"$platform\" value"
+                        exit 1
+                    }
+                ;;
+                "buildtype")
+                    [ ! "$build_type" ] && {
+                        build_type=$param_value
+                    } || {
+                        echo_chk_clrd 1 31 "WARNING - \"build type\" parameter is already set to \"$build_type\" value"
+                        exit 1
+                    }
+                ;;
+                "main")
+                    [ ! "$main_name" ] && {
+                        main_name=$param_value
+                    } || {
+                        echo_chk_clrd 1 31 "WARNING - \"main name\" parameter is already set to \"$main_name\" value"
+                        exit 1
+                    }
+                ;;
+                *)
+                ;;
+            esac
         } || {
-            echo_chk_clrd 1 31 "No \"main name app\" selected, use \"-main\" to set it"
+            echo_chk_clrd 1 31 "WARNING - there is no any \"$1\" parameter in  \"$scrip_config_file_path\" config file"
             exit 1
         }
+    
+        shift
+    done
+    
+    [ ! "$platform" ] && {
+        platform=$(       git config -f "$scrip_config_file_path" --get default.parameter.paramplatform )
     }
-
-    [ "$build_type" = "rls" ] && build_type_cmake="-DCMAKE_BUILD_TYPE=Release"
-    [ "$build_type" = "dbg" ] && build_type_cmake="-DCMAKE_BUILD_TYPE=Debug"
-
-    [ "$platform" = "nxp" ] && {
-        platform_cmake="-DWP_PLATFORM_NXP=ON"
-        toolchain_cmake="-DCMAKE_TOOLCHAIN_FILE=./cmake/arm-none-eabi-gcc.cmake"
-        PATH_TOOLCHAIN="/Users/work/Tools/nxp/mcux_11_5_1/arm_toolchain/ver_10_3_2021_07/tools/bin"        
-        {
-            [ ! -d "$mpfw_code_path/main/mpfw_code_main_${main_name}/wsp/xpresso" ]            && 
-            [ ! -d "$mpfw_code_path/main/mpfw_code_main_${main_name}/wsp/cmake/project/nxp" ] 
-        } && {
-            echo_chk_clrd 1 31 "No valid compatible platform (\"$platform\") for selected app (\"$main_name\")"
-            exit 1
-        }
+    platform_cmake=$(     git config -f "$scrip_config_file_path" --get platform.$platform.platformcmake )
+    toolchain_cmake=$(    git config -f "$scrip_config_file_path" --get platform.$platform.toolchaincmake)
+    PATH_TOOLCHAIN=$(     git config -f "$scrip_config_file_path" --get platform.$platform.PATHTOOLCHAIN )
+    
+    [ ! "$build_type" ] && {
+        build_type=$(   git config -f "$scrip_config_file_path" --get default.parameter.parambuildtype    )
     }
-    [ "$platform" = "stm" ] && {
-        platform_cmake="-DWP_PLATFORM_STM=ON"
-        toolchain_cmake="-DCMAKE_TOOLCHAIN_FILE=./cmake/arm-none-eabi-gcc.cmake"
-        PATH_TOOLCHAIN="/Users/work/Tools/stm/cube_1_10_1/arm_toolchain/ver_10_3_2021_10/tools/bin"        
-        {
-            [ ! -d "$mpfw_code_path/main/mpfw_code_main_${main_name}/wsp/cube" ]            && 
-            [ ! -d "$mpfw_code_path/main/mpfw_code_main_${main_name}/wsp/cmake/project/stm" ] 
-        } && {
-            echo_chk_clrd 1 31 "No valid compatible platform (\"$platform\") for selected app (\"$main_name\")"
-            exit 1
-        }
-    }
-    [ "$platform" = "mac" ] && platform_cmake="-DWP_PLATFORM_MAC=ON"
-
+    build_type_cmake=$( git config -f "$scrip_config_file_path" --get buildtype.$build_type.buildtypecmake )
+    
     [ "$PATH_TOOLCHAIN" ] && {
         [ -f "$PATH_TOOLCHAIN/arm-none-eabi-gcc" ] && {
             echo_chk_clrd 1 32 "OK ---- \"$PATH_TOOLCHAIN\" is a valid TOOLCHAIN path"
@@ -159,3 +118,18 @@ function param_display {
         }
     }
 
+    [ ! "$main_name" ] &&  {
+        echo_chk_clrd 1 31 "No \"main name app\" selected"
+        exit 1
+    }
+
+}
+
+set_array_param=()
+while (( $# ))
+do
+    set_array_param+=("$1")
+    shift
+done
+
+param_parsing "${set_array_param[@]}"

@@ -1,0 +1,64 @@
+[default "parameter"]
+    paramplatform  = mac
+    parambuildtype = rls
+
+[platform "mac"]
+    platformcmake  = "-DWP_PLATFORM_MAC=ON"
+    toolchaincmake =
+    PATHTOOLCHAIN  =
+    
+[platform "stm32f769_disco"]
+    platformcmake  = "-DWP_PLATFORM_STM32F769DISCO=ON"
+    toolchaincmake = "-DCMAKE_TOOLCHAIN_FILE=./cmake/arm-none-eabi-gcc.cmake"
+    PATHTOOLCHAIN  = "/Users/work/Tools/stm/cube_1_10_1/arm_toolchain/ver_10_3_2021_10/tools/bin"        
+    
+[platform "stm"]
+    platformcmake  =" -DWP_PLATFORM_STM=ON"
+    toolchaincmake =" -DCMAKE_TOOLCHAIN_FILE=./cmake/arm-none-eabi-gcc.cmake"
+    PATHTOOLCHAIN  = "/Users/work/Tools/stm/cube_1_10_1/arm_toolchain/ver_10_3_2021_10/tools/bin"        
+    
+[platform "nxp"]
+    platformcmake  = "-DWP_PLATFORM_NXP=ON"
+    toolchaincmake = "-DCMAKE_TOOLCHAIN_FILE=./cmake/arm-none-eabi-gcc.cmake"
+    PATHTOOLCHAIN  = "/Users/work/Tools/nxp/mcux_11_5_1/arm_toolchain/ver_10_3_2021_07/tools/bin"        
+    
+[buildtype "dbg"]
+    buildtypecmake = "-DCMAKE_BUILD_TYPE=Debug"
+
+[buildtype "rls"]
+    buildtypecmake = "-DCMAKE_BUILD_TYPE=Release"
+    
+[option "-v"]
+    value = "-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON"
+    parameter = "verbose_cmake"
+
+[option "-c"]
+    value = "--clean-first"
+    parameter = clean_cmake
+
+[option "-r"]
+    value = "remove"
+    parameter = option_r
+
+[option "--test"]
+    value = "test_on"
+    parameter = option_test
+
+[option "--skip_build"]
+    value = "skip_build"
+    parameter = option_skip
+
+[option "-rr"]
+    value = "remove_exit"
+    parameter = option_r
+
+[main "stm_20230420"]
+    test
+
+[main "stm_20230424"]
+    test
+
+[main "tst_20221229"]
+    test
+
+
