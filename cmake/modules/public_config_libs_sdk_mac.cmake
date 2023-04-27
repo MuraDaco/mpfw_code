@@ -7,7 +7,6 @@
 ##################################################################################
 
 
-include(${RELATIVE_PATH__CODE_CMAKE_SDK_NXP_VER}/ver_config.cmake)
-include(${RELATIVE_PATH__LIBS_SDK_NXP_PRJ}/path_pub_config.cmake)
-include(${RELATIVE_PATH__LIBS_SDK_NXP_PRJ}/dir_config.cmake)
-include(${RELATIVE_PATH__LIBS_SDK_NXP_PRJ}/include_config.cmake)
+
+
+set(RELATIVE_PATH__LIBS_SDK_PLATFORM_PUBLIC     ${RELATIVE_PATH__LIBS}/mpfw_code_libs_sdk_${WP_PLATFORM_STR}/wsp/cmake/project/public       )

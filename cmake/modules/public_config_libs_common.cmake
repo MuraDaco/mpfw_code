@@ -7,6 +7,4 @@
 ##################################################################################
 
 
-set(RELATIVE_PATH__LIBS_COMMON                              ${RELATIVE_PATH__LIBS}/mpfw_code_libs_common                                                )
-set(RELATIVE_PATH__LIBS_COMMON_PRJ                          ${RELATIVE_PATH__LIBS_COMMON}/wsp/cmake                                                     )
-
+include(${RELATIVE_PATH__LIBS}/mpfw_code_libs_common/wsp/cmake/project/public/module_lib_common.cmake                                       )

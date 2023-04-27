@@ -28,3 +28,6 @@
 [submodule "libs/mpfw_code_libs_sdk_stm32f769_disco"]
 	path = libs/mpfw_code_libs_sdk_stm32f769_disco
 	url = ssh://work@192.168.8.134/mnt/mypass_2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_sdk_stm32f769_disco.git
+[submodule "libs/mpfw_code_libs_sdk_mac"]
+	path = libs/mpfw_code_libs_sdk_mac
+	url = ssh://work@192.168.8.134/mnt/mypass_2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_sdk_mac.git

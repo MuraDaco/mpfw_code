@@ -41,11 +41,11 @@ param_display
     cd $mpfw_code_path
 
     [ "$option_test" = "test_on" ] && {
-        echo_chk_clrd 1 33 "Nothing has be done - Test is on"
+        echo_chk_clrd 1 35 "Nothing has be done - Test is on"
     } || {
         cmake -S . -B main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type -G "Unix Makefiles" $toolchain_cmake $platform_cmake -DWP_PLATFORM_STR=$platform -DMAIN_NAME=$main_name -DAPP_NAME=tst_20221206 $build_type_cmake $verbose_cmake && {
             [ "$option_skip" = "skip_build" ] && {
-                echo_chk_clrd 1 33 "No build performed - option \"skip\" is active"
+                echo_chk_clrd 1 35 "No build performed - option \"skip\" is active"
             } || {
                 cp main/mpfw_code_main_$main_name/wsp/cmake/project/link_script/$build_type/*.ld main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type/main/mpfw_code_main_$main_name/wsp/cmake/project/subdir/v_01 && {
                     cmake --build main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type $clean_cmake -- -j 1
