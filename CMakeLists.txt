@@ -27,7 +27,6 @@ endif()
 ## ******************************************************************
 ## __________________________________________________________________
 ## cmake files path
-set(GLOBAL_CMAKE_MODULES_PATH cmake/modules)
 set(MAIN_CMAKE_FILES_PATH main/mpfw_code_main_${MAIN_NAME}/wsp/cmake/project_root)
 
 ## ******************************************************************
@@ -44,6 +43,8 @@ set(RELATIVE_PATH__APPS     apps)
 ## cmake subdirectories versions
 include(${MAIN_CMAKE_FILES_PATH}/lib_cmake_prj_version.cmake)
 include(${MAIN_CMAKE_FILES_PATH}/path_ver_config.cmake)
+
+set(GLOBAL_CMAKE_MODULES_PATH cmake/mpfw_code_cmake/${STR_MPFW_CMAKE_VERSION})
 
 include(${MAIN_CMAKE_FILES_PATH}/path_pub_config.cmake)
 include(${MAIN_CMAKE_FILES_PATH}/subdir.cmake)
