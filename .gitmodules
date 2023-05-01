@@ -34,3 +34,6 @@
 [submodule "cmake/mpfw_code_cmake"]
 	path = cmake/mpfw_code_cmake
 	url = ssh://work@192.168.8.134/mnt/mypass_2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_cmake.git
+[submodule "main/mpfw_code_main_stm_20230501"]
+	path = main/mpfw_code_main_stm_20230501
+	url = ssh://work@192.168.8.134/mnt/mypass_2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_stm_20230501.git

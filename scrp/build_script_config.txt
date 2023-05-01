@@ -58,6 +58,9 @@
 [main "stm_20230424"]
     test
 
+[main "stm_20230501"]
+    test
+
 [main "tst_20221229"]
     test
 

@@ -29,7 +29,7 @@ endif()
 ## subdirectories Calls
 
 set(RELATIVE_PATH__CODE     .)
-include(cmake/mpfw_code_cmake/set_public_include_prj_dir_main_${MAIN_NAME}.cmake                         )
+include(cmake/mpfw_code_cmake/set_public_include_prj_dir_main.cmake                         )
 set(RELATIVE_PATH__LIBS     libs)
 set(RELATIVE_PATH__APPS     apps)
 
