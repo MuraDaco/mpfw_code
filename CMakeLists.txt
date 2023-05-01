@@ -26,26 +26,26 @@ endif()
 
 ## ******************************************************************
 ## __________________________________________________________________
-## cmake files path
-set(MAIN_CMAKE_FILES_PATH main/mpfw_code_main_${MAIN_NAME}/wsp/cmake/project_root)
-
-## ******************************************************************
-## __________________________________________________________________
 ## subdirectories Calls
 
 set(RELATIVE_PATH__CODE     .)
+include(cmake/mpfw_code_cmake/set_public_include_prj_dir_main_${MAIN_NAME}.cmake                         )
 set(RELATIVE_PATH__LIBS     libs)
 set(RELATIVE_PATH__APPS     apps)
+
+# step_1 - cmake subdirectories/project versions & project dir set
+# step 1.1 - set project version 
+include(${RELATIVE_PATH__MAIN_PUBLIC_ROOTMODULE}/set_modules_cmake_prj_ver.cmake)
+# step 1.2 - set project directories 
+include(${RELATIVE_PATH__MAIN_PUBLIC_ROOTMODULE}/include_modules_set_cmake_prj_dir.cmake)
 
 ## ******************************************************************
 ## __________________________________________________________________
 
-## cmake subdirectories versions
-include(${MAIN_CMAKE_FILES_PATH}/lib_cmake_prj_version.cmake)
-include(${MAIN_CMAKE_FILES_PATH}/path_ver_config.cmake)
+# set common directory to which all modules can access
+# here all sub-modules can find public directory of each other sub-module
+set(GLOBAL_CMAKE_MODULES_PATH cmake/mpfw_code_cmake/${MPFW_CMAKE_VER_DIR})
 
-set(GLOBAL_CMAKE_MODULES_PATH cmake/mpfw_code_cmake/${STR_MPFW_CMAKE_VERSION})
-
-include(${MAIN_CMAKE_FILES_PATH}/path_pub_config.cmake)
-include(${MAIN_CMAKE_FILES_PATH}/subdir.cmake)
+# call CMakeLists.txt file of all sub-projects
+include(${RELATIVE_PATH__MAIN_PUBLIC_ROOTMODULE}/subdir.cmake)
 
