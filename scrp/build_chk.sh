@@ -4,22 +4,48 @@ function echo_chk_clrd {
     echo -e "\033[$1;$2m""dbg msg - `basename $0` -> $3""\033[0;0m" > /dev/stderr
 }
 
-echo_chk_clrd 1 33 "build_total.sh stm32f769_disco  stm_20230501"
-build_total.sh stm32f769_disco  stm_20230501 > /dev/null 2>&1 && {
-    echo_chk_clrd 1 33 "build_total.sh mac tst_20221229"
-    build_total.sh nxp              tst_20221229 > /dev/null 2>&1 && {
-        echo_chk_clrd 1 33 "build_total.sh nxp tst_20221229"
-        build_total.sh mac              tst_20221229 > /dev/null 2>&1 && {
+
+main_name=${PWD#*main/mpfw_code_main_}
+main_name=${main_name%%/*}
+path_basename=$(basename $PWD)
+[ "$path_basename" = "mpfw_code" ] && {
+    mpfw_code_path=$PWD
+} || {
+    mpfw_code_path=${PWD%/mpfw_code/*}/mpfw_code
+}
+
+[ ! -d "$mpfw_code_path" ] && {
+    echo_chk_clrd 1 33 "PWD:  \"$PWD\""
+    echo_chk_clrd 1 31 "No valid \"mpfw_code\" path: \"$mpfw_code_path\""
+    exit 1
+}
+
+scrip_config_file_path="$PWD/scrp/build_script_config.txt"
+[ ! -f "$scrip_config_file_path" ] && {
+    scrip_config_file_path=${PWD%/mpfw_code/*}/mpfw_code/scrp/build_script_config.txt
+    [ ! -f "$scrip_config_file_path" ] && {
+        echo_chk_clrd 1 31 "ERROR - No script config file (\"build_script_config.txt\") is detected. exit 1"
+        exit 1
+    }
+}
+
+
+
+while IFS= read -r item; do
+    main_list+=("$item")
+done < <(git config -f "$scrip_config_file_path" -l | grep "^main." | cut -d. -f2 | uniq)
+
+for main in "${main_list[@]}";
+do
+    echo_chk_clrd 1 33 "$main"
+    while IFS= read -r platform; do
+        echo_chk_clrd 1 33 "- $platform"
+        build_total.sh $platform  $main > /dev/null 2>&1 && {
             echo_chk_clrd 1 32 "OK"
         } || {
-            build_total.sh mac              tst_20221229 
-            true
+            build_total.sh $platform  $main
+            exit 1
         }
-    } || {
-        build_total.sh nxp              tst_20221229
-        true
-    }
-} || {
-    build_total.sh stm32f769_disco  stm_20230501
-    true
-}
+    done < <(git config -f "$scrip_config_file_path" --get-all main.$main.check)
+done
+

@@ -29,6 +29,7 @@ endif()
 ## subdirectories Calls
 
 set(CODE_DIR     .)
+set(CMAKE_MODULE_RPATH cmake/mpfw_code_cmake)
 include(cmake/mpfw_code_cmake/set_apps_libs_dirs.cmake )
 include(cmake/mpfw_code_cmake/set_public_include_prj_dir_main.cmake )
 
@@ -43,7 +44,7 @@ include(${MAIN_CMAKE_PUBLIC_ROOTMODULE_RPATH}/02_include_modules_set_cmake_prj_d
 
 # set common directory to which all modules can access
 # here all sub-modules can find/set public directory of each other sub-module
-set(CMAKE_MODULES_RPATH cmake/mpfw_code_cmake/${MPFW_CMAKE_VER_DIR})
+set(CMAKE_MODULE_VER_RPATH ${CMAKE_MODULE_RPATH}/${MPFW_CMAKE_VER_DIR})
 
 # call CMakeLists.txt file of all sub-projects
 include(${MAIN_CMAKE_PUBLIC_ROOTMODULE_RPATH}/subdir.cmake)
