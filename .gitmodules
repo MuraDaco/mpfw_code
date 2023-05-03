@@ -37,3 +37,6 @@
 [submodule "main/mpfw_code_main_stm_20230501"]
 	path = main/mpfw_code_main_stm_20230501
 	url = ssh://work@192.168.8.134/mnt/mypass_2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_stm_20230501.git
+[submodule "libs/mpfw_code_libs_sdk_stm"]
+	path = libs/mpfw_code_libs_sdk_stm
+	url = ssh://work@192.168.8.134/mnt/mypass_2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_sdk_stm.git

@@ -53,15 +53,18 @@
     parameter = option_r
 
 [main "stm_20230420"]
-    test
+    check = stm
 
 [main "stm_20230424"]
-    test
+    check = stm32f769_disco
+    check = stm
 
 [main "stm_20230501"]
-    test
+    check = mac 
+    check = nxp 
 
 [main "tst_20221229"]
-    test
+    check = mac
+    check = nxp
 
 
