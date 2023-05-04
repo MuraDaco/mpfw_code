@@ -62,6 +62,9 @@
 [main "stm_20230501"]
     check = stm32f769_disco
 
+[main "stm_20230504"]
+    check = stm32f769_disco
+
 [main "tst_20221229"]
     check = mac
     check = nxp
