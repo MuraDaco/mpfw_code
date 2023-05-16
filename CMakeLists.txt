@@ -46,6 +46,8 @@ include(${MAIN_CMAKE_PUBLIC_ROOTMODULE_RPATH}/02_include_modules_set_cmake_prj_d
 # here all sub-modules can find/set public directory of each other sub-module
 set(CMAKE_MODULE_VER_RPATH ${CMAKE_MODULE_RPATH}/${MPFW_CMAKE_VER_DIR})
 
+message(STATUS "MAIN_XXX_SRC_COMMON_RPATH: ${MAIN_XXX_SRC_COMMON_RPATH}")
+
 # call CMakeLists.txt file of all sub-projects
 include(${MAIN_CMAKE_PUBLIC_ROOTMODULE_RPATH}/subdir.cmake)
 

@@ -2,6 +2,15 @@
 
 source build_functions.sh
 
+set_array_param=()
+while (( $# ))
+do
+    set_array_param+=("$1")
+    shift
+done
+
+param_parsing "${set_array_param[@]}"
+
 
 export EXIT_CODE=0
 
@@ -50,7 +59,7 @@ param_display
             [ "$option_skip" = "skip_build" ] && {
                 echo_chk_clrd 1 35 "No build performed - option \"skip\" is active"
             } || {
-                cp main/mpfw_code_main_$main_name/wsp/cmake/project/link_script/$build_type/*.ld main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type/main/mpfw_code_main_$main_name/wsp/cmake/project/subdir/v_01 && {
+                cp main/mpfw_code_main_$main_name/wsp/cmake/project/$platform/link_script/$build_type/*.ld main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type/main/mpfw_code_main_$main_name/wsp/cmake/project/subdir/v_01 && {
                     cmake --build main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type $clean_cmake -- -j 1 || {
                         EXIT_CODE=1
                     }
