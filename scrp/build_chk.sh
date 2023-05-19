@@ -4,6 +4,15 @@ function echo_chk_clrd {
     echo -e "\033[$1;$2m""dbg msg - `basename $0` -> $3""\033[0;0m" > /dev/stderr
 }
 
+build_type=$1
+[ "$build_type" ] && {
+    [ "$build_type" == "dbg" ] || {
+        echo_chk_clrd "ERROR - \"build type\" parameter, \"$build_type\", is wrong - do you mean \"dbg\"? "
+        exit 1
+    }
+} || {
+    build_type="rls"
+}
 
 main_name=${PWD#*main/mpfw_code_main_}
 main_name=${main_name%%/*}
@@ -39,11 +48,11 @@ for main in "${main_list[@]}";
 do
     echo_chk_clrd 1 33 "$main"
     while IFS= read -r platform; do
-        echo_chk_clrd 1 33 "- $platform"
-        build_total.sh $platform  $main > /dev/null 2>&1 && {
+        echo_chk_clrd 1 33 "- $platform -> $build_type"
+        build_total.sh $platform  $main $build_type > /dev/null 2>&1 && {
             echo_chk_clrd 1 32 "OK"
         } || {
-            build_total.sh $platform  $main
+            build_total.sh $platform  $main $build_type
             exit 1
         }
     done < <(git config -f "$scrip_config_file_path" --get-all main.$main.check)
