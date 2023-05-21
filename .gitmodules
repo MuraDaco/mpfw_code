@@ -46,3 +46,6 @@
 [submodule "main/mpfw_code_main_stm_20230516"]
 	path = main/mpfw_code_main_stm_20230516
 	url = file:///Volumes/Bkp20220407/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_stm_20230516.git
+[submodule "main/mpfw_code_main_stm_20230520"]
+	path = main/mpfw_code_main_stm_20230520
+	url = ssh://work@192.168.8.134/mnt/mypass_2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_stm_20230520.git

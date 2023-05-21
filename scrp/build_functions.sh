@@ -163,6 +163,11 @@ function param_parsing_cube_patch {
     eclipse_main_rpath=$(   git config -f "$scrip_config_file_path" --get main.$main_name.eclipsedir )
 
     versiondir_apath="main/mpfw_code_main_$main_name/$versiondir_rpath/$mod_type/mpfw_code_$mod_type""_$mod_name"
+    wrapper=$(              git config -f "$scrip_config_file_path" --get $mod_type.$mod_name.wrapper ) && {
+        [ "$wrapper" = "true" ] && {
+            versiondir_apath="$versiondir_apath/$platform"
+        }
+    }
 
     eval "developenv_prj_rpath=\"$developenv_prj_rpath\""
     developenv_prj_apath=$module_root_apath/$developenv_prj_rpath
@@ -197,7 +202,7 @@ function param_parsing_cube_patch {
     [ -f "$versiondir_apath/set_class_src_ver.cmake" ] && {
         echo_chk_clrd 1 32 "OK - \"$versiondir_apath/set_class_src_ver.cmake\" exists"
     } || {
-        echo_chk_clrd 1 33 "WARNING - \"$versiondir_apath/set_class_src_ver.cmake\" does not exist"
+        echo_chk_clrd 1 31 "WARNING - \"$versiondir_apath/set_class_src_ver.cmake\" does not exist"
         versiondir_apath=
     }
 
