@@ -49,3 +49,6 @@
 [submodule "main/mpfw_code_main_stm_20230520"]
 	path = main/mpfw_code_main_stm_20230520
 	url = file:///Volumes/Bkp20220407/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_stm_20230520.git
+[submodule "main/mpfw_code_main_tst_20230522"]
+	path = main/mpfw_code_main_tst_20230522
+	url = file:///Volumes/Bkp20220407/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_tst_20230522.git

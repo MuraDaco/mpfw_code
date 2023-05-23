@@ -1,3 +1,5 @@
+message(STATUS "Start super-project CMAkeLists.txt")
+
 cmake_minimum_required(VERSION 3.16)
 
 # set the project name and version
@@ -51,3 +53,4 @@ message(STATUS "MAIN_XXX_SRC_COMMON_RPATH: ${MAIN_XXX_SRC_COMMON_RPATH}")
 # call CMakeLists.txt file of all sub-projects
 include(${MAIN_CMAKE_PUBLIC_ROOTMODULE_RPATH}/subdir.cmake)
 
+message(STATUS "End   super-project CMAkeLists.txt")

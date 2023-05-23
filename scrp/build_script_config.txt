@@ -126,6 +126,14 @@
     devenvprjdir = wsp/$developenv/project/$platform/$mod_name
     eclipsedir = wsp/eclipse
 
+[main "tst_20230522"]
+    check = mac
+    check = nxp
+    check = stm32f769_disco
+    versiondir = wsp/cmake/project/subdir/public/submodules
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+
 
 ## ************************************************************************************************************
 ## ************************************************************************************************************
