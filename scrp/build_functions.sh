@@ -7,6 +7,7 @@ function param_display {
     echo
     echo_chk_clrd 1 32 "PATH:               $PATH"
     echo_chk_clrd 1 32 "main_name:          $main_name"
+    echo_chk_clrd 1 32 "apps_name:          $apps_name"
     echo_chk_clrd 1 32 "platform:           $platform"
     echo_chk_clrd 1 32 "platform_cmake:     $platform_cmake"
     echo_chk_clrd 1 32 "toolchain_cmake:    $toolchain_cmake"
@@ -24,6 +25,7 @@ function param_display_cube_patch {
 
     echo
     echo_chk_clrd 1 32 "main_name:                          $main_name"
+    echo_chk_clrd 1 32 "apps_name:                          $apps_name"
     echo_chk_clrd 1 32 "mod_type:                           $mod_type"
     echo_chk_clrd 1 32 "mod_name:                           $mod_name"
     echo_chk_clrd 1 32 "platform:                           $platform"
@@ -264,6 +266,14 @@ function param_parsing {
                         build_type=$param_value
                     } || {
                         echo_chk_clrd 1 31 "WARNING - \"build type\" parameter is already set to \"$build_type\" value"
+                        exit 1
+                    }
+                ;;
+                "apps")
+                    [ ! "$apps_name" ] && {
+                        apps_name=$param_value
+                    } || {
+                        echo_chk_clrd 1 31 "WARNING - \"apps name\" parameter is already set to \"$apps_name\" value"
                         exit 1
                     }
                 ;;

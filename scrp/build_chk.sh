@@ -48,8 +48,12 @@ for main in "${main_list[@]}";
 do
     echo_chk_clrd 1 33 "$main"
     while IFS= read -r platform; do
-        echo_chk_clrd 1 33 "- $platform -> $build_type"
-        build_total.sh $platform  $main $build_type > /dev/null 2>&1 && {
+        apps_name=$(git config -f "$scrip_config_file_path" --get main.$main.apps) && {
+            echo_chk_clrd 1 33 "- $platform -> $build_type / apps -> $apps_name"
+        } || {
+            echo_chk_clrd 1 33 "- $platform -> $build_type"
+        }
+        build_total.sh $platform  $main $apps_name $build_type > /dev/null 2>&1 && {
             echo_chk_clrd 1 32 "OK"
         } || {
             build_total.sh $platform  $main $build_type

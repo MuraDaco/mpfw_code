@@ -55,7 +55,7 @@ param_display
     [ "$option_test" = "test_on" ] && {
         echo_chk_clrd 1 35 "Nothing has be done - Test is on"
     } || {
-        cmake -S . -B main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type -G "Unix Makefiles" $toolchain_cmake $platform_cmake -DWP_PLATFORM_STR=$platform -DMAIN_NAME=$main_name -DAPP_NAME=tst_20221206 $build_type_cmake $verbose_cmake && {
+        cmake -S . -B main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type -G "Unix Makefiles" $toolchain_cmake $platform_cmake -DWP_PLATFORM_STR=$platform -DMAIN_NAME=$main_name -DAPP_NAME=$apps_name $build_type_cmake $verbose_cmake && {
             [ "$option_skip" = "skip_build" ] && {
                 echo_chk_clrd 1 35 "No build performed - option \"skip\" is active"
             } || {
@@ -75,7 +75,7 @@ param_display
     echo
     echo
     echo_chk_clrd 1 33 "the following commands have been executed under \"$PWD\" directory"
-    echo_chk_clrd 1 33 "cmake -S . -B main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type -G \"Unix Makefiles\" $toolchain_cmake $platform_cmake -DWP_PLATFORM_STR=$platform -DMAIN_NAME=$main_name -DAPP_NAME=tst_20221206 $build_type_cmake $verbose_cmake"
+    echo_chk_clrd 1 33 "cmake -S . -B main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type -G \"Unix Makefiles\" $toolchain_cmake $platform_cmake -DWP_PLATFORM_STR=$platform -DMAIN_NAME=$main_name -DAPP_NAME=$apps_name $build_type_cmake $verbose_cmake"
     echo_chk_clrd 1 33 "cmake --build main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type $clean_cmake -- -j 1"
     echo        
 
