@@ -56,7 +56,7 @@ do
         build_total.sh $platform  $main $apps_name $build_type > /dev/null 2>&1 && {
             echo_chk_clrd 1 32 "OK"
         } || {
-            build_total.sh $platform  $main $build_type
+            build_total.sh $platform $main $apps_name $build_type
             exit 1
         }
     done < <(git config -f "$scrip_config_file_path" --get-all main.$main.check)
