@@ -195,8 +195,8 @@
 
 [apps "tst_20230703app"]
     wrapper = false
-    prjdircube = wsp/cube/project/tsts_20221206
-    prjdirxpresso = wsp/xpresso/project/tst_20221206
+    prjdircube = wsp/cube/project/tst_20230703app
+    prjdirxpresso = wsp/xpresso/project/tst_20230703app
     devenvprjdir = wsp/$developenv/$mod_name
     eclipsedir = wsp/eclipse
 
