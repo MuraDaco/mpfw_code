@@ -58,3 +58,9 @@
 [submodule "main/mpfw_code_main_tst_20230703main"]
 	path = main/mpfw_code_main_tst_20230703main
 	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_tst_20230703main.git
+[submodule "apps/mpfw_code_apps_tst_20230810app"]
+	path = apps/mpfw_code_apps_tst_20230810app
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_apps_tst_20230810app.git
+[submodule "main/mpfw_code_main_tst_20230810main"]
+	path = main/mpfw_code_main_tst_20230810main
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_tst_20230810main.git

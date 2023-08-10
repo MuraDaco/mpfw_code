@@ -146,6 +146,15 @@
     devenvprjdir = wsp/$developenv/project/$platform/$mod_name
     eclipsedir = wsp/eclipse
 
+[main "tst_20230810main"]
+    check = mac
+    check = nxp
+    check = stm32f769_disco
+    apps = tst_20230810app
+    versiondir = wsp/cmake/project/subdir/public/submodules
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+
 
 ## ************************************************************************************************************
 ## ************************************************************************************************************
@@ -197,6 +206,14 @@
     wrapper = false
     prjdircube = wsp/cube/project/tst_20230703app
     prjdirxpresso = wsp/xpresso/project/tst_20230703app
+    devenvprjdir = wsp/$developenv/$mod_name
+    eclipsedir = wsp/eclipse
+
+
+[apps "tst_20230810app"]
+    wrapper = false
+    prjdircube = wsp/cube/project/tst_20230810app
+    prjdirxpresso = wsp/xpresso/project/tst_20230810app
     devenvprjdir = wsp/$developenv/$mod_name
     eclipsedir = wsp/eclipse
 
