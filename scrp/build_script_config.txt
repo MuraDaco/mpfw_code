@@ -1,0 +1,220 @@
+## ************************************************************************************************************
+## ************************************************************************************************************
+## DEFAULT  sections
+
+[default "parameter"]
+    paramplatform  = mac
+    parambuildtype = rls
+
+## ************************************************************************************************************
+## ************************************************************************************************************
+## PLATFORM  sections
+
+[platform "mac"]
+    platformcmake  = "-DWP_PLATFORM_MAC=ON"
+    toolchaincmake =
+    PATHTOOLCHAIN  =
+    developenv =
+    
+[platform "stm32f769_disco"]
+    platformcmake  = "-DWP_PLATFORM_STM32F769DISCO=ON"
+    toolchaincmake = "-DCMAKE_TOOLCHAIN_FILE=./cmake/arm-none-eabi-gcc.cmake"
+    PATHTOOLCHAIN  = "/Users/work/Tools/stm/cube_1_10_1/arm_toolchain/ver_10_3_2021_10/tools/bin"
+    developenv = cube
+    
+[platform "stm"]
+    platformcmake  =" -DWP_PLATFORM_STM=ON"
+    toolchaincmake =" -DCMAKE_TOOLCHAIN_FILE=./cmake/arm-none-eabi-gcc.cmake"
+    PATHTOOLCHAIN  = "/Users/work/Tools/stm/cube_1_10_1/arm_toolchain/ver_10_3_2021_10/tools/bin"
+    developenv = cube
+    
+[platform "nxp"]
+    platformcmake  = "-DWP_PLATFORM_NXP=ON"
+    toolchaincmake = "-DCMAKE_TOOLCHAIN_FILE=./cmake/arm-none-eabi-gcc.cmake"
+    PATHTOOLCHAIN  = "/Users/work/Tools/nxp/mcux_11_5_1/arm_toolchain/ver_10_3_2021_07/tools/bin"
+    developenv = xpresso
+
+## ************************************************************************************************************
+## ************************************************************************************************************
+## BUILDTYPE  sections
+
+[buildtype "dbg"]
+    buildtypecmake = "-DCMAKE_BUILD_TYPE=Debug"
+
+[buildtype "rls"]
+    buildtypecmake = "-DCMAKE_BUILD_TYPE=Release"
+
+## ************************************************************************************************************
+## ************************************************************************************************************
+## OPTION  sections
+
+[option "-v"]
+    value = "-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON"
+    parameter = "verbose_cmake"
+
+[option "-c"]
+    value = "--clean-first"
+    parameter = clean_cmake
+
+[option "-r"]
+    value = "remove"
+    parameter = option_r
+
+[option "--test"]
+    value = "test_on"
+    parameter = option_test
+
+[option "--skip_build"]
+    value = "skip_build"
+    parameter = option_skip
+
+[option "-rr"]
+    value = "remove_exit"
+    parameter = option_r
+
+## ************************************************************************************************************
+## ************************************************************************************************************
+## MAIN  sections
+
+[main "stm_20230420"]
+    check = stm
+    versiondir = wsp/cmake/project/subdir/public/submodules
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+
+[main "stm_20230424"]
+    check = stm32f769_disco
+    check = stm
+    versiondir = wsp/cmake/project/subdir/public/submodules
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+
+[main "stm_20230501"]
+    check = stm32f769_disco
+    versiondir = wsp/cmake/project/subdir/public/submodules
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+
+[main "stm_20230504"]
+    check = stm32f769_disco
+    versiondir = wsp/cmake/project/subdir/public/submodules
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+
+[main "stm_20230505"]
+    check = stm32f769_disco
+    versiondir = wsp/cmake/project/subdir/public/submodules
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+
+[main "stm_20230516"]
+    check = stm32f769_disco
+    versiondir = wsp/cmake/project/subdir/public/submodules
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+
+[main "stm_20230520"]
+    check = stm32f769_disco
+    versiondir = wsp/cmake/project/subdir/public/submodules
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+
+[main "tst_20221229"]
+    check = mac
+    check = nxp
+    apps = tst_20221206
+    versiondir = wsp/cmake/project/subdir/public/submodules
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+
+[main "tst_20230522"]
+    check = mac
+    check = nxp
+    check = stm32f769_disco
+    apps = tst_20221206
+    versiondir = wsp/cmake/project/subdir/public/submodules
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+
+
+[main "tst_20230703main"]
+    check = mac
+    check = nxp
+    check = stm32f769_disco
+    apps = tst_20230703app
+    versiondir = wsp/cmake/project/subdir/public/submodules
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+
+[main "tst_20230810main"]
+    check = mac
+    check = nxp
+    check = stm32f769_disco
+    apps = tst_20230810app
+    versiondir = wsp/cmake/project/subdir/public/submodules
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+
+
+## ************************************************************************************************************
+## ************************************************************************************************************
+## LIBS  sections
+
+[libs "fw2_wrapper_resources"]
+    wrapper = true
+    versioned = true
+    devenvprjdir = $platform/wsp/$developenv/$mod_name
+    eclipsedir = common/wsp/eclipse
+
+[libs "fw2_core_core"]
+    wrapper = false
+    versioned = true
+    devenvprjdir = wsp/$developenv/project/$mod_name
+    eclipsedir = wsp/eclipse
+
+[libs "fw2_wrapper_core"]
+    wrapper = true
+    versioned = true
+    devenvprjdir = $platform/wsp/$developenv/$mod_name
+    eclipsedir = common/wsp/eclipse
+
+[libs "sdk_stm32f769_disco"]
+    wrapper = false
+    versioned = true
+    devenvprjdir = wsp/$developenv/$mod_name
+    eclipsedir = wsp/eclipse
+
+[libs "sdk_nxp"]
+    wrapper = false
+    versioned = true
+    devenvprjdir = wsp/$developenv/$mod_name
+    eclipsedir = wsp/eclipse
+
+## ************************************************************************************************************
+## ************************************************************************************************************
+## APPS  sections
+
+[apps "tst_20221206"]
+    wrapper = false
+    prjdircube = wsp/cube/project/tsts_20221206
+    prjdirxpresso = wsp/xpresso/project/tst_20221206
+    devenvprjdir = wsp/$developenv/$mod_name
+    eclipsedir = wsp/eclipse
+
+
+[apps "tst_20230703app"]
+    wrapper = false
+    prjdircube = wsp/cube/project/tst_20230703app
+    prjdirxpresso = wsp/xpresso/project/tst_20230703app
+    devenvprjdir = wsp/$developenv/$mod_name
+    eclipsedir = wsp/eclipse
+
+
+[apps "tst_20230810app"]
+    wrapper = false
+    prjdircube = wsp/cube/project/tst_20230810app
+    prjdirxpresso = wsp/xpresso/project/tst_20230810app
+    devenvprjdir = wsp/$developenv/$mod_name
+    eclipsedir = wsp/eclipse
+
+
