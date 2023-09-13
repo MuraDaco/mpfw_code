@@ -30,7 +30,7 @@
 	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_sdk_mac.git
 [submodule "cmake/mpfw_code_cmake"]
 	path = cmake/mpfw_code_cmake
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_cmake.git
+	url = https://github.com/MuraDaco/mpfw_code_cmake.git
 [submodule "main/mpfw_code_main_stm_20230501"]
 	path = main/mpfw_code_main_stm_20230501
 	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_stm_20230501.git
