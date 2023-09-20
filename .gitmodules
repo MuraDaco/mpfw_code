@@ -1,66 +1,66 @@
 [submodule "libs/mpfw_code_libs_sdk_nxp"]
 	path = libs/mpfw_code_libs_sdk_nxp
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_sdk_nxp.git
+	url = https://github.com/MuraDaco/mpfw_code_libs_sdk_nxp.git
 [submodule "libs/mpfw_code_libs_fw2_core_core"]
 	path = libs/mpfw_code_libs_fw2_core_core
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_fw2_core_core.git
+	url = https://github.com/MuraDaco/mpfw_code_libs_fw2_core_core.git
 [submodule "libs/mpfw_code_libs_fw2_wrapper_resources"]
 	path = libs/mpfw_code_libs_fw2_wrapper_resources
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_fw2_wrapper_resources.git
+	url = https://github.com/MuraDaco/mpfw_code_libs_fw2_wrapper_resources.git
 [submodule "libs/mpfw_code_libs_fw2_wrapper_core"]
 	path = libs/mpfw_code_libs_fw2_wrapper_core
 	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_fw2_wrapper_core.git
-[submodule "apps/mpfw_code_apps_tst_20221206"]
-	path = apps/mpfw_code_apps_tst_20221206
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_apps_tst_20221206.git
-[submodule "main/mpfw_code_main_tst_20221229"]
-	path = main/mpfw_code_main_tst_20221229
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_tst_20221229.git
-[submodule "main/mpfw_code_main_stm_20230420"]
-	path = main/mpfw_code_main_stm_20230420
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_stm_20230420.git
-[submodule "main/mpfw_code_main_stm_20230424"]
-	path = main/mpfw_code_main_stm_20230424
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_stm_20230424.git
 [submodule "libs/mpfw_code_libs_sdk_stm32f769_disco"]
 	path = libs/mpfw_code_libs_sdk_stm32f769_disco
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_sdk_stm32f769_disco.git
+	url = https://github.com/MuraDaco/mpfw_code_libs_sdk_stm32f769_disco.git
 [submodule "libs/mpfw_code_libs_sdk_mac"]
 	path = libs/mpfw_code_libs_sdk_mac
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_sdk_mac.git
+	url = https://github.com/MuraDaco/mpfw_code_libs_sdk_mac.git
 [submodule "cmake/mpfw_code_cmake"]
 	path = cmake/mpfw_code_cmake
-	url = https://github.com/MuraDaco/mpfw_code_cmake.git
-[submodule "main/mpfw_code_main_stm_20230501"]
-	path = main/mpfw_code_main_stm_20230501
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_stm_20230501.git
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_cmake.git
 [submodule "libs/mpfw_code_libs_sdk_stm"]
 	path = libs/mpfw_code_libs_sdk_stm
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_sdk_stm.git
-[submodule "main/mpfw_code_main_stm_20230504"]
-	path = main/mpfw_code_main_stm_20230504
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_stm_20230504.git
-[submodule "main/mpfw_code_main_stm_20230505"]
-	path = main/mpfw_code_main_stm_20230505
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_stm_20230505.git
-[submodule "main/mpfw_code_main_stm_20230516"]
-	path = main/mpfw_code_main_stm_20230516
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_stm_20230516.git
-[submodule "main/mpfw_code_main_stm_20230520"]
-	path = main/mpfw_code_main_stm_20230520
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_stm_20230520.git
-[submodule "main/mpfw_code_main_tst_20230522"]
-	path = main/mpfw_code_main_tst_20230522
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_tst_20230522.git
-[submodule "apps/mpfw_code_apps_tst_20230703app"]
-	path = apps/mpfw_code_apps_tst_20230703app
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_apps_tst_20230703app.git
-[submodule "main/mpfw_code_main_tst_20230703main"]
-	path = main/mpfw_code_main_tst_20230703main
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_tst_20230703main.git
+	url = https://github.com/MuraDaco/mpfw_code_libs_sdk_stm.git
 [submodule "apps/mpfw_code_apps_tst_20230810app"]
 	path = apps/mpfw_code_apps_tst_20230810app
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_apps_tst_20230810app.git
+	url = https://github.com/MuraDaco/mpfw_code_apps_tst_20230810app.git
+[submodule "apps/mpfw_code_apps_tst_20230703app"]
+	path = apps/mpfw_code_apps_tst_20230703app
+	url = https://github.com/MuraDaco/mpfw_code_apps_tst_20230703app.git
+[submodule "apps/mpfw_code_apps_tst_20221206"]
+	path = apps/mpfw_code_apps_tst_20221206
+	url = https://github.com/MuraDaco/mpfw_code_apps_tst_20221206.git
 [submodule "main/mpfw_code_main_tst_20230810main"]
 	path = main/mpfw_code_main_tst_20230810main
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_tst_20230810main.git
+	url = https://github.com/MuraDaco/mpfw_code_main_tst_20230810main.git
+[submodule "main/mpfw_code_main_tst_20230703main"]
+	path = main/mpfw_code_main_tst_20230703main
+	url = https://github.com/MuraDaco/mpfw_code_main_tst_20230703main.git
+[submodule "main/mpfw_code_main_tst_20230522"]
+	path = main/mpfw_code_main_tst_20230522
+	url = https://github.com/MuraDaco/mpfw_code_main_tst_20230522.git
+[submodule "main/mpfw_code_main_tst_20221229"]
+	path = main/mpfw_code_main_tst_20221229
+	url = https://github.com/MuraDaco/mpfw_code_main_tst_20221229.git
+[submodule "main/mpfw_code_main_stm_20230520"]
+	path = main/mpfw_code_main_stm_20230520
+	url = https://github.com/MuraDaco/mpfw_code_main_stm_20230520.git
+[submodule "main/mpfw_code_main_stm_20230516"]
+	path = main/mpfw_code_main_stm_20230516
+	url = https://github.com/MuraDaco/mpfw_code_main_stm_20230516.git
+[submodule "main/mpfw_code_main_stm_20230505"]
+	path = main/mpfw_code_main_stm_20230505
+	url = https://github.com/MuraDaco/mpfw_code_main_stm_20230505.git
+[submodule "main/mpfw_code_main_stm_20230504"]
+	path = main/mpfw_code_main_stm_20230504
+	url = https://github.com/MuraDaco/mpfw_code_main_stm_20230504.git
+[submodule "main/mpfw_code_main_stm_20230501"]
+	path = main/mpfw_code_main_stm_20230501
+	url = https://github.com/MuraDaco/mpfw_code_main_stm_20230501.git
+[submodule "main/mpfw_code_main_stm_20230424"]
+	path = main/mpfw_code_main_stm_20230424
+	url = https://github.com/MuraDaco/mpfw_code_main_stm_20230424.git
+[submodule "main/mpfw_code_main_stm_20230420"]
+	path = main/mpfw_code_main_stm_20230420
+	url = https://github.com/MuraDaco/mpfw_code_main_stm_20230420.git

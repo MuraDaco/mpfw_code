@@ -1,0 +1,8 @@
+# cmake build files
+.
+!/apps/
+!/cmake/
+!/libs/
+!/main/
+!/scrp/
+
