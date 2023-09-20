@@ -9,7 +9,7 @@
 	url = https://github.com/MuraDaco/mpfw_code_libs_fw2_wrapper_resources.git
 [submodule "libs/mpfw_code_libs_fw2_wrapper_core"]
 	path = libs/mpfw_code_libs_fw2_wrapper_core
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_fw2_wrapper_core.git
+	url = https://github.com/MuraDaco/mpfw_code_libs_fw2_wrapper_core.git
 [submodule "libs/mpfw_code_libs_sdk_stm32f769_disco"]
 	path = libs/mpfw_code_libs_sdk_stm32f769_disco
 	url = https://github.com/MuraDaco/mpfw_code_libs_sdk_stm32f769_disco.git
@@ -18,7 +18,7 @@
 	url = https://github.com/MuraDaco/mpfw_code_libs_sdk_mac.git
 [submodule "cmake/mpfw_code_cmake"]
 	path = cmake/mpfw_code_cmake
-	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_cmake.git
+	url = https://github.com/MuraDaco/mpfw_code_cmake.git
 [submodule "libs/mpfw_code_libs_sdk_stm"]
 	path = libs/mpfw_code_libs_sdk_stm
 	url = https://github.com/MuraDaco/mpfw_code_libs_sdk_stm.git
