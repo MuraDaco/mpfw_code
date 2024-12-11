@@ -13,9 +13,21 @@ function param_display {
     echo_chk_clrd 1 32 "toolchain_cmake:    $toolchain_cmake"
     echo_chk_clrd 1 32 "build_type:         $build_type"
     echo_chk_clrd 1 32 "build_type_cmake:   $build_type_cmake"
+    echo_chk_clrd 1 32 "scriptlink:         $scriptlink"
     echo_chk_clrd 1 32 "verbose_cmake:      $verbose_cmake"
     echo_chk_clrd 1 32 "clean_cmake:        $clean_cmake"
     echo_chk_clrd 1 32 "remove option:      $option_r"
+    
+    echo
+
+}
+
+function param_display_clear {
+
+    param_display
+    echo
+    echo_chk_clrd 1 32 "frommain_name:      $frommain_name"
+    echo_chk_clrd 1 32 "fromapp_name:       $fromapp_name"
     
     echo
 
@@ -236,7 +248,7 @@ function param_parsing {
             exit 1
         }
     }
-    
+
     while (( $# )) 
     do
         param=$(git config -f "$scrip_config_file_path" -l | cut -d. -f1,2 | grep "\.$1$" | uniq)
@@ -299,10 +311,12 @@ function param_parsing {
     [ ! "$platform" ] && {
         platform=$(       git config -f "$scrip_config_file_path" --get default.parameter.paramplatform )
     }
-    platform_cmake=$(     git config -f "$scrip_config_file_path" --get platform.$platform.platformcmake )
-    toolchain_cmake=$(    git config -f "$scrip_config_file_path" --get platform.$platform.toolchaincmake)
-    PATH_TOOLCHAIN=$(     git config -f "$scrip_config_file_path" --get platform.$platform.PATHTOOLCHAIN )
-    
+    scriptlink=$(      git config -f "$scrip_config_file_path" --get main.$main_name.scriptlink)
+    platform_cmake=$(  git config -f "$scrip_config_file_path" --get platform.$platform.platformcmake )
+    toolchain_cmake=$( git config -f "$scrip_config_file_path" --get platform.$platform.toolchaincmake)
+    PATH_TOOLCHAIN=$(  git config -f "$scrip_config_file_path" --get platform.$platform.PATHTOOLCHAIN )
+
+
     [ ! "$build_type" ] && {
         build_type=$(   git config -f "$scrip_config_file_path" --get default.parameter.parambuildtype    )
     }
@@ -322,6 +336,23 @@ function param_parsing {
         exit 1
     }
 
+}
+
+
+function param_getting_clear {
+    frommain_name=$(git config -f "$scrip_config_file_path" --get main.$main_name.frommain ) && {
+        echo_chk_clrd 1 32 "OK - frommain_name"
+    } || {
+        echo_chk_clrd 1 31 "ERROR - frommain_name"
+        exit 1
+    }
+
+    fromapp_name=$(git config -f "$scrip_config_file_path" --get apps.$apps_name.fromapp ) && {
+        echo_chk_clrd 1 32 "OK - fromapp_name"
+    } || {
+        echo_chk_clrd 1 31 "ERROR - fromapp_name"
+        exit 1
+    }
 }
 
 ## set_array_param=()

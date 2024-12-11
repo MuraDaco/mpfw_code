@@ -1,174 +1,256 @@
 [submodule "libs/mpfw_code_libs_sdk_nxp"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "libs/mpfw_code_libs_fw2_core_core"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "libs/mpfw_code_libs_fw2_wrapper_resources"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "libs/mpfw_code_libs_fw2_wrapper_core"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "apps/mpfw_code_apps_tst_20221206"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "main/mpfw_code_main_tst_20221229"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "main/mpfw_code_main_stm_20230420"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "main/mpfw_code_main_stm_20230424"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "libs/mpfw_code_libs_sdk_stm32f769_disco"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "libs/mpfw_code_libs_sdk_mac"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "cmake/mpfw_code_cmake"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "main/mpfw_code_main_stm_20230501"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "libs/mpfw_code_libs_sdk_stm"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "main/mpfw_code_main_stm_20230504"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "main/mpfw_code_main_stm_20230505"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "main/mpfw_code_main_stm_20230516"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "main/mpfw_code_main_stm_20230520"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "main/mpfw_code_main_tst_20230522"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "apps/mpfw_code_apps_tst_20230703app"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "main/mpfw_code_main_tst_20230703main"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "apps/mpfw_code_apps_tst_20230810app"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
 [submodule "main/mpfw_code_main_tst_20230810main"]
-	onstorage = github_muradaco
-	onmachine = ongithub
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "main/mpfw_code_main_tst_20240203main"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "apps/mpfw_code_apps_tst_20240203app"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "libs/mpfw_code_libs_sdk_stm32f769_disco_mod"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "main/mpfw_code_main_tst_20240317main"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "apps/mpfw_code_apps_tst_20240317app"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "main/mpfw_code_main_tst_20240429main"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_tst_20240429main.git
+	storage = mypass_2
+	storage = smb_mypass2
+[submodule "apps/mpfw_code_apps_tst_20240429app"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = mypass_2
+	storage = smb_mypass2
+[submodule "apps/mpfw_code_apps_tst_20240619app"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "main/mpfw_code_main_tst_20240619main"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "libs/mpfw_code_libs_sdk_mac_ext"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
 	onrouter = 
 	repogroup = projects
 	parent = code/mpfw_code

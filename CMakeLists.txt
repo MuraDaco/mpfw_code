@@ -26,6 +26,33 @@ message(STATUS "Start super-project CMAkeLists.txt")
 
 cmake_minimum_required(VERSION 3.16)
 
+set(MPFW_CMAKE_SUPER_PROJECT_DIR        ${CMAKE_CURRENT_SOURCE_DIR} )
+set(MPFW_TRACE_FILE_CNT 0)
+macro(trace_execution_cmakelists)
+    if(TRACE_FILE) 
+        set(MPFW_TRACE_FILE_INDENT 2)
+        string(REPLACE "${MPFW_CMAKE_SUPER_PROJECT_DIR}/" "" CURRENT_LIST_FILE "${CMAKE_CURRENT_LIST_FILE}" )    
+        string(REPEAT "    " ${MPFW_TRACE_FILE_INDENT} INDENT_STRING)
+        message(STATUS "---- debug --- trace cmake file ---- ${INDENT_STRING}- start CMakeList.txt ---- ${CURRENT_LIST_FILE} ") 
+    endif()
+endmacro()
+
+macro(trace_execution)
+    if(TRACE_FILE) 
+        MATH(EXPR MPFW_TRACE_FILE_INDENT "${MPFW_TRACE_FILE_INDENT}+1")    
+        MATH(EXPR MPFW_TRACE_FILE_CNT "${MPFW_TRACE_FILE_CNT}+1")
+        string(REPEAT "    " ${MPFW_TRACE_FILE_INDENT} INDENT_STRING)
+        string(REPLACE "${MPFW_CMAKE_SUPER_PROJECT_DIR}/" "" CURRENT_LIST_FILE "${CMAKE_CURRENT_LIST_FILE}" )    
+        message(STATUS "---- debug --- trace cmake file ---- ${INDENT_STRING}- ${MPFW_TRACE_FILE_CNT} -- ${CURRENT_LIST_FILE} ") 
+    endif()
+endmacro()
+
+macro(end_include)
+    if(TRACE_FILE) 
+        MATH(EXPR MPFW_TRACE_FILE_INDENT "${MPFW_TRACE_FILE_INDENT}-1")    
+    endif()
+endmacro()
+
 # set the project name and version
 project(${MAIN_NAME} VERSION 1.0)
 
@@ -52,29 +79,30 @@ endif()
 
 ## ******************************************************************
 ## __________________________________________________________________
-## subdirectories Calls
-
-set(CODE_DIR     .)
-set(CMAKE_MODULE_RPATH cmake/mpfw_code_cmake)
-include(cmake/mpfw_code_cmake/set_apps_libs_dirs.cmake )
-include(cmake/mpfw_code_cmake/set_public_include_prj_dir_main.cmake )
-
-# step_1 - cmake subdirectories/project versions & project dir set
-# step 1.1 - set project version 
-include(${MAIN_CMAKE_PUBLIC_ROOTMODULE_RPATH}/01_set_modules_cmake_prj_ver.cmake)
-# step 1.2 - set project directories 
-include(${MAIN_CMAKE_PUBLIC_ROOTMODULE_RPATH}/02_include_modules_set_cmake_prj_dir.cmake)
+## set mpfw_code (CODE_DIR) path relative to current directory
+set(CODE_DIR        .)
 
 ## ******************************************************************
 ## __________________________________________________________________
+## set cmake module version dir and cmake dirs
+include(${CODE_DIR}/cmake/mpfw_code_cmake/main/${MAIN_NAME}/set_cmake_ver_dir.cmake )
+## set cmake module relative path
+include(${CODE_DIR}/cmake/mpfw_code_cmake/set_cmake_dir_rpath.cmake )
 
-# set common directory to which all modules can access
-# here all sub-modules can find/set public directory of each other sub-module
-set(CMAKE_MODULE_VER_RPATH ${CMAKE_MODULE_RPATH}/${MPFW_CMAKE_VER_DIR})
+## ******************************************************************
+## __________________________________________________________________
+## set main, apps & libs directory paths
+include(${CODE_DIR}/cmake/${CMAKE_ROOT_VER_DIR_RPATH}/set_modules_root_dir.cmake )
 
-message(STATUS "MAIN_XXX_SRC_COMMON_RPATH: ${MAIN_XXX_SRC_COMMON_RPATH}")
-
-# call CMakeLists.txt file of all sub-projects
-include(${MAIN_CMAKE_PUBLIC_ROOTMODULE_RPATH}/subdir.cmake)
+## ******************************************************************
+## __________________________________________________________________
+## call sub-projects
+# step_1 - prepare to call sub-projects (cmake subdirectories/project versions & project dir set)
+# step 1.1 - set project version 
+include(${CMAKE_MAIN_XXX_DIR}/01_set_modules_cmake_prj_ver.cmake)
+# step 1.2 - set project directories 
+include(${CMAKE_MAIN_XXX_DIR}/02_include_modules_set_cmake_prj_dir.cmake)
+# step 2 - call sub-projects
+include(${CMAKE_MAIN_XXX_DIR}/subdir.cmake)
 
 message(STATUS "End   super-project CMAkeLists.txt")

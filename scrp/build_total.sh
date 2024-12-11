@@ -11,7 +11,6 @@ done
 
 param_parsing "${set_array_param[@]}"
 
-
 export EXIT_CODE=0
 
 param_display
@@ -55,17 +54,26 @@ param_display
     [ "$option_test" = "test_on" ] && {
         echo_chk_clrd 1 35 "Nothing has be done - Test is on"
     } || {
-        cmake -S . -B main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type -G "Unix Makefiles" $toolchain_cmake $platform_cmake -DWP_PLATFORM_STR=$platform -DMAIN_NAME=$main_name -DAPP_NAME=$apps_name $build_type_cmake $verbose_cmake && {
+        cmake -S . -B main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type -G "Unix Makefiles" $toolchain_cmake $platform_cmake -DWP_PLATFORM_STR=$platform -DMAIN_NAME=$main_name -DAPP_NAME=$apps_name $build_type_cmake $verbose_cmake $cmake_trace_files && {
             [ "$option_skip" = "skip_build" ] && {
                 echo_chk_clrd 1 35 "No build performed - option \"skip\" is active"
             } || {
-                cp main/mpfw_code_main_$main_name/wsp/cmake/project/$platform/link_script/$build_type/*.ld main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type/main/mpfw_code_main_$main_name/wsp/cmake/project/subdir/v_01 && {
+                [ "$scriptlink" = "yes" ] && {
                     cmake --build main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type $clean_cmake -- -j 1 || {
+                        echo_chk_clrd 1 31 "ERROR - cmake build command fail"
                         EXIT_CODE=1
+                    }
+                } || {
+                    cp main/mpfw_code_main_$main_name/wsp/cmake/project/$platform/link_script/$build_type/*.ld main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type/main/mpfw_code_main_$main_name/wsp/cmake/project/subdir/v_01 && {
+                        cmake --build main/mpfw_code_main_$main_name/wsp/cmake/build_as_lib/$platform/$build_type $clean_cmake -- -j 1 || {
+                            echo_chk_clrd 1 31 "ERROR - cmake build command fail"
+                            EXIT_CODE=1
+                        }
                     }
                 }
             }
         } || {
+            echo_chk_clrd 1 31 "ERROR - cmake workspace command fail"
             EXIT_CODE=1
         }
     }
@@ -83,7 +91,7 @@ param_display
 
 ) || {
     ## echo_chk_clrd 1 31 "ERROR - neither \"CMakeLists.txt\" nor \"./cmake/arm-none-eabi-gcc.cmake\" files exist"
-    echo_chk_clrd 1 31 "ERROR"
+    echo_chk_clrd 1 31 "ERROR - Test"
     EXIT_CODE=1
 }
 

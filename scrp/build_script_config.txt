@@ -36,6 +36,25 @@
 
 ## ************************************************************************************************************
 ## ************************************************************************************************************
+## FROMTEMPLATE  sections
+[fromtemplate "main_module"]
+    folder="wsp/cmake/project/subdir/public/submodules/main/mpfw_code_main_$frommain"
+    folder="wsp/cmake/project/subdir/public/submodules/apps/mpfw_code_apps_$fromapp"
+    folder="wsp/$developenv/workspace/$platform/.metadata/.plugins/org.eclipse.core.runtime/.settings"
+    folder="wsp/$developenv/workspace/$platform/.metadata/.plugins/org.eclipse.core.resources/.projects"
+    folder="wsp/$developenv/workspace/$platform/.metadata/.plugins/org.eclipse.cdt.core"
+    folder="wsp/$developenv/project/$platform/$frommain"
+
+[fromtemplate "apps_module"]
+    folder=/wsp/$developenv/$fromapp
+    #file=wsp/cmake/project/public/module_app_$fromapp*.cmake
+
+[fromtemplate "cmake_module"]
+    fileprefix = "cmake/mpfw_code_cmake/$cmake_public_ver/set_public_include_src_ver_apps_"
+    filepostfix = ".cmake"
+
+## ************************************************************************************************************
+## ************************************************************************************************************
 ## BUILDTYPE  sections
 
 [buildtype "dbg"]
@@ -47,6 +66,14 @@
 ## ************************************************************************************************************
 ## ************************************************************************************************************
 ## OPTION  sections
+
+[option "--cmake-trace-files-on"]
+    value = "-DTRACE_FILE:BOOL=ON"
+    parameter = "cmake_trace_files"
+
+[option "--cmake-trace-files-off"]
+    value = "-DTRACE_FILE:BOOL=OFF"
+    parameter = "cmake_trace_files"
 
 [option "-v"]
     value = "-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON"
@@ -154,7 +181,41 @@
     versiondir = wsp/cmake/project/subdir/public/submodules
     devenvprjdir = wsp/$developenv/project/$platform/$mod_name
     eclipsedir = wsp/eclipse
+    frommain = tst_20230703main
 
+[main "tst_20240203main"]
+    check = mac
+    check = nxp
+    check = stm32f769_disco
+    apps = tst_20240203app
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+    frommain = tst_20230810main
+    scriptlink = yes
+
+[main "tst_20240317main"]
+    check = stm32f769_disco
+    apps = tst_20240317app
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+    frommain = tst_20240203main
+    scriptlink = yes
+
+[main "tst_20240429main"]
+    check = stm32f769_disco
+    apps = tst_20240429app
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+    frommain = tst_20240317main
+    scriptlink = yes
+
+[main "tst_20240619main"]
+    check = stm32f769_disco
+    apps = tst_20240619app
+    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
+    eclipsedir = wsp/eclipse
+    frommain = tst_20240203main
+    scriptlink = yes
 
 ## ************************************************************************************************************
 ## ************************************************************************************************************
@@ -216,5 +277,42 @@
     prjdirxpresso = wsp/xpresso/project/tst_20230810app
     devenvprjdir = wsp/$developenv/$mod_name
     eclipsedir = wsp/eclipse
+    fromapp = tst_20230703app
+    cmakepublicver = v_04
 
+[apps "tst_20240203app"]
+    wrapper = false
+    prjdircube = wsp/cube/project/tst_20240203app
+    prjdirxpresso = wsp/xpresso/project/tst_20240203app
+    devenvprjdir = wsp/$developenv/$mod_name
+    eclipsedir = wsp/eclipse
+    fromapp = tst_20230810app
+    cmakepublicver = v_05
+
+[apps "tst_20240317app"]
+    wrapper = false
+    prjdircube = wsp/cube/project/tst_20240203app
+    prjdirxpresso = wsp/xpresso/project/tst_20240203app
+    devenvprjdir = wsp/$developenv/$mod_name
+    eclipsedir = wsp/eclipse
+    fromapp = tst_20240203app
+    cmakepublicver = v_05
+
+[apps "tst_20240429app"]
+    wrapper = false
+    prjdircube = wsp/cube/project/tst_20240429app
+    prjdirxpresso = wsp/xpresso/project/tst_20240429app
+    devenvprjdir = wsp/$developenv/$mod_name
+    eclipsedir = wsp/eclipse
+    fromapp = tst_20240317app
+    cmakepublicver = v_05
+
+[apps "tst_20240619app"]
+    wrapper = false
+    prjdircube = wsp/cube/project/tst_20240619app
+    prjdirxpresso = wsp/xpresso/project/tst_20240619app
+    devenvprjdir = wsp/$developenv/$mod_name
+    eclipsedir = wsp/eclipse
+    fromapp = tst_20240203app
+    cmakepublicver = v_05
 

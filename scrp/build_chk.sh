@@ -46,7 +46,7 @@ done < <(git config -f "$scrip_config_file_path" -l | grep "^main." | cut -d. -f
 
 for main in "${main_list[@]}";
 do
-    echo_chk_clrd 1 33 "$main"
+    echo_chk_clrd 1 36 "$main"
     while IFS= read -r platform; do
         apps_name=$(git config -f "$scrip_config_file_path" --get main.$main.apps) && {
             echo_chk_clrd 1 33 "- $platform -> $build_type / apps -> $apps_name"
