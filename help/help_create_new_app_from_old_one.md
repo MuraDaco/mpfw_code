@@ -1,0 +1,36 @@
+
+- clear the "old" app
+    - use the script "build_erase.sh"
+        - $ build_erase.sh tst_20240317main tst_20240317app
+    - you should remove the .metadata directory of platform eclipse environment
+        - poi si puo ripristinare l'unico file che interessa usando git
+            - il problema è che bisogna reinizializzare tutti i moduli 
+- make the copy of the main & app  directory/modules
+    - use the search&replace utility of the preferred editor 
+- remove the .git file from the copied directories
+- clear all old app referements in the new modules
+    - use the script "new_app_from_old_app_ref.sh"
+        - $ new_app_from_old_app_ref.sh
+- aggiungere i nuovi moduli all'interno del git
+- update the "build_script_config.txt" file
+    - sections 
+        - [main "<new main_app name>"]
+            - apps = <new app name>
+            - frommain = <previous old main_app name>
+        - [apps "<new app name>"]
+            - prjdircube = wsp/cube/project/<new app name>
+            - prjdirxpresso = wsp/xpresso/project/<new app name>
+            - fromapp = <previous old app name>
+- update some directories of "mpfw_code_cmake" module
+    - update the mpfw_code_cmake/main
+        - add the <new main_app name> directory with "set_cmake_ver_dir.cmake" file inside it
+            - you can duplicate the correspondent directory of an older "main_app"
+    - update the mpfw_code_cmake/<v_05>/main
+        - add the <new main_app name> directory
+            - you can duplicate the correspondent directory of an older "main_app" with all its files inside it
+- build the application
+- create git module & import them into "mpfw" module
+    - $ git init
+    - $ git commit -m "First commit"
+    - $ obdash.sh
+

@@ -87,7 +87,6 @@ done
     echo_chk_clrd 1 33 "help - $ new_app_from_old_app_ref.sh tst_20240317main tst_20240317app"
 }
 
-
 echo
 echo "~~~~~"
 echo
@@ -126,53 +125,6 @@ check_rename_2 "apps_module" "apps_name" "f"
 
 echo "~~~~~"
 echo
+#echo_chk_clrd 1 33 "cmake module - apps cmake public file"
+#check_cmake_public_file
 
-echo_chk_clrd 1 33 "Updating the content of files under \"main/mpfw_code_main_$main_name\" folder ..."
-(
-    cd main/mpfw_code_main_$main_name && { 
-        echo_chk_clrd 1 33 "    -> replacing \"$frommain_name\" with \"$main_name\""
-        while IFS= read -r item; do
-            echo_chk_clrd 1 35 "modifing file $item - (main module) - from \"$frommain_name\" to \"$main_name\""
-            sed -i '' "s/$frommain_name/$main_name/g" "$item"
-        done < <(grep "$frommain_name" . -lr --binary-files=without-match --exclude-dir ./wsp/cmake/build_as_lib)
-        grep "$frommain_name" . -lr --binary-files=without-match --exclude-dir ./wsp/cmake/build_as_lib || {
-            echo_chk_clrd 1 32 "replacing procedure OK - no files have \"$frommain_name\" string"
-        }
-        echo_chk_clrd 1 33 "    -> replacing \"$fromapp_name\"  with \"$apps_name\""
-        while IFS= read -r item; do
-            echo_chk_clrd 1 35 "modifing file $item - (main module) - from \"$fromapp_name\" to \"$apps_name\""
-            sed -i '' "s/$fromapp_name/$apps_name/g" "$item"
-        done < <(grep "$fromapp_name" . -lr --binary-files=without-match --exclude-dir ./wsp/cmake/build_as_lib)
-        grep "$fromapp_name" . -lr --binary-files=without-match --exclude-dir ./wsp/cmake/build_as_lib || {
-            echo_chk_clrd 1 32 "replacing procedure OK - no files have \"$fromapp_name\" string"
-        }
-    }
-)
-
-echo
-echo "~~~~~"
-echo
-
-echo_chk_clrd 1 33 "Updating the content of files under \"apps/mpfw_code_apps_$apps_name\" folder..."
-(
-    cd apps/mpfw_code_apps_$apps_name && { 
-        echo_chk_clrd 1 33 "    -> replacing \"$frommain_name\" with \"$main_name\""
-        while IFS= read -r item; do
-            echo "modifing file $item - (app module) - from \"$frommain_name\" to \"$main_name\""
-            sed -i '' "s/$frommain_name/$main_name/g" "$item"
-        done < <(grep "$frommain_name" . -lr --binary-files=without-match )
-        grep "$frommain_name" . -lr --binary-files=without-match || {
-            echo_chk_clrd 1 32 "replacing procedure OK - no files have \"$frommain_name\" string"
-        }
-        echo_chk_clrd 1 33 "    -> replacing \"$fromapp_name\"  with \"$apps_name\""
-        while IFS= read -r item; do
-            echo "modifing file     $item - (app module) - from \"$fromapp_name\" to \"$apps_name\""
-            sed -i '' "s/$fromapp_name/$apps_name/g" "$item"
-        done < <(grep "$fromapp_name" . -lr --binary-files=without-match )
-        grep "$fromapp_name" . -lr --binary-files=without-match || {
-            echo_chk_clrd 1 32 "replacing procedure OK - no files have \"$fromapp_name\" string"
-        }
-    }
-)
-
-echo

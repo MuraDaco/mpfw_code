@@ -209,14 +209,6 @@
     frommain = tst_20240317main
     scriptlink = yes
 
-[main "tst_20240619main"]
-    check = stm32f769_disco
-    apps = tst_20240619app
-    devenvprjdir = wsp/$developenv/project/$platform/$mod_name
-    eclipsedir = wsp/eclipse
-    frommain = tst_20240203main
-    scriptlink = yes
-
 ## ************************************************************************************************************
 ## ************************************************************************************************************
 ## LIBS  sections
@@ -305,14 +297,5 @@
     devenvprjdir = wsp/$developenv/$mod_name
     eclipsedir = wsp/eclipse
     fromapp = tst_20240317app
-    cmakepublicver = v_05
-
-[apps "tst_20240619app"]
-    wrapper = false
-    prjdircube = wsp/cube/project/tst_20240619app
-    prjdirxpresso = wsp/xpresso/project/tst_20240619app
-    devenvprjdir = wsp/$developenv/$mod_name
-    eclipsedir = wsp/eclipse
-    fromapp = tst_20240203app
     cmakepublicver = v_05
 

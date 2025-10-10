@@ -232,27 +232,3 @@
 	originurl = 
 	storage = mypass_2
 	storage = smb_mypass2
-[submodule "apps/mpfw_code_apps_tst_20240619app"]
-	onstorage = smb_mypass2
-	onmachine = onglinetsmbmac
-	onrouter = 
-	repogroup = projects
-	parent = code/mpfw_code
-	originurl = 
-	storage = smb_mypass2
-[submodule "main/mpfw_code_main_tst_20240619main"]
-	onstorage = smb_mypass2
-	onmachine = onglinetsmbmac
-	onrouter = 
-	repogroup = projects
-	parent = code/mpfw_code
-	originurl = 
-	storage = smb_mypass2
-[submodule "libs/mpfw_code_libs_sdk_mac_ext"]
-	onstorage = smb_mypass2
-	onmachine = onglinetsmbmac
-	onrouter = 
-	repogroup = projects
-	parent = code/mpfw_code
-	originurl = 
-	storage = smb_mypass2
