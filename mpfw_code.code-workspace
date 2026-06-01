@@ -3,5 +3,10 @@
 		{
 			"path": "."
 		}
-	]
+    ],
+    "settings": {
+        "terminal.integrated.env.osx": {
+            "PATH":"/Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/scrp:${env:PATH}"
+        }
+    }
 }

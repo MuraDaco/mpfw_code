@@ -1,0 +1,171 @@
+
+- Entering 'fnct/base/layer/mpfw_fw2-fnct-base-0abst'
+    - On branch dev_work_sonoma_mcmn
+    - Your branch is up to date with 'origin/dev_work_sonoma_mcmn'.
+    - 
+    - Changes not staged for commit:
+    -   (use "git add <file>..." to update what will be committed)
+    -   (use "git restore <file>..." to discard changes in working directory)
+    - 	modified:   src/sys/sysDebug/v_00/sysDebug.h
+    - 
+    - Untracked files:
+    -   (use "git add <file>..." to include in what will be committed)
+    - 	src/hw/
+    - 	src/sys/config/
+    - 	src/sys/sysError/
+    - 	wsp/c_02/
+    - 	wsp/c_03/
+    - 	wsp/v_02base/
+    - 	wsp/v_03base/
+- Entering 'fnct/base/layer/mpfw_fw2-fnct-base-4test'
+    - On branch main
+    - Your branch is based on 'origin/main', but the upstream is gone.
+    -   (use "git branch --unset-upstream" to fixup)
+    - 
+    - Changes not staged for commit:
+    -   (use "git add/rm <file>..." to update what will be committed)
+    -   (use "git restore <file>..." to discard changes in working directory)
+    - 	deleted:    common/wsp/v_00base4_tsts/cmake/init/no_set_public_config_rpath.cmake
+    - 	modified:   common/wsp/v_00base4_tsts/cmake/init/no_set_public_dirs.cmake
+    - 	modified:   common/wsp/v_00base4_tsts/cmake/init/set_dependencies_list.cmake
+    - 	modified:   trdp/sdk/mac/src/main/v_00/main.cpp
+    - 
+    - Untracked files:
+    -   (use "git add <file>..." to include in what will be committed)
+    - 	common/src/
+    - 	common/wsp/v_00base4_tsts/cmake/init/set_public_config_rpath.cmake
+- Entering 'fnct/core/layer/mpfw_fw2-fnct-core-3real'
+    - On branch dev_work_sonoma_mcmn
+    - Your branch is up to date with 'origin/dev_work_sonoma_mcmn'.
+    - 
+    - Changes not staged for commit:
+    -   (use "git add/rm <file>..." to update what will be committed)
+    -   (use "git restore <file>..." to discard changes in working directory)
+    - 	modified:   src/uy/uyProtocol/v_05/uyProtocol.cpp
+    - 	modified:   src/uy/uyProtocol/v_05/uyProtocol.h
+    - 	modified:   wsp/c_07/set_src_ver.cmake
+    - 	modified:   wsp/v_28cor3/cmake/cpp_files.cmake
+    - 	modified:   wsp/v_28cor3/cmake/include_files.cmake
+    - 	modified:   wsp/v_28cor3/cmake/init/set_dependencies_list.cmake
+    - 	deleted:    wsp/v_28cor3/cmake/init/set_public_dirs.cmake
+    - 	deleted:    wsp/v_28cor3/cmake/init/set_public_rpath.cmake
+    - 
+    - Untracked files:
+    -   (use "git add <file>..." to include in what will be committed)
+    - 	src/com/
+    - 	src/uy/uyProtocolStatus/
+    - 	wsp/v_28cor3/cmake/init/no_set_public_config_rpath.cmake
+    - 	wsp/v_28cor3/cmake/init/no_set_public_dirs.cmake
+    - 	wsp/v_28cor3/cmake/init/no_set_public_rpath.cmake
+- Entering 'fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-mac'
+    - On branch dev_work_sonoma_mcmn
+    - Your branch is up to date with 'origin/dev_work_sonoma_mcmn'.
+    - 
+    - Changes not staged for commit:
+    -   (use "git add <file>..." to update what will be committed)
+    -   (use "git restore <file>..." to discard changes in working directory)
+    - 	modified:   src/shm/shmManager/v_03/shmManager.cpp
+    - 	modified:   wsp/c_05/set_src_ver.cmake
+    - 	modified:   wsp/v_07hw_1/cmake/cpp_files.cmake
+    - 	modified:   wsp/v_07hw_1/cmake/include_files.cmake
+    - 	modified:   wsp/v_07hw_1/cmake/init/no_set_public_dirs.cmake
+    - 	modified:   wsp/v_07hw_1/cmake/init/no_set_public_rpath.cmake
+    - 	modified:   wsp/v_07hw_1/cmake/init/set_dependencies_list.cmake
+    - 	modified:   wsp/v_07hw_1/cmake/init/set_public_config_rpath.cmake
+    - 
+    - Untracked files:
+    -   (use "git add <file>..." to include in what will be committed)
+    - 	src/mcu/mcuUsartRs485/
+    - 	src/mcu/usart/
+    - 
+- Entering 'fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-nxp'
+    - On branch main
+    - Your branch is based on 'origin/main', but the upstream is gone.
+    -   (use "git branch --unset-upstream" to fixup)
+    - 
+    - Untracked files:
+    -   (use "git add <file>..." to include in what will be committed)
+    - 	src/drivers/v_07/
+    - 	src/drivers/v_xx/
+    - 	wsp/c_02/
+    - 	wsp/v_05hw_1/
+- Entering 'fnct/hw/layer/mpfw_fw2-fnct-hw-2wrpr-sdk'
+    - On branch dev_work_sonoma_mcmn
+    - Your branch is up to date with 'origin/dev_work_sonoma_mcmn'.
+    - 
+    - Changes not staged for commit:
+    -   (use "git add <file>..." to update what will be committed)
+    -   (use "git restore <file>..." to discard changes in working directory)
+    - 	modified:   common/wsp/v_08hw_2/cmake/init/no_set_public_config_rpath.cmake
+    - 	modified:   common/wsp/v_08hw_2/cmake/init/no_set_public_dirs.cmake
+    - 	modified:   common/wsp/v_08hw_2/cmake/init/no_set_public_rpath.cmake
+    - 	modified:   common/wsp/v_08hw_2/cmake/set_build_params.sh
+    - 	modified:   trdp/sdk/mac/src/hwUsart/v_01/hwUsart.h
+    - 	modified:   trdp/sdk/mac/wsp/c_02/set_src_ver.cmake
+    - 	modified:   trdp/sdk/mac/wsp/v_08hw_2/cmake/cpp_files.cmake
+    - 	modified:   trdp/sdk/mac/wsp/v_08hw_2/cmake/include_files.cmake
+    - 	modified:   trdp/sdk/mac/wsp/v_08hw_2/cmake/init/no_set_public_config_rpath.cmake
+    - 	modified:   trdp/sdk/mac/wsp/v_08hw_2/cmake/init/no_set_public_dirs.cmake
+    - 	modified:   trdp/sdk/mac/wsp/v_08hw_2/cmake/init/no_set_public_rpath.cmake
+    - 
+    - Untracked files:
+    -   (use "git add <file>..." to include in what will be committed)
+    - 	common/src/intfc/hw/v_00/hwUsartIntfc/v_02/
+    - 	common/src/intfc/hw/v_00/hwUsartIntfc/v_03/
+    - 	common/wsp/c_03/
+    - 	common/wsp/c_04/
+    - 	common/wsp/v_09hw_2/
+    - 	trdp/sdk/mac/src/hwUsart/v_02/
+    - 	trdp/sdk/mac/src/wrapper/hw/hwUsartRs485/
+    - 	trdp/sdk/mac/wsp/c_03/
+    - 	trdp/sdk/mac/wsp/c_04/
+    - 	trdp/sdk/mac/wsp/v_09hw_2/
+    - 	trdp/sdk/nxp/src/config/
+    - 	trdp/sdk/nxp/src/sdk/
+    - 	trdp/sdk/nxp/src/wrapper/
+    - 	trdp/sdk/nxp/wsp/c_03/
+    - 	trdp/sdk/nxp/wsp/c_04/
+    - 	trdp/sdk/nxp/wsp/v_08hw_2/
+    - 	trdp/sdk/nxp/wsp/v_09hw_2/
+- Entering 'fnct/hw/layer/mpfw_fw2-fnct-hw-3real'
+    - On branch dev_work_sonoma_mcmn
+    - Your branch is up to date with 'origin/dev_work_sonoma_mcmn'.
+    - 
+    - Changes not staged for commit:
+    -   (use "git add <file>..." to update what will be committed)
+    -   (use "git restore <file>..." to discard changes in working directory)
+    - 	modified:   wsp/c_07/set_src_ver.cmake
+- Entering 'fnct/res/layer/mpfw_fw2-fnct-res-1trdp-sdk-nxp'
+    - On branch dev_work_sonoma_mcmn
+    - Your branch is up to date with 'origin/dev_work_sonoma_mcmn'.
+    - 
+    - Untracked files:
+    -   (use "git add <file>..." to include in what will be committed)
+    - 	src/drivers/v_07/
+    - 	wsp/c_02/
+    - 	wsp/v_02_res_nxp/
+- Entering 'fnct/tui/layer/mpfw_fw2-fnct-tui-3real'
+    - On branch dev_work_sonoma_mcmn
+    - Your branch is up to date with 'origin/dev_work_sonoma_mcmn'.
+    - 
+    - Changes not staged for commit:
+    -   (use "git add <file>..." to update what will be committed)
+    -   (use "git restore <file>..." to discard changes in working directory)
+    - 	modified:   src/fnct/v_02/tuiFnctRealUnit3McuUsartX.cpp
+    - 	modified:   src/fnct/v_02/tuiFnctRealUnit3McuUsartX.h
+    - 	modified:   wsp/v_12tui3/cmake/init/no_set_public_rpath.cmake
+- Entering 'main/app20240619_new_bis/layer/mpfw_fw2-main-app20240619_new_bis-5main'
+    - On branch dev_work_sonoma_mcmn
+    - Your branch is up to date with 'origin/dev_work_sonoma_mcmn'.
+    - 
+    - Changes not staged for commit:
+    -   (use "git add <file>..." to update what will be committed)
+    -   (use "git restore <file>..." to discard changes in working directory)
+    - 	modified:   doc/note_20251029_new_style.md
+    - 
+    - Untracked files:
+    -   (use "git add <file>..." to include in what will be committed)
+    - 	doc/Screenshot 2026-02-17 at 17-07-54 Extending enums in C - Stack Overflow.png
+    - 	doc/Screenshot 2026-02-17 at 17-15-27 About extending enum in C - Stack Overflow.png
+    - 	doc/note_20251029_new_style.cpp
+    - 	doc/note_20260211_AI_firmware_development.md

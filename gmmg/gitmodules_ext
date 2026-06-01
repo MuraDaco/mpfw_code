@@ -232,3 +232,473 @@
 	originurl = 
 	storage = mypass_2
 	storage = smb_mypass2
+[submodule "apps/mpfw_code_apps_tst_20240619app"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "main/mpfw_code_main_tst_20240619main"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "libs/mpfw_code_libs_sdk_mac_ext"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "cmake/mpfw_fw2_cmake"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/base/mpfw_fw2_fnct_base"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/hw/layer/mpfw_fw2_fnct_hw_0abst"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/hw/layer/mpfw_fw2_fnct_hw_1trdp_sdk"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/hw/layer/mpfw_fw2_fnct_hw_2wrpr"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/hw/layer/mpfw_fw2_fnct_hw_3real"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/tui/layer/mpfw_fw2_fnct_tui_0abst"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/tui/layer/mpfw_fw2_fnct_tui_2wrpr"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/tui/layer/mpfw_fw2_fnct_tui_3real"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "main/app20250424/layer/mpfw_fw2_main_app20250424_5main"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "appl/app20250424/mpfw_fw2_appl_app20250424"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "appl/app20250625/layer/mpfw_fw2_appl_app20250625_4appl"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "appl/app20250625/layer/mpfw_fw2_appl_app20250625_5main"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/core/layer/mpfw_fw2_fnct_core_2wrpr"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "trdp/sdk/nxp/layer/mpfw_fw2_trdp_nxp_0abst"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/core/layer/mpfw_fw2_fnct_core_3real"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "trdp/sdk/mac/layer/mpfw_fw2_trdp_mac_0abst"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_trdp_mac_0abst.git
+	storage = smb_mypass2
+[submodule "trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2_trdp_stm32f769_disco_0abst"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_trdp_stm32f769_disco_0abst.git
+	storage = smb_mypass2
+[submodule "fnct/res/layer/mpfw_fw2_fnct_res_2wrpr"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "appl/app20240619/mpfw_fw2_appl_app20240619"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "main/app20240619/layer/mpfw_fw2_main_app20240619_5main"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/res/layer/mpfw_fw2_fnct_res_1trdp_sdk"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "appl/app20240619_new/mpfw_fw2_appl_app20240619_new"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2-trdp-sdk-stm-stm32f769_disco-0trdp"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "trdp/sdk/mac/layer/mpfw_fw2-trdp-sdk-mac-0trdp"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "trdp/sdk/nxp/layer/mpfw_fw2-trdp-sdk-nxp-0trdp"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/core/layer/mpfw_fw2-fnct-core-2wrpr"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/core/layer/mpfw_fw2-fnct-core-3real"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/res/layer/mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/res/layer/mpfw_fw2-fnct-res-1trdp-sdk-nxp"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "trdp/sdk/nxp/layer/mpfw_fw2-trdp-sdk-nxp-1trdp-usart"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2-trdp-sdk-stm-stm32f769_disco-1trdp-usart"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/res/layer/mpfw_fw2-fnct-res-2wrpr-sdk"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "appl/app20240619_new_bis/layer/mpfw_fw2-appl-app20240619_new_bis-4appl"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "main/app20240619_new_bis/layer/mpfw_fw2-main-app20240619_new_bis-5main"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/base/layer/mpfw_fw2-fnct-base-0abst"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/hw/layer/mpfw_fw2-fnct-hw-0abst"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-mac"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/hw/layer/mpfw_fw2-fnct-hw-2wrpr-sdk"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/hw/layer/mpfw_fw2-fnct-hw-3real"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/tui/layer/mpfw_fw2-fnct-tui-0abst"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/tui/layer/mpfw_fw2-fnct-tui-2wrpr"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/tui/layer/mpfw_fw2-fnct-tui-2wrpr-ui"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/tui/layer/mpfw_fw2-fnct-tui-3real"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "appl/app20250424/layer/mpfw_fw2-appl-app20250424-4appl"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "main/app20250424/layer/mpfw_fw2-main-app20250424-5main"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-nxp"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-stm-stm32f769_disco"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "trdp/sdk/mac/layer/mpfw_fw2-trdp-sdk-mac-1trdp"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/tui/layer/mpfw_fw2-fnct-tui-0abst-trdp-sdk-mac"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/hw/layer/mpfw_fw2-fnct-hw-0abst-trdp-sdk-mac"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/tui/layer/mpfw_fw2-fnct-tui-3real-trdp-sdk-mac"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/base/layer/mpfw_fw2-fnct-base-4test"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/base_hw/layer/mpfw_fw2-fnct-base_hw-0abst"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2

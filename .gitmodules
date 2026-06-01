@@ -85,3 +85,174 @@
 [submodule "apps/mpfw_code_apps_tst_20240429app"]
 	path = apps/mpfw_code_apps_tst_20240429app
 	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_apps_tst_20240429app.git
+[submodule "apps/mpfw_code_apps_tst_20240619app"]
+	path = apps/mpfw_code_apps_tst_20240619app
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_apps_tst_20240619app.git
+[submodule "main/mpfw_code_main_tst_20240619main"]
+	path = main/mpfw_code_main_tst_20240619main
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_tst_20240619main.git
+[submodule "libs/mpfw_code_libs_sdk_mac_ext"]
+	path = libs/mpfw_code_libs_sdk_mac_ext
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_sdk_mac_ext.git
+[submodule "cmake/mpfw_fw2_cmake"]
+	path = cmake/mpfw_fw2_cmake
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_cmake.git
+[submodule "fnct/base/mpfw_fw2_fnct_base"]
+	path = fnct/base/mpfw_fw2_fnct_base
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_fnct_base.git
+[submodule "fnct/hw/layer/mpfw_fw2_fnct_hw_0abst"]
+	path = fnct/hw/layer/mpfw_fw2_fnct_hw_0abst
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_fnct_hw_0abst.git
+[submodule "fnct/hw/layer/mpfw_fw2_fnct_hw_1trdp_sdk"]
+	path = fnct/hw/layer/mpfw_fw2_fnct_hw_1trdp_sdk
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_fnct_hw_1trdp_sdk.git
+[submodule "fnct/hw/layer/mpfw_fw2_fnct_hw_2wrpr"]
+	path = fnct/hw/layer/mpfw_fw2_fnct_hw_2wrpr
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_fnct_hw_2wrpr.git
+[submodule "fnct/hw/layer/mpfw_fw2_fnct_hw_3real"]
+	path = fnct/hw/layer/mpfw_fw2_fnct_hw_3real
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_fnct_hw_3real.git
+[submodule "fnct/tui/layer/mpfw_fw2_fnct_tui_0abst"]
+	path = fnct/tui/layer/mpfw_fw2_fnct_tui_0abst
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_fnct_tui_0abst.git
+[submodule "fnct/tui/layer/mpfw_fw2_fnct_tui_2wrpr"]
+	path = fnct/tui/layer/mpfw_fw2_fnct_tui_2wrpr
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_fnct_tui_2wrpr.git
+[submodule "fnct/tui/layer/mpfw_fw2_fnct_tui_3real"]
+	path = fnct/tui/layer/mpfw_fw2_fnct_tui_3real
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_fnct_tui_3real.git
+[submodule "main/app20250424/layer/mpfw_fw2_main_app20250424_5main"]
+	path = main/app20250424/layer/mpfw_fw2_main_app20250424_5main
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_main_app20250424_5main.git
+[submodule "appl/app20250424/mpfw_fw2_appl_app20250424"]
+	path = appl/app20250424/mpfw_fw2_appl_app20250424
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_appl_app20250424.git
+[submodule "appl/app20250625/layer/mpfw_fw2_appl_app20250625_4appl"]
+	path = appl/app20250625/layer/mpfw_fw2_appl_app20250625_4appl
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_appl_app20250625_4appl.git
+[submodule "appl/app20250625/layer/mpfw_fw2_appl_app20250625_5main"]
+	path = appl/app20250625/layer/mpfw_fw2_appl_app20250625_5main
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_appl_app20250625_5main.git
+[submodule "fnct/core/layer/mpfw_fw2_fnct_core_2wrpr"]
+	path = fnct/core/layer/mpfw_fw2_fnct_core_2wrpr
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_fnct_core_2wrpr.git
+[submodule "trdp/sdk/nxp/layer/mpfw_fw2_trdp_nxp_0abst"]
+	path = trdp/sdk/nxp/layer/mpfw_fw2_trdp_nxp_0abst
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_trdp_nxp_0abst.git
+[submodule "fnct/core/layer/mpfw_fw2_fnct_core_3real"]
+	path = fnct/core/layer/mpfw_fw2_fnct_core_3real
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_fnct_core_3real.git
+[submodule "trdp/sdk/mac/layer/mpfw_fw2_trdp_mac_0abst"]
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_trdp_mac_0abst.git
+	path = trdp/sdk/mac/layer/mpfw_fw2_trdp_mac_0abst
+[submodule "trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2_trdp_stm32f769_disco_0abst"]
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_trdp_stm32f769_disco_0abst.git
+	path = trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2_trdp_stm32f769_disco_0abst
+[submodule "fnct/res/layer/mpfw_fw2_fnct_res_2wrpr"]
+	path = fnct/res/layer/mpfw_fw2_fnct_res_2wrpr
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_fnct_res_2wrpr.git
+[submodule "appl/app20240619/mpfw_fw2_appl_app20240619"]
+	path = appl/app20240619/mpfw_fw2_appl_app20240619
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_appl_app20240619.git
+[submodule "main/app20240619/layer/mpfw_fw2_main_app20240619_5main"]
+	path = main/app20240619/layer/mpfw_fw2_main_app20240619_5main
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_main_app20240619_5main.git
+[submodule "fnct/res/layer/mpfw_fw2_fnct_res_1trdp_sdk"]
+	path = fnct/res/layer/mpfw_fw2_fnct_res_1trdp_sdk
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_fnct_res_1trdp_sdk.git
+[submodule "appl/app20240619_new/mpfw_fw2_appl_app20240619_new"]
+	path = appl/app20240619_new/mpfw_fw2_appl_app20240619_new
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_appl_app20240619_new.git
+[submodule "trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2-trdp-sdk-stm-stm32f769_disco-0trdp"]
+	path = trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2-trdp-sdk-stm-stm32f769_disco-0trdp
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-trdp-sdk-stm-stm32f769_disco-0trdp.git
+[submodule "trdp/sdk/mac/layer/mpfw_fw2-trdp-sdk-mac-0trdp"]
+	path = trdp/sdk/mac/layer/mpfw_fw2-trdp-sdk-mac-0trdp
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-trdp-sdk-mac-0trdp.git
+[submodule "trdp/sdk/nxp/layer/mpfw_fw2-trdp-sdk-nxp-0trdp"]
+	path = trdp/sdk/nxp/layer/mpfw_fw2-trdp-sdk-nxp-0trdp
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-trdp-sdk-nxp-0trdp.git
+[submodule "fnct/core/layer/mpfw_fw2-fnct-core-2wrpr"]
+	path = fnct/core/layer/mpfw_fw2-fnct-core-2wrpr
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-core-2wrpr.git
+[submodule "fnct/core/layer/mpfw_fw2-fnct-core-3real"]
+	path = fnct/core/layer/mpfw_fw2-fnct-core-3real
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-core-3real.git
+[submodule "fnct/res/layer/mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco"]
+	path = fnct/res/layer/mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco.git
+[submodule "fnct/res/layer/mpfw_fw2-fnct-res-1trdp-sdk-nxp"]
+	path = fnct/res/layer/mpfw_fw2-fnct-res-1trdp-sdk-nxp
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-res-1trdp-sdk-nxp.git
+[submodule "trdp/sdk/nxp/layer/mpfw_fw2-trdp-sdk-nxp-1trdp-usart"]
+	path = trdp/sdk/nxp/layer/mpfw_fw2-trdp-sdk-nxp-1trdp-usart
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-trdp-sdk-nxp-1trdp-usart.git
+[submodule "trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2-trdp-sdk-stm-stm32f769_disco-1trdp-usart"]
+	path = trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2-trdp-sdk-stm-stm32f769_disco-1trdp-usart
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-trdp-sdk-stm-stm32f769_disco-1trdp-usart.git
+[submodule "fnct/res/layer/mpfw_fw2-fnct-res-2wrpr-sdk"]
+	path = fnct/res/layer/mpfw_fw2-fnct-res-2wrpr-sdk
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-res-2wrpr-sdk.git
+[submodule "appl/app20240619_new_bis/layer/mpfw_fw2-appl-app20240619_new_bis-4appl"]
+	path = appl/app20240619_new_bis/layer/mpfw_fw2-appl-app20240619_new_bis-4appl
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-appl-app20240619_new_bis-4appl.git
+[submodule "main/app20240619_new_bis/layer/mpfw_fw2-main-app20240619_new_bis-5main"]
+	path = main/app20240619_new_bis/layer/mpfw_fw2-main-app20240619_new_bis-5main
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-main-app20240619_new_bis-5main.git
+[submodule "fnct/base/layer/mpfw_fw2-fnct-base-0abst"]
+	path = fnct/base/layer/mpfw_fw2-fnct-base-0abst
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-base-0abst.git
+[submodule "fnct/hw/layer/mpfw_fw2-fnct-hw-0abst"]
+	path = fnct/hw/layer/mpfw_fw2-fnct-hw-0abst
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-hw-0abst.git
+[submodule "fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-mac"]
+	path = fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-mac
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-hw-1trdp-sdk-mac.git
+[submodule "fnct/hw/layer/mpfw_fw2-fnct-hw-2wrpr-sdk"]
+	path = fnct/hw/layer/mpfw_fw2-fnct-hw-2wrpr-sdk
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-hw-2wrpr-sdk.git
+[submodule "fnct/hw/layer/mpfw_fw2-fnct-hw-3real"]
+	path = fnct/hw/layer/mpfw_fw2-fnct-hw-3real
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-hw-3real.git
+[submodule "fnct/tui/layer/mpfw_fw2-fnct-tui-0abst"]
+	path = fnct/tui/layer/mpfw_fw2-fnct-tui-0abst
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-tui-0abst.git
+[submodule "fnct/tui/layer/mpfw_fw2-fnct-tui-2wrpr"]
+	path = fnct/tui/layer/mpfw_fw2-fnct-tui-2wrpr
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-tui-2wrpr.git
+[submodule "fnct/tui/layer/mpfw_fw2-fnct-tui-2wrpr-ui"]
+	path = fnct/tui/layer/mpfw_fw2-fnct-tui-2wrpr-ui
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-tui-2wrpr-ui.git
+[submodule "fnct/tui/layer/mpfw_fw2-fnct-tui-3real"]
+	path = fnct/tui/layer/mpfw_fw2-fnct-tui-3real
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-tui-3real.git
+[submodule "appl/app20250424/layer/mpfw_fw2-appl-app20250424-4appl"]
+	path = appl/app20250424/layer/mpfw_fw2-appl-app20250424-4appl
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-appl-app20250424-4appl.git
+[submodule "main/app20250424/layer/mpfw_fw2-main-app20250424-5main"]
+	path = main/app20250424/layer/mpfw_fw2-main-app20250424-5main
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-main-app20250424-5main.git
+[submodule "fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-nxp"]
+	path = fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-nxp
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-hw-1trdp-sdk-nxp.git
+[submodule "fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-stm-stm32f769_disco"]
+	path = fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-stm-stm32f769_disco
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-hw-1trdp-sdk-stm-stm32f769_disco.git
+[submodule "trdp/sdk/mac/layer/mpfw_fw2-trdp-sdk-mac-1trdp"]
+	path = trdp/sdk/mac/layer/mpfw_fw2-trdp-sdk-mac-1trdp
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-trdp-sdk-mac-1trdp.git
+[submodule "fnct/tui/layer/mpfw_fw2-fnct-tui-0abst-trdp-sdk-mac"]
+	path = fnct/tui/layer/mpfw_fw2-fnct-tui-0abst-trdp-sdk-mac
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-tui-0abst-trdp-sdk-mac.git
+[submodule "fnct/hw/layer/mpfw_fw2-fnct-hw-0abst-trdp-sdk-mac"]
+	path = fnct/hw/layer/mpfw_fw2-fnct-hw-0abst-trdp-sdk-mac
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-hw-0abst-trdp-sdk-mac.git
+[submodule "fnct/tui/layer/mpfw_fw2-fnct-tui-3real-trdp-sdk-mac"]
+	path = fnct/tui/layer/mpfw_fw2-fnct-tui-3real-trdp-sdk-mac
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-tui-3real-trdp-sdk-mac.git
+[submodule "fnct/base/layer/mpfw_fw2-fnct-base-4test"]
+	path = fnct/base/layer/mpfw_fw2-fnct-base-4test
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-base-4test.git
+[submodule "fnct/base_hw/layer/mpfw_fw2-fnct-base_hw-0abst"]
+	path = fnct/base_hw/layer/mpfw_fw2-fnct-base_hw-0abst
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-base_hw-0abst.git

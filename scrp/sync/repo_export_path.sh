@@ -74,7 +74,7 @@ option_set=0
 
             export PATH_ORIGINAL=$PATH
             export PATH_REPO_MPFW_CODE
-            export PATH=$PATH_REPO_MPFW_CODE/scrp:$PATH
+            export PATH=$PATH_REPO_MPFW_CODE/scrp:~/Applications/CMake.app/Contents/bin:$PATH
 
         } || {
             echo_chk_clrd 1 31 "ERROR - \"$PATH_REPO_MPFW_CODE\" is not a valid mpfw_code path: \"cmake\" subdirectroy does not exist"

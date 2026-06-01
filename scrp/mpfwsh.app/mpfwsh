@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+# Per eseguire questo script occorre renderlo eseguibile
+# chmod +x <script.sh>
+# e poi lanciare da Terminal il comando
+# ./<script.sh>
+#
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+cd $DIR/.. && {
+    open -a Terminal.app "$DIR/../mpfwsh_start.sh"
+    # open -a Terminal.app
+    # source scrp/sync/repo_export_path.sh --set
+    # zsh
+} || {
+    open -a Terminal.app "$DIR"
+    pwd
+}

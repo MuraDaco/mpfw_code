@@ -1,0 +1,2 @@
+il file "build_script_config_bkp_20241220.txt" ha l'applicazione "tst_20240429main" che però non è completa e quindi il build non può essere eseguito con successo.
+il file "build_script_config.txt" (file di configurazione attivo) non ha l'applicazione "tst_20240429main", questa è stata eliminata momentaneamente perchè non essendo completa blocca la procedura di build dell'applicazione successiva

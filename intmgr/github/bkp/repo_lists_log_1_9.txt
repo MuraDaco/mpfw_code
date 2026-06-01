@@ -1,0 +1,337 @@
+Fri Oct 10 09:18:06 CEST 2025
+---------------
+******************************************************************
+***                                                            ***
+1 - mpfw_code_apps_tst_20221206.git
+    INFO - Connecting to "mpfw_code_apps_tst_20221206.git" repo
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --publc "https://github.com/MuraDaco/mpfw_code_apps_tst_20221206.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_apps_tst_20221206.git" --rel-name First_Release --rel-null 1 3  --rel-inc 2
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --env-intgrm "mpfw_code_apps_tst_20221206" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_apps_tst_20221206 git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github/mpfw_code_apps_tst_20221206 folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 7b2a0919c0ec694ff2dce8eda86bc7882ba65fa6 (HEAD -> github_main) First_Release release ver. 0.2.0.[c250a2f]
+| * dae8378105e6470b4323fb226e3a71188ca090b5 (new_update) First_Release release ver. 0.2.0.[c250a2f]
+| * 14e4a145536822bf645a1a077bebe95d24e82ed8 Empty branch
+|/  
+* 886ce35262565db9ed0ba21ccbdcb160bcb6325d (tag: v_00.00, github/main) AutoRecursiveCommit from <prjs/mpfw> module: rs485 multi devices management
+* d52dd4832fb166b85a54fc4ecfb208d6397adf5e Initial commit
+* c250a2fb4ef1569b83aad26ee6d98374d59d674a (dvlpr1_local1/main, dvlpr1_local1_main) AutoRecursiveCommit from <code/mpfw_code> module: Upd .gitignore (exclude obdash_branches.cfg file)
+* cb15e3b31311646d7f9cdcabc0ebe897a1317aa8 AutoRecursiveCommit from <smdl/mpfw> module: Add <gmms> config files
+* 85277b771f76daf5510eac6f8b7659d84fe25e53 AutoRecursiveCommit from <smdl/mpfw> module: Add header license in every files
+* 4010159f512199577f229cd23749cb61bc792131 AutoRecursiveCommit from <smdl/mpfw> module: Add license files in root folder
+* 758b2606b39f84903c86c3fd68506b61fe2b5e00 (tag: tst_20230810_multidevice, tag: tst_20230703_uyProtocol, tag: tst_20230522_2, tag: tst_20230522_1) Upd src file (thread table)
+* 3d7faa637b18c133f93b1c229818e7827311160c Upd src files
+* a88a76fe5b324dc2c90cccbedcc4a29f7545022b AutoRecursiveCommit from <smdl/mpfw> module: Commit on new (owner) branch
+* c7c7af138e84601c40b1eaa66ec5b28369934c8b AutoRecursiveCommit from <smdl/mpfw> module: Upd tst_20230522 main app - add cube workspace & project - build cmake, cube -> OK
+* f638735a0d42ebcae6dac06a46c7fc711ab3f2f8 AutoRecursiveCommit from <smdl/mpfw> module: Add tst_20230522 main app with mac, nxp & stm32f769_disco platforms
+* 28c67772bac1da2153512decec338daf1c76b1fa AutoRecursiveCommit from <code/mpfw_code> module: Synchronization - cmake, cube & xpresso build -> OK
+* b0cb8a2eff994a10ecbdd4ef47ed82e3c87e3e9a AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake file to multi-app management: some improvment
+* f5aedc9e1893403d519542a724c6fcdb03b47edd AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-platform management: stm_20230420 & stm_20230424 main-apps -> build OK
+* af4faecd0e9b571abb2e8e9cab6a9cf4c4b9bfe3 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi platform management: tst_20221229 -> build OK
+* d4d83627ecf8cb25de3d679e3e36fcd41e7b243d AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-platform: fw2_lib_core_core build -> OK
+* 4a40f8dc1fcdb0f05ffc8f571427dc8fa0b10b20 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to manage multiplatform - tst_20221206 build ok
+* d17ca00af63cf01407bb24315f1dce216cd02447 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-application management
+* 123865e56db390b96c15ec8f66a87f8dae5a04ba AutoRecursiveCommit from <code/mpfw_code> module: Update cmake files to add stm32 application
+* 26d4c7068ea5c43568d624e8dd6a938233551741 AutoRecursiveCommit from <repo__main> module: Synchronization
+* 3b97940269d4d7ab167f8891aae93eaaf98948c9 AutoRecursiveCommit from <smdl/mpfw> module: Upd xpresso & cmake files
+* 08aeb8cd4c454e710c47e2d0a8cfcdb375191e20 AutoRecursiveCommit from "code/mpfw_code" module: cmake files[D[
+* 9c806460e8ff19e28f41ab2043bd2282481fe846 Import from mpfw_old/code/libs/tst_20221206
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+2 - mpfw_code_apps_tst_20230703app.git
+    INFO - Connecting to "mpfw_code_apps_tst_20230703app.git" repo
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --publc "https://github.com/MuraDaco/mpfw_code_apps_tst_20230703app.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_apps_tst_20230703app.git" --rel-name First_Release --rel-null 1 3  --rel-inc 2
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --env-intgrm "mpfw_code_apps_tst_20230703app" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_apps_tst_20230703app git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github/mpfw_code_apps_tst_20230703app folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 4785d8561b49247c5503eced9db6db0545dfadc4 (HEAD -> github_main) First_Release release ver. 0.2.0.[d8ebaee]
+| * f6bf0e144d3719a9a387baf7ebca0ec97ed2df66 (new_update) First_Release release ver. 0.2.0.[d8ebaee]
+| * f3e162a40b2bc6c0d9f992bb1104b98dd040e9bc Empty branch
+|/  
+* 5870be3ad957dc8e842c02f063988316afbeb483 (tag: v_00.00, github/main) AutoRecursiveCommit from <prjs/mpfw> module: rs485 multi devices management
+* 137fceb1757a94276ed7b7c13ea63c054bd0090a Initial commit
+* d8ebaeebf68fbac968c25ae0d5cddbdbe06ca848 (dvlpr1_local1/main, dvlpr1_local1_main) AutoRecursiveCommit from <smdl/mpfw> module: Add <gmms> config files
+* 1048dec3afbe1af35ac2929f32cf621ebfee3e70 AutoRecursiveCommit from <smdl/mpfw> module: Add header license in every files
+* 73de908c1dfb59519269a17ec8cfc5b7af446e58 AutoRecursiveCommit from <smdl/mpfw> module: Add license files in root folder
+* 9633b5b3649ca8c93e54778e358b8adc2e7eeb3e (tag: tst_20230810_multidevice, tag: tst_20230703_uyProtocol) AutoRecursiveCommit from <smdl/mpfw> module: uyProtcol has been implemented on stm32f769_disco platform
+* 93731cc32c3109831ffbd0a2db9a1b6d4ad13c80 AutoRecursiveCommit from <smdl/mpfw> module: Upd usart management on stm32f7 -> build all -> OK
+* 405ffc4ed96984de934836ec69ca4e341ee5c2bd AutoRecursiveCommit from <smdl/mpfw> module: Upd usart sdk & uyProtocol to improve the com procedure -> build mac, nxp & stm32f7 -> OK - run on mac -> OK
+* cdaf78da528f29ca34d0299f0df1da202c8b58f6 AutoRecursiveCommit from <smdl/mpfw> module: Upd to fix some bugs -> uyProtocol on nxp -> build & run -> OK
+* 63723ee11b6506625fbb397479775deff553bbd6 AutoRecursiveCommit from <smdl/mpfw> module: uyProtocol implemented on nxp platform -> build cmake & xpresso --> OK
+* f5e273bf6a9dd69f2be2e92c6a046f9b30e92de6 AutoRecursiveCommit from <smdl/mpfw> module: uyProtocol implemented on mac platform -> OK build & run
+* 0ab661e233e6b676efb5dc8419d677b22302f5a5 AutoRecursiveCommit from <smdl/mpfw> module: Upd wsp files to improve <apps> project management
+* ee06c410b8678fdc6043ba7bd7e47236e21c6f9f AutoRecursiveCommit from <smdl/mpfw> module: Non-blocking tx implemented
+* cc6aa5cd8831cb0e7fced60626d76a17c2947d3a AutoRecursiveCommit from <smdl/mpfw> module: Upd tst_20230703 main & app module - Upd nxp folder of some modules
+* 6b9cec6848bc11e91d514623922dbeea0af2b47e AutoRecursiveCommit from <smdl/mpfw> module: Add new main & app (tst_20230703)
+* 758b2606b39f84903c86c3fd68506b61fe2b5e00 (tag: tst_20230522_2, tag: tst_20230522_1) Upd src file (thread table)
+* 3d7faa637b18c133f93b1c229818e7827311160c Upd src files
+* a88a76fe5b324dc2c90cccbedcc4a29f7545022b AutoRecursiveCommit from <smdl/mpfw> module: Commit on new (owner) branch
+* c7c7af138e84601c40b1eaa66ec5b28369934c8b AutoRecursiveCommit from <smdl/mpfw> module: Upd tst_20230522 main app - add cube workspace & project - build cmake, cube -> OK
+* f638735a0d42ebcae6dac06a46c7fc711ab3f2f8 AutoRecursiveCommit from <smdl/mpfw> module: Add tst_20230522 main app with mac, nxp & stm32f769_disco platforms
+* 28c67772bac1da2153512decec338daf1c76b1fa AutoRecursiveCommit from <code/mpfw_code> module: Synchronization - cmake, cube & xpresso build -> OK
+* b0cb8a2eff994a10ecbdd4ef47ed82e3c87e3e9a AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake file to multi-app management: some improvment
+* f5aedc9e1893403d519542a724c6fcdb03b47edd AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-platform management: stm_20230420 & stm_20230424 main-apps -> build OK
+* af4faecd0e9b571abb2e8e9cab6a9cf4c4b9bfe3 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi platform management: tst_20221229 -> build OK
+* d4d83627ecf8cb25de3d679e3e36fcd41e7b243d AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-platform: fw2_lib_core_core build -> OK
+* 4a40f8dc1fcdb0f05ffc8f571427dc8fa0b10b20 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to manage multiplatform - tst_20221206 build ok
+* d17ca00af63cf01407bb24315f1dce216cd02447 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-application management
+* 123865e56db390b96c15ec8f66a87f8dae5a04ba AutoRecursiveCommit from <code/mpfw_code> module: Update cmake files to add stm32 application
+* 26d4c7068ea5c43568d624e8dd6a938233551741 AutoRecursiveCommit from <repo__main> module: Synchronization
+* 3b97940269d4d7ab167f8891aae93eaaf98948c9 AutoRecursiveCommit from <smdl/mpfw> module: Upd xpresso & cmake files
+* 08aeb8cd4c454e710c47e2d0a8cfcdb375191e20 AutoRecursiveCommit from "code/mpfw_code" module: cmake files[D[
+* 9c806460e8ff19e28f41ab2043bd2282481fe846 Import from mpfw_old/code/libs/tst_20221206
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+3 - mpfw_code_apps_tst_20230810app.git
+    INFO - Connecting to "mpfw_code_apps_tst_20230810app.git" repo
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --publc "https://github.com/MuraDaco/mpfw_code_apps_tst_20230810app.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_apps_tst_20230810app.git" --rel-name First_Release --rel-null 1 3  --rel-inc 2
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --env-intgrm "mpfw_code_apps_tst_20230810app" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_apps_tst_20230810app git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github/mpfw_code_apps_tst_20230810app folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 7ffa91ce851e56c887de661e7ebfcc3892745a4c (HEAD -> github_main) First_Release release ver. 0.2.0.[cf63962]
+| * ea5b9ca8a9b9d4decc1121659233f6bf68d19178 (new_update) First_Release release ver. 0.2.0.[cf63962]
+| * d511d9433d5a8b328e4d488dd5df0ab4b38d4f7c Empty branch
+|/  
+* 48909a83c58616ba542dde884296bb337727acb1 (tag: v_00.00, github/main) AutoRecursiveCommit from <prjs/mpfw> module: rs485 multi devices management
+* b3068fc5505906d38806201a3003dc21b263551e Initial commit
+* cf6396220b494697790d2317a76ecd7bf543bd31 (dvlpr1_local1/main, dvlpr1_local1_main) AutoRecursiveCommit from <smdl/mpfw> module: Add <gmms> config files
+* 525123e39e034b2a95c1706bc8d95c134897ebaf AutoRecursiveCommit from <smdl/mpfw> module: Add header license in every files
+* 1d9da61eea397e495c7a48ba62f10c29ff3d8006 AutoRecursiveCommit from <smdl/mpfw> module: Add license files in root folder
+* 1928aebce987a7a08f624b606b834e3f9171ae4d AutoRecursiveCommit from <smdl/mpfw> module: Fixed some little bugs -> OK on stm32f769_disco & nxp
+* ce0e2230fd49839b26fd80e833b6c6b2d3dfb62a AutoRecursiveCommit from <smdl/mpfw> module: Upd cube & xpresso workspaces & cprojects -> build OK but to test on device
+* a9cd857823bbb9d643f957ea761adc3cd41c11e3 (tag: tst_20230810_multidevice) AutoRecursiveCommit from <smdl/mpfw> module: Fixed a bug that causes a segmentatioin fault in rsSerial::Tx function (mac platform only)
+* c41782fe9ae617f209b5a6a5b3854731c25b00a3 AutoRecursiveCommit from <smdl/mpfw> module: Add tst_20230810 main & app
+* 9633b5b3649ca8c93e54778e358b8adc2e7eeb3e (tag: tst_20230703_uyProtocol) AutoRecursiveCommit from <smdl/mpfw> module: uyProtcol has been implemented on stm32f769_disco platform
+* 93731cc32c3109831ffbd0a2db9a1b6d4ad13c80 AutoRecursiveCommit from <smdl/mpfw> module: Upd usart management on stm32f7 -> build all -> OK
+* 405ffc4ed96984de934836ec69ca4e341ee5c2bd AutoRecursiveCommit from <smdl/mpfw> module: Upd usart sdk & uyProtocol to improve the com procedure -> build mac, nxp & stm32f7 -> OK - run on mac -> OK
+* cdaf78da528f29ca34d0299f0df1da202c8b58f6 AutoRecursiveCommit from <smdl/mpfw> module: Upd to fix some bugs -> uyProtocol on nxp -> build & run -> OK
+* 63723ee11b6506625fbb397479775deff553bbd6 AutoRecursiveCommit from <smdl/mpfw> module: uyProtocol implemented on nxp platform -> build cmake & xpresso --> OK
+* f5e273bf6a9dd69f2be2e92c6a046f9b30e92de6 AutoRecursiveCommit from <smdl/mpfw> module: uyProtocol implemented on mac platform -> OK build & run
+* 0ab661e233e6b676efb5dc8419d677b22302f5a5 AutoRecursiveCommit from <smdl/mpfw> module: Upd wsp files to improve <apps> project management
+* ee06c410b8678fdc6043ba7bd7e47236e21c6f9f AutoRecursiveCommit from <smdl/mpfw> module: Non-blocking tx implemented
+* cc6aa5cd8831cb0e7fced60626d76a17c2947d3a AutoRecursiveCommit from <smdl/mpfw> module: Upd tst_20230703 main & app module - Upd nxp folder of some modules
+* 6b9cec6848bc11e91d514623922dbeea0af2b47e AutoRecursiveCommit from <smdl/mpfw> module: Add new main & app (tst_20230703)
+* 758b2606b39f84903c86c3fd68506b61fe2b5e00 (tag: tst_20230522_2, tag: tst_20230522_1) Upd src file (thread table)
+* 3d7faa637b18c133f93b1c229818e7827311160c Upd src files
+* a88a76fe5b324dc2c90cccbedcc4a29f7545022b AutoRecursiveCommit from <smdl/mpfw> module: Commit on new (owner) branch
+* c7c7af138e84601c40b1eaa66ec5b28369934c8b AutoRecursiveCommit from <smdl/mpfw> module: Upd tst_20230522 main app - add cube workspace & project - build cmake, cube -> OK
+* f638735a0d42ebcae6dac06a46c7fc711ab3f2f8 AutoRecursiveCommit from <smdl/mpfw> module: Add tst_20230522 main app with mac, nxp & stm32f769_disco platforms
+* 28c67772bac1da2153512decec338daf1c76b1fa AutoRecursiveCommit from <code/mpfw_code> module: Synchronization - cmake, cube & xpresso build -> OK
+* b0cb8a2eff994a10ecbdd4ef47ed82e3c87e3e9a AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake file to multi-app management: some improvment
+* f5aedc9e1893403d519542a724c6fcdb03b47edd AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-platform management: stm_20230420 & stm_20230424 main-apps -> build OK
+* af4faecd0e9b571abb2e8e9cab6a9cf4c4b9bfe3 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi platform management: tst_20221229 -> build OK
+* d4d83627ecf8cb25de3d679e3e36fcd41e7b243d AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-platform: fw2_lib_core_core build -> OK
+* 4a40f8dc1fcdb0f05ffc8f571427dc8fa0b10b20 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to manage multiplatform - tst_20221206 build ok
+* d17ca00af63cf01407bb24315f1dce216cd02447 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-application management
+* 123865e56db390b96c15ec8f66a87f8dae5a04ba AutoRecursiveCommit from <code/mpfw_code> module: Update cmake files to add stm32 application
+* 26d4c7068ea5c43568d624e8dd6a938233551741 AutoRecursiveCommit from <repo__main> module: Synchronization
+* 3b97940269d4d7ab167f8891aae93eaaf98948c9 AutoRecursiveCommit from <smdl/mpfw> module: Upd xpresso & cmake files
+* 08aeb8cd4c454e710c47e2d0a8cfcdb375191e20 AutoRecursiveCommit from "code/mpfw_code" module: cmake files[D[
+* 9c806460e8ff19e28f41ab2043bd2282481fe846 Import from mpfw_old/code/libs/tst_20221206
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+4 - mpfw_code_apps_tst_20240203app.git
+    INFO - Connecting to "mpfw_code_apps_tst_20240203app.git" repo
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --publc "https://github.com/MuraDaco/mpfw_code_apps_tst_20240203app.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_apps_tst_20240203app.git" --rel-name First_Release --rel-null 1 3  --rel-inc 2
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --env-intgrm "mpfw_code_apps_tst_20240203app" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_apps_tst_20240203app git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github/mpfw_code_apps_tst_20240203app folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* f1b03e6b012fa96da77a66da22f189488641b320 (HEAD -> github_main) First_Release release ver. 0.2.0.[2b6b70c]
+| * 8d75ccc6adabb897fd92f924fdb23ac9df87033c (new_update) First_Release release ver. 0.2.0.[2b6b70c]
+| * eac22b9733bc4b8744999b7a974be06127155232 Empty branch
+|/  
+* 93f306691f9a795eab8d31d1b810f4929e43934b (tag: v_00.01, github/main) First commit
+* 2b6b70c4b7cb6ce67de14589f6ffb34a17f4505d (dvlpr1_local1/main, dvlpr1_local1_main) Upd cmake project files management -> build_chk.sh -> OK
+* 1dc5cee02d1a4c747d9f2beb596c89920cc3f85a Upd cmake project files management - new & old versions -> build_chk.sh OK
+* 319243a245cd4caf44f245afaf339d812f47b98e Upd cmake project files management
+* 4a83ff6b3473fb3072fe5bbde8b3defc1ebf1278 Upd cmake project files management
+* ce03f924238901ea49b2f23c06b988c0f438b10b rename files & dirs that had the previous app name
+* 57371dfc696b59a59c22d2285b73e3bff8519add First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+5 - mpfw_code_apps_tst_20240317app.git
+    INFO - Connecting to "mpfw_code_apps_tst_20240317app.git" repo
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --publc "https://github.com/MuraDaco/mpfw_code_apps_tst_20240317app.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_apps_tst_20240317app.git" --rel-name First_Release --rel-null 1 3  --rel-inc 2
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --env-intgrm "mpfw_code_apps_tst_20240317app" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_apps_tst_20240317app git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github/mpfw_code_apps_tst_20240317app folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* d7a187a3fdfa9371448421808feb3f7b17171e36 (HEAD -> github_main) First_Release release ver. 0.2.0.[c0f7842]
+| * 270e32d87c0b461719d3fb378f68eb2b3691aeb0 (new_update) First_Release release ver. 0.2.0.[c0f7842]
+| * bf8e0b30f085edb1e65e3647f6ab58461dfa6137 Empty branch
+|/  
+* 23b823ef15082a528e175f688c68758a8769a158 (tag: v_00.01, github/main) First commit
+* c0f7842c170f771cb1f19ea4d23331b95c7d9c26 (dvlpr1_local1/main, dvlpr1_local1_main) First commmit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+6 - mpfw_code_apps_tst_20240429app.git
+    INFO - Connecting to "mpfw_code_apps_tst_20240429app.git" repo
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --publc "https://github.com/MuraDaco/mpfw_code_apps_tst_20240429app.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_apps_tst_20240429app.git" --rel-name First_Release --rel-null 1 3  --rel-inc 2
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --env-intgrm "mpfw_code_apps_tst_20240429app" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_apps_tst_20240429app git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github/mpfw_code_apps_tst_20240429app folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 4b71966a77156e60117d84db7ec14cb6a448eff7 (HEAD -> github_main) First_Release release ver. 0.2.0.[2d77bac]
+| * d79819d0872ee1920142f18216894bd57dfd357c (new_update) First_Release release ver. 0.2.0.[2d77bac]
+| * 87b586908c9f4f1db13bed9d9f25abfbd05cccd3 Empty branch
+|/  
+* 68b546c7361ac7deb819c105aa969d30e3b55397 (tag: v_00.01, github/main) First commit
+* 2d77bac75a7dbe27e447000fe1df6d7edf51f31a (dvlpr1_local1/main, dvlpr1_local1_main) First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+7 - mpfw_code_apps_tst_20240619app.git
+    INFO - Connecting to "mpfw_code_apps_tst_20240619app.git" repo
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --publc "https://github.com/MuraDaco/mpfw_code_apps_tst_20240619app.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_apps_tst_20240619app.git" --rel-name First_Release --rel-null 1 3  --rel-inc 2
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --env-intgrm "mpfw_code_apps_tst_20240619app" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_apps_tst_20240619app git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github/mpfw_code_apps_tst_20240619app folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 14619db4e3d65da0325753ac2aa3aa0f217ba11d (HEAD -> github_main) First_Release release ver. 0.2.0.[95f031a]
+| * 75d053840f56a13a5c31f6fab65987e3185cb25e (new_update) First_Release release ver. 0.2.0.[95f031a]
+| * 45f510eaf6a6117a8711707775d781036f94388b Empty branch
+|/  
+* d6c629bf13b465d82408abbc7c5361b5b85567d4 (tag: v_00.01, github/main) First commit
+* 95f031a1fa56d6fb953b9a27235e1a08ce0d519b (dvlpr1_local1/main, dvlpr1_local1_main) First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+8 - mpfw_code_cmake.git
+    INFO - Connecting to "mpfw_code_cmake.git" repo
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --publc "https://github.com/MuraDaco/mpfw_code_cmake.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_cmake.git" --rel-name First_Release --rel-null 1 3  --rel-inc 2
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --env-intgrm "mpfw_code_cmake" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_cmake git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github/mpfw_code_cmake folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 5fd3c9f2947c31059ba1db483b603706dfcd1eab (HEAD -> github_main) First_Release release ver. 0.2.0.[8c78977]
+| * b57ef62a80df285fe03a96026b54e96e266eb87a (new_update) First_Release release ver. 0.2.0.[8c78977]
+| * ec65a102fa0356894d2569615c146c8061b2a6a5 Empty branch
+|/  
+* 65283f6a4cc09a04e95dff619b27eac8e57be1b8 (tag: v_00.01, github/main) Upd to a new cmake file management
+* 2329aaaafb1513d965dc04bda0031a0fbcf22a09 (tag: v_00.00) AutoRecursiveCommit from <prjs/mpfw> module: rs485 multi devices management
+* a96106a5ca8a76ae56f36779ee7ac26031b4c0a3 AutoRecursiveCommit from <gmmr__github> module: Archive of <mpfw_code_cmake> module imported
+* 16eb55c88620d193368b5161191ea36b084ba2f8 Initial commit
+* 8c78977d41777bae314d1137615a478b8912ed7c (dvlpr1_local1/main, dvlpr1_local1_main) Add tst_20240429 app
+* ab06d494fc4194d000ec29b88d73635ea95518f2 Upd tst_20240317 app -> BSP & MSC examples fused together -> test on board -> OK
+* 97bba1174c11235f94c6582c82db54874c5ac27e Add tst20240317 app
+* adfdf66ab2d0da77796d1fcd3c7b23ad7fdce0f3 Upd cmake project files management -> build_chk.sh -> OK
+* 8567651dab76172041ea6c82ab24019fe2203f0b Upd cmake project files management - new & old versions -> build_chk.sh OK
+* 2159b42c2ce30c6d01a0f7dcf966b427544cab4b Upd cmake project files management - build_chk.sh -> OK
+* a7b9eceedd41f62332a49bd296fa8aea1d87aa55 Upd cmake project files management
+* da41bad048c9dbaf397810c34725dc1aa2e7c906 Add v_05 dir with tst_20240203app cmake file
+* 749170a4e99663a5d8be3eafd1db6da4c8ded081 AutoRecursiveCommit from <smdl/mpfw> module: Add <gmms> config files
+* 019e8505f0aa8c81d32d785c11cea315e748e799 AutoRecursiveCommit from <smdl/mpfw> module: Add header license in every files
+* 9330a40e813105d2730b3f583a31e1a8b6e7b29f AutoRecursiveCommit from <smdl/mpfw> module: Add license files in root folder
+* a492a98df0419e9e24fa99f55c28f24fad213128 (tag: tst_20230810_multidevice) AutoRecursiveCommit from <smdl/mpfw> module: Fixed a bug that causes a segmentatioin fault in rsSerial::Tx function (mac platform only)
+* 16ff8deb18bf57f38205a8e90aaa9ac9a00a24fe AutoRecursiveCommit from <smdl/mpfw> module: Add tst_20230810 main & app
+* 3fe44c07d68c97d948a0679597a371c0f99ebbd7 (tag: tst_20230703_uyProtocol) AutoRecursiveCommit from <smdl/mpfw> module: uyProtcol has been implemented on stm32f769_disco platform
+* fb65d6bde3c0248c61db325f8d34c43651d4d7d2 AutoRecursiveCommit from <smdl/mpfw> module: uyProtocol implemented on mac platform -> OK build & run
+* c8e561e692718384d4964c527c6e923fa2b8a43b AutoRecursiveCommit from <smdl/mpfw> module: Add new main & app (tst_20230703)
+* 5a9418189ef574d5abea6b83425cd6c602984027 (tag: tst_20230522_2, tag: tst_20230522_1) AutoRecursiveCommit from <code/mpfw_code> module: Upd to fix fw2_wrapper_resources/uart on stm32f769_disco platform: build cmake & cube OK
+* 8e08fbe1dc64077efd4b7e051b2ca630a07bfe40 AutoRecursiveCommit from <code/mpfw_code> module: Build stm_20230516 main app -> cmake:OK cube:OK
+* 843efb018ee56b6e36642baa1cc4e472f3721ec1 AutoRecursiveCommit from <code/mpfw_code> module: Synchronization - cmake, cube & xpresso build -> OK
+* 6c2d75c9adbf121e718a359d1ff1014f0414e188 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake file to multi-app management: some improvment
+* bb807de2529d0ccaf920b553705937dce73c22b6 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-platform management: stm_20230420 & stm_20230424 main-apps -> build OK
+* 6f976f9283f0d313ffb248ea71656988249c43fa AutoRecursiveCommit from <code/mpfw_code> module: Upd stm_20230424 & Add stm_20230501 mains
+* c18a77e8ac2d335d61dbb1566b5b8d271d4fe375 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi platform management: tst_20221229 -> build OK
+* 6cd96ab4ce2e738d2fa2e337b52015ef61f570b7 First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+9 - mpfw_code_libs_common.git
+    INFO - Connecting to "mpfw_code_libs_common.git" repo
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --publc "https://github.com/MuraDaco/mpfw_code_libs_common.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_libs_common.git" --rel-name First_Release --rel-null 1 3  --rel-inc 2
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --env-intgrm "mpfw_code_libs_common" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_libs_common git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github/mpfw_code_libs_common folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+***                                                            ***
+******************************************************************

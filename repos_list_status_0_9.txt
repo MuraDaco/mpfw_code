@@ -1,0 +1,128 @@
+[1;33mREADING "/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github" folder ... [0;0m
+1 - mpfw_code
+2 - mpfw_code_apps_tst_20221206
+3 - mpfw_code_apps_tst_20230703app
+4 - mpfw_code_apps_tst_20230810app
+5 - mpfw_code_apps_tst_20240203app
+6 - mpfw_code_apps_tst_20240317app
+7 - mpfw_code_apps_tst_20240429app
+8 - mpfw_code_apps_tst_20240619app
+9 - mpfw_code_cmake
+10 - mpfw_code_libs_common
+11 - mpfw_code_libs_fw2_core_core
+12 - mpfw_code_libs_fw2_wrapper_core
+13 - mpfw_code_libs_fw2_wrapper_resources
+14 - mpfw_code_libs_sdk_mac
+15 - mpfw_code_libs_sdk_mac_ext
+16 - mpfw_code_libs_sdk_nxp
+17 - mpfw_code_libs_sdk_stm
+18 - mpfw_code_libs_sdk_stm32f769_disco
+19 - mpfw_code_libs_sdk_stm32f769_disco_mod
+20 - mpfw_code_main_stm_20230420
+21 - mpfw_code_main_stm_20230424
+22 - mpfw_code_main_stm_20230501
+23 - mpfw_code_main_stm_20230504
+24 - mpfw_code_main_stm_20230505
+25 - mpfw_code_main_stm_20230516
+26 - mpfw_code_main_stm_20230520
+27 - mpfw_code_main_tst_20221229
+28 - mpfw_code_main_tst_20230522
+29 - mpfw_code_main_tst_20230703main
+30 - mpfw_code_main_tst_20230810main
+31 - mpfw_code_main_tst_20240203main
+32 - mpfw_code_main_tst_20240317main
+33 - mpfw_code_main_tst_20240429main
+34 - mpfw_code_main_tst_20240619main
+35 - mpfw_fw2-appl-app20240619_new_bis-4appl
+36 - mpfw_fw2-fnct-core-2wrpr
+37 - mpfw_fw2-fnct-core-3real
+38 - mpfw_fw2-fnct-res-1trdp-sdk-nxp
+39 - mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco
+40 - mpfw_fw2-fnct-res-2wrpr-sdk
+41 - mpfw_fw2-main-app20240619_new_bis-5main
+42 - mpfw_fw2-trdp-sdk-mac-0trdp
+43 - mpfw_fw2-trdp-sdk-nxp-0trdp
+44 - mpfw_fw2-trdp-sdk-nxp-1trdp-usart
+45 - mpfw_fw2-trdp-sdk-stm-stm32f769_disco-0trdp
+46 - mpfw_fw2-trdp-sdk-stm-stm32f769_disco-1trdp-usart
+47 - mpfw_fw2_appl_app20240619
+48 - mpfw_fw2_appl_app20240619_new
+49 - mpfw_fw2_appl_app20250424
+50 - mpfw_fw2_appl_app20250625_4appl
+51 - mpfw_fw2_appl_app20250625_5main
+52 - mpfw_fw2_cmake
+53 - mpfw_fw2_fnct_base
+54 - mpfw_fw2_fnct_core_2wrpr
+55 - mpfw_fw2_fnct_core_3real
+56 - mpfw_fw2_fnct_hw_0abst
+57 - mpfw_fw2_fnct_hw_1trdp_sdk
+58 - mpfw_fw2_fnct_hw_2wrpr
+59 - mpfw_fw2_fnct_hw_3real
+60 - mpfw_fw2_fnct_res_1trdp_sdk
+61 - mpfw_fw2_fnct_res_2wrpr
+62 - mpfw_fw2_fnct_tui_0abst
+63 - mpfw_fw2_fnct_tui_2wrpr
+64 - mpfw_fw2_fnct_tui_3real
+65 - mpfw_fw2_main_app20240619_5main
+66 - mpfw_fw2_main_app20250424_5main
+67 - mpfw_fw2_trdp_mac_0abst
+68 - mpfw_fw2_trdp_nxp_0abst
+69 - mpfw_fw2_trdp_stm32f769_disco_0abst
+[1;33mReading input parameters[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;35m0: [1;33mmpfw_code[0;0m
+On branch github_main
+Your branch is up to date with 'github/main'.
+
+nothing to commit, working tree clean
+[1;35m1: [1;33mmpfw_code_apps_tst_20221206[0;0m
+On branch github_main
+Your branch is up to date with 'github/main'.
+
+nothing to commit, working tree clean
+[1;35m2: [1;33mmpfw_code_apps_tst_20230703app[0;0m
+On branch github_main
+Your branch is up to date with 'github/main'.
+
+nothing to commit, working tree clean
+[1;35m3: [1;33mmpfw_code_apps_tst_20230810app[0;0m
+On branch github_main
+Your branch is up to date with 'github/main'.
+
+nothing to commit, working tree clean
+[1;35m4: [1;33mmpfw_code_apps_tst_20240203app[0;0m
+On branch github_main
+Your branch is up to date with 'github/main'.
+
+nothing to commit, working tree clean
+[1;35m5: [1;33mmpfw_code_apps_tst_20240317app[0;0m
+On branch github_main
+Your branch is up to date with 'github/main'.
+
+nothing to commit, working tree clean
+[1;35m6: [1;33mmpfw_code_apps_tst_20240429app[0;0m
+On branch github_main
+Your branch is up to date with 'github/main'.
+
+nothing to commit, working tree clean
+[1;35m7: [1;33mmpfw_code_apps_tst_20240619app[0;0m
+On branch github_main
+Your branch is up to date with 'github/main'.
+
+nothing to commit, working tree clean
+[1;35m8: [1;33mmpfw_code_cmake[0;0m
+On branch github_main
+Your branch is up to date with 'github/main'.
+
+nothing to commit, working tree clean
+[1;35m9: [1;33mmpfw_code_libs_common[0;0m
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+[1;34m|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|[0;0m
+[1;33mGlobal variables summary ...[0;0m
+[1;34m|~~~~~[0;0m
+[1;35mrange_dw: [1;33m0[0;0m
+[1;35mrange_up: [1;33m9[0;0m

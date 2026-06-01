@@ -1,0 +1,145 @@
+Fri Oct 10 15:36:51 CEST 2025
+---------------
+******************************************************************
+***                                                            ***
+34 - mpfw_fw2-appl-app20240619_new_bis-4appl.git
+    INFO - Connecting to "mpfw_fw2-appl-app20240619_new_bis-4appl.git" repo
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --publc "https://github.com/MuraDaco/mpfw_fw2-appl-app20240619_new_bis-4appl.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-appl-app20240619_new_bis-4appl.git" --rel-name First_Release --rel-null 1 3  --rel-inc 2
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --env-intgrm "mpfw_fw2-appl-app20240619_new_bis-4appl" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-appl-app20240619_new_bis-4appl git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github/mpfw_fw2-appl-app20240619_new_bis-4appl folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 0bf85a58c04e74f0f4f2b9511ebb6f4c5ace3903 (HEAD -> github_main, github/main, new_update) First_Release release ver. 0.2.0.[0c5289a]
+* 58cedd0de8eac04c4c2ed856b93aff7d4fe3c7a5 Empty commit
+* 0c5289a4eecd75c8dfc1c704e1bdf632f21753ea (dvlpr1_local1/main, dvlpr1_local1_main) First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+35 - mpfw_fw2-fnct-core-2wrpr.git
+    INFO - Connecting to "mpfw_fw2-fnct-core-2wrpr.git" repo
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --publc "https://github.com/MuraDaco/mpfw_fw2-fnct-core-2wrpr.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-core-2wrpr.git" --rel-name First_Release --rel-null 1 3  --rel-inc 2
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --env-intgrm "mpfw_fw2-fnct-core-2wrpr" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-core-2wrpr git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github/mpfw_fw2-fnct-core-2wrpr folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 3d7127ab430304a295f905e34b84dd099ca48e55 (HEAD -> github_main) First_Release release ver. 0.3.0.[8f40799]
+| * ac99ebe30540e2ca81a0190642ccf3d5e9f5af77 (new_update) First_Release release ver. 0.3.0.[8f40799]
+| * 53d02d51747469e56727cc01eef03e9b61431841 Empty branch
+|/  
+* 471779b1779f5ff1b9a938effd485a2da5a50ae9 First_Release release ver. 0.2.0.[5fef435]
+* aaeec8252cf551dea8365086d578f5745eccec9f (github/main) Empty commit
+* 8f407997b215aad6d65994a80a12a1c1eb2b2139 (dvlpr1_local1/main, dvlpr1_local1_main) Clean cmake code (include_files.cmake & set_public_dirs.cmake files)
+* 0fb8d3f6171bbf02e52b1301b2bef58578fa3bae Upd cpp & include .cmake files
+* 5fef435e6a4569f0d54585ba9799988666017a83 First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+36 - mpfw_fw2-fnct-core-3real.git
+    INFO - Connecting to "mpfw_fw2-fnct-core-3real.git" repo
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --publc "https://github.com/MuraDaco/mpfw_fw2-fnct-core-3real.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-core-3real.git" --rel-name First_Release --rel-null 1 3  --rel-inc 2
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --env-intgrm "mpfw_fw2-fnct-core-3real" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-core-3real git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github/mpfw_fw2-fnct-core-3real folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 1a241077a98544357d0d1df77b8c7ed2988baa8e (HEAD -> github_main, new_update) First_Release release ver. 0.2.0.[cde6b96]
+* 9aeb709d36586a5a2fe311de9748335da539bb17 (github/main) Empty commit
+* cde6b96e5733aca78052ee8f36073d7654f7ded5 (dvlpr1_local1/main, dvlpr1_local1_main) First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+37 - mpfw_fw2-fnct-res-1trdp-sdk-nxp.git
+    INFO - Connecting to "mpfw_fw2-fnct-res-1trdp-sdk-nxp.git" repo
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --publc "https://github.com/MuraDaco/mpfw_fw2-fnct-res-1trdp-sdk-nxp.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-res-1trdp-sdk-nxp.git" --rel-name First_Release --rel-null 1 3  --rel-inc 2
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --env-intgrm "mpfw_fw2-fnct-res-1trdp-sdk-nxp" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-res-1trdp-sdk-nxp git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github/mpfw_fw2-fnct-res-1trdp-sdk-nxp folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 3370c3b47a35701506cff9c93a74300605973263 (HEAD -> github_main) First_Release release ver. 0.3.0.[434b79a]
+| * 9ed4390b3f56b1b74a69539479277b4825c76f1c (new_update) First_Release release ver. 0.3.0.[434b79a]
+| * d9b343a957718b7e8e5cdbf4c66d0762a269e51d Empty branch
+|/  
+* b6e7f3f8089511055c1e6b6e27715e76bbff4da5 First_Release release ver. 0.2.0.[adfac0b]
+* 4d31aa598bed0057cf2294974fc986bee5881818 (github/main) Empty commit
+* 434b79af4252f89bb6631d0efe09d9c2b9bb6a39 (dvlpr1_local1/main, dvlpr1_local1_main) Upd trivial
+* adfac0b08cb159ee2b3dc28753ebe363bc1c1f86 First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+38 - mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco.git
+    INFO - Connecting to "mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco.git" repo
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --publc "https://github.com/MuraDaco/mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco.git" --rel-name First_Release --rel-null 1 3  --rel-inc 2
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --env-intgrm "mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github/mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* e1ff85776313801c4cf8e00a4142933a675bba72 (HEAD -> github_main, new_update) First_Release release ver. 0.2.0.[3016fee]
+* 81620956f22b86e4d15c89488af81a4cbd957baf (github/main) Empty commit
+* 3016fee7240c52647c9a0afa86febb2ddb80bc35 (dvlpr1_local1/main, dvlpr1_local1_main) First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+39 - mpfw_fw2-fnct-res-2wrpr-sdk.git
+    INFO - Connecting to "mpfw_fw2-fnct-res-2wrpr-sdk.git" repo
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --publc "https://github.com/MuraDaco/mpfw_fw2-fnct-res-2wrpr-sdk.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-res-2wrpr-sdk.git" --rel-name First_Release --rel-null 1 3  --rel-inc 2
+    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm github --env-intgrm "mpfw_fw2-fnct-res-2wrpr-sdk" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-res-2wrpr-sdk git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github/mpfw_fw2-fnct-res-2wrpr-sdk folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 40960485eb690d33baeee6c2a70a59679a7dd2a1 (HEAD -> github_main, new_update) First_Release release ver. 0.2.0.[7b211e9]
+* 5b6bcdc57d396e6c236b1785b99a582949f809a1 (github/main) Empty commit
+* 7b211e947f2db75575742f5b474a8daca7f8d64e (dvlpr1_local1/main, dvlpr1_local1_main) First commit
+***                                                            ***
+******************************************************************
