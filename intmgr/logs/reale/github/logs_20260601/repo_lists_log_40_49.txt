@@ -1,0 +1,293 @@
+Mon Jun  1 18:11:40 CEST 2026
+---------------
+command: push
+---------------
+******************************************************************
+***                                                            ***
+40 - mpfw_fw2-fnct-core-3real
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-core-3real git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-core-3real git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-core-3real git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-fnct-core-3real folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 5c9493851b04871a7cfc4f304713361fed61b580 (HEAD -> github_main, github/main) Update_First_Release release ver. 0.3.0.[0da6440]
+| * ef609dea36d92885d7616985dfa3c14473c520e4 (new_update) Update_First_Release release ver. 0.3.0.[0da6440]
+| * 4294b287c43aec3ffbe3a4ca234831d73d507707 Empty branch
+|/  
+* 1a241077a98544357d0d1df77b8c7ed2988baa8e First_Release release ver. 0.2.0.[cde6b96]
+* 9aeb709d36586a5a2fe311de9748335da539bb17 Empty commit
+* 0da6440c5dd1a3cb6a0bfdbad1e849570ad29c77 (dvlpr1_local1/main, dvlpr1_local1_main) Tx-Rx usart by pph - step 5 (first dirty bytes / RUN on mac -> OK) (nxp has to be done)
+* 1be2d333e4ea47920d1ce8a8ab84f29dcec278e6 Tx-Rx usart by pph - step 3
+* 4b346620835b75fb9475bc812430750de7890116 Tx-Rx usart by pph - step 2.bis (debugged)
+* be314dcc7b786e7781a9e8c75b507b6b5e650526 Tx-Rx usart by pph - step 2
+* 301fa20e820b3f5d8a2ce56c75995c9fef79a560 Tx-Rx usart by pph - step 1
+* de031360f6cde15a67054795d10665d0a751445f Upd uyProtocol module
+* d93bdbcd2aecbc5a92688d3e12faf703261d6ee7 Add new class-module (krInitStaticWP), new ver for uyProtocol class-module & new ver for wsp
+* cde6b96e5733aca78052ee8f36073d7654f7ded5 First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+41 - mpfw_fw2-fnct-hw-0abst
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-hw-0abst git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-hw-0abst git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-hw-0abst git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-fnct-hw-0abst folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 8f2813df75062fdaed5d4575e4c1dbe35751f915 (HEAD -> github_main, github/main, new_update) Update_First_Release release ver. 0.1.0.[80dd61d]
+* 229830a29a727cbbc4f3e0c5d85ad3cf34b7e59e Empty commit
+* 80dd61ddf40dc72aaee39fdf679ada065308d54c (dvlpr1_local1/main, dvlpr1_local1_main) Tx-Rx usart by pph - step 2
+* ac2fb937edbdad59f86ebfe490f2e37ba31340cc Upd src files: step 3 (build -> OK)
+* 39860b8d4ddd68dc87de0d03e29b7c6285c0e37b Upd src files: step 2 (build -> OK)
+* 3a95508a3b038a35a1859f62e7ceb8bd50868310 Upd src files: step 1 (src & wsp duplication)
+* 32e22dd4a967093f27528d2f1579b64901b4505c Add licecnse files
+* 61b1a5f497a2476f82c14cc6fdd779747f9a2d5a First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+42 - mpfw_fw2-fnct-hw-0abst-trdp-sdk-mac
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-hw-0abst-trdp-sdk-mac git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-hw-0abst-trdp-sdk-mac git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-hw-0abst-trdp-sdk-mac git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-fnct-hw-0abst-trdp-sdk-mac folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* b703e7c16a7c9232671fbbdbe569b9ce50ce89a8 (HEAD -> github_main, github/main, new_update) Update_First_Release release ver. 0.1.0.[f3d8ac4]
+* 8ab73452c7efa8930617cfd182a2bf4c04fdc143 Empty commit
+* f3d8ac46f6da684ab37bc2da524dbd8ea624238e (dvlpr1_local1/main, dvlpr1_local1_main) Tx-Rx usart by pph - step 2 (bis)
+* 4a42bce625a6bde25e61195b0bd8faafc8a22bc1 Tx-Rx usart by pph - step 2
+* 40a58219a81ef9859fa7b5bed18a36d059a34536 Upd src files: step 2 (build -> OK)
+* 8dacb2b2a6fb793b907cd048a2bfe80fe259adf7 First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+43 - mpfw_fw2-fnct-hw-1trdp-sdk-mac
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-hw-1trdp-sdk-mac git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-hw-1trdp-sdk-mac git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-hw-1trdp-sdk-mac git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-fnct-hw-1trdp-sdk-mac folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 0897ad167562e902e4f0d965eabe1261f2db9deb (HEAD -> github_main, github/main, new_update) Update_First_Release release ver. 0.1.0.[32007aa]
+* d69da6d0944ee81729d7d45b2b472fabfdd9240f Empty commit
+* 32007aa4e00843a7e345730eae5458584f944fec (dvlpr1_local1/main, dvlpr1_local1_main) Tx-Rx usart by pph - step 2.bis (debugged)
+* 3c79666094e0ee001bbd3b7206bade2f44734185 Tx-Rx usart by pph - step 2
+* d066118a0bdc49e58f1498ca5ac250df245f1985 Tx-Rx usart by pph - step 1
+* 1d349fafbcc408517794b068b555ff99f89e1320 Upd src files: step 4 (Update version of mcuPinPort)
+* 47103505190ad28ec86106c3e970c7fc14a89fc0 Upd src files: step 3 (build -> OK)
+* 8578b1f71bffbc43b411c15cd2f5ede160025d6f Upd src files: step 2 (build -> OK)
+* ca855e9f9d29a272affdab99ececd7c85301a90e Upd src files: step 1 (src & wsp folders duplication) - 4th
+* 5041bbbf446b3f223f31e9ed23fdfa7541cab74f Upd src files: step 1 (src & wsp folders duplication) - 3nd
+* 94abc51ba991c1baef867b2830ef773ba4dfd010 Upd src files: step 1 (src & wsp folders duplication) - 2nd
+* 57d6043d08711862efe5c58bbbaf64f66ae4cfd7 Upd src files: step 1 (src & wsp folders duplication)
+* 9de0a27e02f7c4c2fd268a679dd919d2c4072874 pphModule & uyProtocol - step 2 - (tuiManager & pphManager [loop] run in different thread) - build is OK / first debug is OK
+* 16f9e26b8224431bedf3acbbbabe8a303576bdc6 Upd src files: step 1 (src, wsp & src_config_ver duplication)
+* 3d3607515e2a33ce32c88ba1d39768fa778eecaf Move mcu class-modules from 2wrpr to 1trdp level, versioning of shm class-modules & upd wsp
+* e8ebb175217d41fffcdbac8ea0aadc6bf85db458 Add licecnse files
+* 9be75201e2539443fa1391da841d60099639b919 First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+44 - mpfw_fw2-fnct-hw-1trdp-sdk-nxp
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-hw-1trdp-sdk-nxp git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-hw-1trdp-sdk-nxp git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-hw-1trdp-sdk-nxp git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-fnct-hw-1trdp-sdk-nxp folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* b51d8e5889cef582a171cb543559fb558e82eb5e (HEAD -> github_main, github/main, new_update) Update_First_Release release ver. 0.1.0.[2fc42a5]
+* 14ed2545f7e15f3d70babb7e56791ebc63a0d39c Empty commit
+* 2fc42a5f398c798527ac45133b2796752c7a45d5 (dvlpr1_local1/main, dvlpr1_local1_main) Tx-Rx usart by pph - step 2
+* 11142638caf0ec5abfe97147e8d00eb2205c9c7d First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+45 - mpfw_fw2-fnct-hw-1trdp-sdk-stm-stm32f769_disco
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-hw-1trdp-sdk-stm-stm32f769_disco git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-hw-1trdp-sdk-stm-stm32f769_disco git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-hw-1trdp-sdk-stm-stm32f769_disco git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-fnct-hw-1trdp-sdk-stm-stm32f769_disco folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 51e3db8a85690b95e6d16e0dee1a382ed12cecf2 (HEAD -> github_main, github/main, new_update) Update_First_Release release ver. 0.1.0.[73ae3b4]
+* fd20488d663c351b491c981b91dc4a66ff653ce7 Empty commit
+* 73ae3b4f1b20dcbe90f1568f937238ab4d264f2e (dvlpr1_local1/main, dvlpr1_local1_main) First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+46 - mpfw_fw2-fnct-hw-2wrpr-sdk
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-hw-2wrpr-sdk git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-hw-2wrpr-sdk git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-hw-2wrpr-sdk git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-fnct-hw-2wrpr-sdk folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 1ff149e35d786a8de0b30034ecb4ea5ccaee4bfb (HEAD -> github_main, github/main, new_update) Update_First_Release release ver. 0.1.0.[17d3dde]
+* 5021354f46553a1a02b2328d4012fdf21b2aabc6 Empty commit
+* 17d3dde0e244bd292c74a87706497b6a864cb401 (dvlpr1_local1/main, dvlpr1_local1_main) Tx-Rx usart by pph - step 6 (RUN on mac & BUILD only on nxp-> OK)
+* 8d43010757ed369937946fff1202c6678df1c261 Tx-Rx usart by pph - step 5 (first dirty bytes / RUN on mac -> OK) (nxp has to be done)
+* 93f09bf9937f339485afbc2681662e9a44645bab Tx-Rx usart by pph - step 2.bis (debugged)
+* 936807538165ebb8364a3a4549f762f237632715 Tx-Rx usart by pph - step 2
+* 574ae4d79f4eba26c17a8c474ab6bfea01bbef70 Tx-Rx usart by pph - step 1 (debug trace)
+* 909543da0cccd7273c373c5c57c2d375ddf35109 Upd src files: step 3 (build -> OK)
+* db2a208001af131a7384179bad81068bf435598c Upd src files: step 2 (build -> OK)
+* d286e62f0ca212af96d3b1f5d368c5bdbdfdb0f0 Upd wsp files: step 1 (wsp duplication) - 2nd
+* b59edd0ec15ab062d01df32f4200d48a43653557 Upd wsp files: step 1 (wsp duplication)
+* 2f2ea515ecb5a02168abd98daab630ed2716617a pphModule & uyProtocol - step 2 - (tuiManager & pphManager [loop] run in different thread) - Upd dependecies - build is OK / first debug is OK
+* ec772b61006f28152543ff1a3d592da87a288edd Upd src files: step 1 (wsp duplication)
+* d9ce2a4a97fb0560f0c579852217a6062d951b62 pphModule & uyProtocol - Build & Run: OK - usart on Mac to test & debug
+* 3a1e688b08c32d09914583eb457ea397bcc0705c Add licecnse files
+* effd2f53a6825de5ee87899fb227d27bf8a43a5c First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+47 - mpfw_fw2-fnct-hw-3real
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-hw-3real git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-hw-3real git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-hw-3real git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-fnct-hw-3real folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 1369febf651aa2ec87e1bc37e4bffec3dc8df8e5 (HEAD -> github_main, github/main, new_update) Update_First_Release release ver. 0.1.0.[cd53c9e]
+* 787eb159c1e74e28944976d2ec5d1bbd5c1bbc1f Empty commit
+* cd53c9e9832f4ce5f2ebe5fa81099d637956aabb (dvlpr1_local1/main, dvlpr1_local1_main) Tx-Rx usart by pph - step 2.bis (debugged)
+* 9eb1297bb3abd10a4d97f22c5a4b0e1591dea564 Tx-Rx usart by pph - step 2
+* 85bfeb4ebbe1be1dff1beeb29929f5624b2ff0eb Tx-Rx usart by pph - step 1 (debug trace)
+* 09c6c1d82493816ce45cfb7ad53c92d1d3117636 Upd old version file to compatibility
+* 918ae7bc5633bc97a0c635a21958280da68030dc Upd src files: step 2 (build -> OK)
+* 5bc95bbb20639d58ceed19bf20e0e93cbf2f5675 Upd src files: step 1 (src & wsp folders duplication)
+* 72f81e33998cd1599798e1dbd9bd1ae23e2044a5 pphModule & uyProtocol - step 2 - (tuiManager & pphManager [loop] run in different thread) - Upd src & wsp files - build is OK / first debug is OK
+* 67ea52c1e0031b2c33b8c34daec224491e6cbf1d Upd src files: step 1 (src, wsp & src_config_ver duplication)
+* 43e65da0f7780758255e1642c9abdc2f91b96a44 pphModule & uyProtocol - Build & Run: OK - usart on Mac to test & debug
+* 286f8f86161a177551e34ea32d96d859a5115c15 Add licecnse files
+* 184f3d2fcabbc949e8649d482dcd52d5e1da1859 First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+48 - mpfw_fw2-fnct-res-1trdp-sdk-nxp
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-res-1trdp-sdk-nxp git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-res-1trdp-sdk-nxp git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-res-1trdp-sdk-nxp git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-fnct-res-1trdp-sdk-nxp folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* abf09dec278e53bdffbfd24adbf939c22afbcafb (HEAD -> github_main, github/main) Update_First_Release release ver. 0.4.0.[66a1db2]
+| * c268616ca40e12b1ed2f94fc9ae00dcba20b0e90 (new_update) Update_First_Release release ver. 0.4.0.[66a1db2]
+| * c46b956862ed55d2fde39f45bf4ccea68c0022a6 Empty branch
+|/  
+* 3370c3b47a35701506cff9c93a74300605973263 First_Release release ver. 0.3.0.[434b79a]
+* b6e7f3f8089511055c1e6b6e27715e76bbff4da5 First_Release release ver. 0.2.0.[adfac0b]
+* 4d31aa598bed0057cf2294974fc986bee5881818 Empty commit
+* 66a1db25c3b76b32989fc4d304a829dc3705b330 (dvlpr1_local1/main, dvlpr1_local1_main) Upd sdk to use pph
+* 434b79af4252f89bb6631d0efe09d9c2b9bb6a39 Upd trivial
+* adfac0b08cb159ee2b3dc28753ebe363bc1c1f86 First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+49 - mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* e73ca8eed1baee3ae18bf180282eacee3c43934b (HEAD -> github_main, github/main) Update_First_Release release ver. 0.3.0.[77f4f1c]
+| * 719605b397e11d8a5cfe404ac2724493d079e3d9 (new_update) Update_First_Release release ver. 0.3.0.[77f4f1c]
+| * 2fca8136545417d270cbc177474206e80f86af3d Empty branch
+|/  
+* e1ff85776313801c4cf8e00a4142933a675bba72 First_Release release ver. 0.2.0.[3016fee]
+* 81620956f22b86e4d15c89488af81a4cbd957baf Empty commit
+* 77f4f1c9c712f20f2bb8ab40db8bdd194542b7bf (dvlpr1_local1/main, dvlpr1_local1_main) Upd sdk to use pph
+* 3016fee7240c52647c9a0afa86febb2ddb80bc35 First commit
+***                                                            ***
+******************************************************************

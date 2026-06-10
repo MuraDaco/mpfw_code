@@ -65,11 +65,30 @@ function parse_input_param  {
                     par_name="create_local_public_repos"
                     glovars_upd "$par_name" "yes"
                     ;;
+                ("--push")
+                    par_name="cmd_push"
+                    glovars_upd "$par_name" "yes"
+                    ;;
             esac
             true
         } || {
             [ -n "$param_type" ] && {
                 case "$param_type" in
+                    ("--rel-name")
+                        par_name="release_name"
+                        [ -z "$l_par_string" ] && l_par_string="$par_item" || l_par_string="$l_par_string"" $par_item"
+                        glovars_upd "$par_name" "$l_par_string"
+                        ;;                
+                    ("--rel-null")
+                        par_name="release_null"
+                        [ -z "$l_par_string" ] && l_par_string="$par_item" || l_par_string="$l_par_string"" $par_item"
+                        glovars_upd "$par_name" "$l_par_string"
+                        ;;                
+                    ("--rel-inc")
+                        par_name="release_inc"
+                        [ -z "$l_par_string" ] && l_par_string="$par_item" || l_par_string="$l_par_string"" $par_item"
+                        glovars_upd "$par_name" "$l_par_string"
+                        ;;                
                     ("--public-intgrm")
                         par_name="public_intgrm"
                         [ -z "$l_par_string" ] && l_par_string="$par_item" || l_par_string="$l_par_string"" $par_item"
@@ -80,8 +99,8 @@ function parse_input_param  {
                         [ -z "$l_par_string" ] && l_par_string="$par_item" || l_par_string="$l_par_string"" $par_item"
                         glovars_upd "$par_name" "$l_par_string"
                         ;;
-                    ("--create-local-public-repos")
-                        par_name="create_local_public_repos"
+                    ("--command")
+                        par_name="command"
                         [ -z "$l_par_string" ] && l_par_string="$par_item" || l_par_string="$l_par_string"" $par_item"
                         glovars_upd "$par_name" "$l_par_string"
                         ;;

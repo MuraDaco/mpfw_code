@@ -1,0 +1,302 @@
+Mon Jun  1 18:10:10 CEST 2026
+---------------
+command: push
+---------------
+******************************************************************
+***                                                            ***
+30 - mpfw_code_main_tst_20240203main
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_code_main_tst_20240203main git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_code_main_tst_20240203main git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_main_tst_20240203main git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_code_main_tst_20240203main folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 0bcdd18b14ba890e49947df97c5e5a0a261be8c7 (HEAD -> github_main, github/main) First_Release release ver. 0.3.0.[2bc4825]
+* 293e664ebd45bccc9d97ebe53fb100ca8a27bea7 First_Release release ver. 0.2.0.[7723def]
+* 7d8a80362760c83b32ef3b3267615a0d403fb451 (tag: v_00.01) First commit
+* 2bc4825dca84bbaa722e9adf79e54ad6fb61e9db (dvlpr1_local1/main, dvlpr1_local1_main) AutoRecursiveCommit from <code/mpfw_code> module: Upd .gitignore (exclude obdash_branches.cfg file)
+* 7723defc1654a3918535e4651213f3881ea2d3cb Upd cmake project files management -> build_chk.sh -> OK
+* cd8dc3337ad46507d8e00fef88dea69f34ce8602 Upd cmake project files management - new & old versions -> build_chk.sh OK
+* 67a42831698c4e19da7b31a803a6c6e2e8f91b14 Upd cmake project files management - build_chk.sh -> OK
+* b1e992b4eb377c63b22123f611824a4f22e5f6d6 Upd cmake project files management
+* 53ca6720b23529747278397737c034e4688603be rename files & dirs that had the previous main_app name
+* 3380da0f5bc4894bc8c288cf39ad76c3e3ae5cc3 First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+31 - mpfw_code_main_tst_20240317main
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_code_main_tst_20240317main git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_code_main_tst_20240317main git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_main_tst_20240317main git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_code_main_tst_20240317main folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* b5a12fe6d8b1572cb2436451353fa1d73926d5a5 (HEAD -> github_main, github/main) Update_First_Release release ver. 0.4.0.[7962b0b]
+| * d7f57a671fa9f5acf90dd28ecf692baa941596bd (new_update) Update_First_Release release ver. 0.4.0.[7962b0b]
+| * ce80152bf3966d6d456151ca6b08d41a6f62bac2 Empty branch
+|/  
+* 535c32eb26242bdfddccbd250b4c14718c59fe46 First_Release release ver. 0.3.0.[bdce49e]
+* fcecb0d5fcf8dfb4b6b523e6e47b4b0c32a8b4fb First_Release release ver. 0.2.0.[5d0d632]
+* 7943a49fadd068d5167ea26ce73f7086941653f7 (tag: v_00.01) First commit
+* 7962b0b93c5613459b77cbe63508ce4fad834e29 (dvlpr1_local1/main, dvlpr1_local1_main) Upd wsp/cube/project/stm32f769_disco/.../.cproject, .settings/org.eclipse.cdt.core.prefs & .gitignore
+* bdce49e971976f2556a78fc410a0307197330659 AutoRecursiveCommit from <code/mpfw_code> module: Upd .gitignore (exclude obdash_branches.cfg file)
+* 5d0d6320ad40dd1d4fa90b5f72742e10b15cc781 i2c-ds3231 & radar sensor -> run on board -> OK (test_0419_1046)
+* 88b5f0989aa7943df7a72fc59c0bbd84a2e03d53 i2c-ds3231 & radar sensor (fixed some bugs) -> run on board -> OK
+* fb3dfcb068b9bb8332d5b3016540158f009b0c16 i2c-ds3231 & radar sensor -> run on board -> OK
+* 3bfb4e25764db8596336b76fb26d0afd87d0886d i2c-ds3231 & radar sensor -> build OK
+* 3ad23612ffdf9d9d989beedf4f51bc6e4d205c03 i2c-ds3231 test status -> run on board -> OK
+* 7cb6ef0b1c4850e538695ab77a69221bde1f8080 i2c-ds3231 test status -> build OK
+* 2ac83bd1ae94960c2f9a4951a141dd4e8e272146 i2c test2 -> build OK
+* 0a9d5f16dd3c490c6fcbc0a338757132c4536b0c i2c management -> build OK
+* b515e3c5c0a50f712725748bbb0c451e39367380 inputs log event management -> run on board -> OK
+* f069355b2a3c3c399ee8d22e75e0db181f3baba9 inputs log event management -> run on board -> OK but without GCC Optimization
+* 71474bc0a5cedce700a1c254a52aadc79cde2442 inputs log event management -> build OK
+* cc493d585440abcb573d0c18332c48cb1daed77e inputs log event management -> run on board -> OK
+* 128e9d5872ba5264a469a17bba1bfa7bb4baec3c inputs log event management -> build OK
+* 4f05edf68ae0856b8e655d833ac3ddcb0a26ff28 inputs log event management -> build OK
+* 7def991e9f5a541476437a5d91722fbd45da52a4 radar sensor output management -> run on board -> OK
+* 7cddabb8158da5a6d48cc5b8daac432b8f6e9730 SD with FatFS -> run on board -> OK but be careful to USB FatFS
+* 9cadeb440ff3df3b7bb3f1c8fda1b5c16be96233 tst_20240317 app -> SD_FatFS demo run -> ERROR: Cannnot Open ...
+* aec61c369ae16fa2e9d9d586a9f651f147cbb18e usbh demo run -> ERROR: USB Disk is not ready
+* 91ae5d64f1c1d54523e1ea7ecb65ab2660e9fe46 Ups tst_20240317 app: add usb functions in main() -> run on board -> OK
+* d8c857e9e1cd8e563a32fcef15d62ba47d45466c Upd tst_20240317 app -> BSP & MSC examples fused together -> test on board -> OK
+* 880abcb186cba3d93465bc9bbfd2e3b7da856307 First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+32 - mpfw_code_main_tst_20240429main
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_code_main_tst_20240429main git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_code_main_tst_20240429main git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_main_tst_20240429main git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_code_main_tst_20240429main folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* ce3fe501c3e2c204565a881f8a4d301e94b823fe (HEAD -> github_main, github/main) First_Release release ver. 0.3.0.[28d0cb5]
+* f71964010d4ce4e3f50e47a627174d27876bd2bb First_Release release ver. 0.2.0.[c70bfc2]
+* 56cf0e6c8a0561a5578bbe65bce5c05c14466244 (tag: v_00.01) First commit
+* 28d0cb51128849323c9167a24677b279f7a55765 (dvlpr1_local1/main, dvlpr1_local1_main) Upd 20240617-night
+* 2e4cd40b578778d4c77311aa7e6d8c7d49b8c90c AutoRecursiveCommit from <code/mpfw_code> module: Upd .gitignore (exclude obdash_branches.cfg file)
+* c70bfc2390b9302d25506d004c9153289fea4915 Upd develop steps notes
+* a3fc68ba269eacd204a5b9a3a37e110c466563e9 Upd notes
+* d7e026df2ca77d0b1aa5454c836823b19fcac97b First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+33 - mpfw_code_main_tst_20240619main
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_code_main_tst_20240619main git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_code_main_tst_20240619main git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_main_tst_20240619main git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_code_main_tst_20240619main folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* aa07eef6ca37901624c75679e495d18cc9a6eeec (HEAD -> github_main, github/main) First_Release release ver. 0.3.0.[740d51f]
+* 3576a93ca77377c09eadae71846289d4260ad3e7 First_Release release ver. 0.2.0.[d319e36]
+* 8f943a8f4d0294d020273711855876e16bfd6141 (tag: v_00.01) First commit
+* 740d51f05242689ba43850a1058f261bfc2e69d3 (dvlpr1_local1/main, dvlpr1_local1_main) Upd docs
+* 81f223945996fdce7a83cc36fcd47b28115e7bbb Upd notes
+* af2477b4b0a4fafd5cc69f0d6a804191c6ecac70 Upd notes & programming notes
+* e31b0fa5a3641e7179c9310ffed00a9d10fcc516 Upd notes & programming notes
+* 7d1370dbb9562fdaa2fddff53b64af99b32ed030 Upd notes & programming notes
+* a9abff6b9e5162566902447feaf25a107ac76b3f Upd notes & programming notes
+* 26d5768993e4a8d9430da1cedf47f06ae00163e8 Upd notes & programming notes
+* d319e36dd8f9ab1ee6a67494fbb2fdd2289f6cd7 Add 20240619main module (Upd doc/, wsp/cube/ & wsp/xpresso/)
+* a45e8a4579d7dc4c0db24e977e58178c6d1bb01d First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+34 - mpfw_fw2-appl-app20240619_new_bis-4appl
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-appl-app20240619_new_bis-4appl git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-appl-app20240619_new_bis-4appl git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-appl-app20240619_new_bis-4appl git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-appl-app20240619_new_bis-4appl folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 0bf85a58c04e74f0f4f2b9511ebb6f4c5ace3903 (HEAD -> github_main, github/main) First_Release release ver. 0.2.0.[0c5289a]
+* 58cedd0de8eac04c4c2ed856b93aff7d4fe3c7a5 Empty commit
+* 0c5289a4eecd75c8dfc1c704e1bdf632f21753ea (dvlpr1_local1/main, dvlpr1_local1_main) First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+35 - mpfw_fw2-appl-app20250424-4appl
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-appl-app20250424-4appl git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-appl-app20250424-4appl git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-appl-app20250424-4appl git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-appl-app20250424-4appl folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* ef49644b0674d537791f78feb50261cb142822cd (HEAD -> github_main, github/main, new_update) Update_First_Release release ver. 0.1.0.[0b82e8f]
+* af4c3259bdb8620d8a5041c0798e272297c5da4b Empty commit
+* 0b82e8f4e6921fcb2ab95cb2d4623399bb1ad644 (dvlpr1_local1/main, dvlpr1_local1_main) Tx-Rx usart by pph - step 6 (RUN on mac & BUILD only on nxp-> OK)
+* a43884f39250abc8cccfb36899013b26404edc58 Tx-Rx usart by pph - step 5 (add common files / RUN on mac -> OK) (nxp has to be done)
+* e99b57eb6bffd4e42cdc2d7cce7d659f1a1daf56 Tx-Rx usart by pph - step 4 (add common files: app_ManagerCmmn & app_threads)
+* 4047b0596c7a5d9ff7416af7228f71bc9d4673cf Tx-Rx usart by pph - step 3
+* 5cb9279eb2b4fb4d945a1f8e7e4e4cb9ea308483 Tx-Rx usart by pph - step 2.bis (debugged)
+* a8e8538bc8b094047bb3039fd99dbb5f3e1966fe Tx-Rx usart by pph - step 2
+* b6dfcc59d044153bf50e93f9c7c60af028f49436 Tx-Rx usart by pph - step 1
+* 4f583fa419407faeae501cd6cf91ff5de0be26f1 pphModule & uyProtocol - step 3 - (build is OK / first debug is OK)
+* b66e6b5e87f76b40776fb48fe1495721f1678924 Upd src files: step 1 (src, wsp & src_config_ver duplication) - 2nd
+* 9fa48396a92392733447164e6f6875fcc6f2a49e Upd src files: step 1 (src, wsp & src_config_ver duplication)
+* f71e36c09a56b32650be6089e801d43a8c5135ab pphModule & uyProtocol - step 3 - (Upd app_init.cpp file) - build is OK
+* 8b54e6c8d7643df7ecaacd690627c432a6a1d074 pphModule & uyProtocol - step 2 - (tuiManager & pphManager [loop] run in different thread) - build is OK / first debug is OK
+* f4266a40f3ad8b8321afa0a99431db021af37ff8 Upd src files: step 1 (src, wsp & src_config_ver duplication)
+* 88a80efad33ee9b73b6a27d35447df3e0899c9b2 pphModule & uyProtocol - Build & Run: OK - usart on Mac to test & debug
+* f7787c1970e12234fc35732436453118fd46073c First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+36 - mpfw_fw2-fnct-base-0abst
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-base-0abst git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-base-0abst git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-base-0abst git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-fnct-base-0abst folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 133d4e56f73e761f7e79f4f27b6ec6b613e981ca (HEAD -> github_main, github/main, new_update) Update_First_Release release ver. 0.1.0.[39f4a56]
+* 06314239cd09bfbce8bb63f3f15f405096093d85 Empty commit
+* 39f4a567c71aa4b0c1c128bcb02c49f432f06bfe (dvlpr1_local1/main, dvlpr1_local1_main) Tx-Rx usart by pph - step 5 (first dirty bytes / RUN on mac -> OK) (nxp has to be done)
+* 5a6c0beb44cc8630e6fe286a353730e9da1b7ef3 Tx-Rx usart by pph - step 2.bis (debugged)
+* d7a9c67df1c131cbcd4b7c7bcb6228b402fc3dd2 Tx-Rx usart by pph - step 2 (build & fast run -> OK)
+* c8e2ac3c0b6671cb84b66dccc39c6cfe0e8f84ff Tx-Rx usart by pph - step 1 (receiving box bug fixed)
+* 91194a4d87ee3086f1572f497698298a6bd14d39 Add licecnse files
+* 3f228a6464a82ba5a9d4173462c19ae8e2d193a3 First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+37 - mpfw_fw2-fnct-base-4test
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-base-4test git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-base-4test git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-base-4test git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-fnct-base-4test folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 6f3b9d5002d1fbbec684c39d3efda8197e9f974a (HEAD -> github_main, github/main, new_update) Update_First_Release release ver. 0.1.0.[38f37cc]
+* 05f9fdd4cde163dda1e6f52e43da2d0cc4e92226 Empty commit
+* 38f37ccd334487aeca7b4480ba352dbd2ec02e06 (dvlpr1_local1/main, dvlpr1_local1_main) Tx-Rx usart by pph - step 2
+* 5909d66d3d50114afe4677f995e916bda6274e71 Tx-Rx usart by pph - step 1 (receiving box bug fixed)
+* 1cc2beccdc3808fe668e2ade927788a7a8d22c3a First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+38 - mpfw_fw2-fnct-base_hw-0abst
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-base_hw-0abst git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-base_hw-0abst git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-base_hw-0abst git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-fnct-base_hw-0abst folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 6b1b31561daadc064864dc57f9e081d1220358e5 (HEAD -> github_main, github/main, new_update) Update_First_Release release ver. 0.1.0.[33b6e71]
+* 6fc2565997d396744255415b50aafac5f002ae6d Empty commit
+* 33b6e711ee4c12044e3f7fbfd75c7dd018f6ac10 (dvlpr1_local1/main, dvlpr1_local1_main) First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+39 - mpfw_fw2-fnct-core-2wrpr
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-core-2wrpr git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-core-2wrpr git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-fnct-core-2wrpr git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-fnct-core-2wrpr folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* c05a822e39190ab6988488a5e199fd6dd81cd9d2 (HEAD -> github_main, github/main) Update_First_Release release ver. 0.4.0.[1d5df0c]
+| * 8e8671cef7be596956a0bd4cf35806867fcc6e4e (new_update) Update_First_Release release ver. 0.4.0.[1d5df0c]
+| * d3a150154761484e5ed3a3ae07da7712df245c36 Empty branch
+|/  
+* 3d7127ab430304a295f905e34b84dd099ca48e55 First_Release release ver. 0.3.0.[8f40799]
+* 471779b1779f5ff1b9a938effd485a2da5a50ae9 First_Release release ver. 0.2.0.[5fef435]
+* aaeec8252cf551dea8365086d578f5745eccec9f Empty commit
+* 1d5df0cf9446aaeb004a66b99da63ac53c67dd52 (dvlpr1_local1/main, dvlpr1_local1_main) Tx-Rx usart by pph - step 3
+* be8c575c43a1cbdddc567eb69d7e0f2ab7bc7026 Tx-Rx usart by pph - step 2
+* 8f407997b215aad6d65994a80a12a1c1eb2b2139 Clean cmake code (include_files.cmake & set_public_dirs.cmake files)
+* 0fb8d3f6171bbf02e52b1301b2bef58578fa3bae Upd cpp & include .cmake files
+* 5fef435e6a4569f0d54585ba9799988666017a83 First commit
+***                                                            ***
+******************************************************************

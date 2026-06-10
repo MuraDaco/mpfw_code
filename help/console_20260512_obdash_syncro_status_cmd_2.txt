@@ -1,0 +1,1680 @@
+Last login: Tue May 12 08:44:45 on ttys011
+/Users/work/ObsiData/repo__main/gmms/obdash_start.sh ; exit;
+work@umtiefs-Mac-mini ~ % /Users/work/ObsiData/repo__main/gmms/obdash_start.sh ; exit;
+dbg msg on stderr -> OK ---- "/Users/work/ObsiData/repo__main" is a valid obsi data path
+dbg msg on stderr -> exit [q] - continue [any key]
+
+Below the list of possible value:
+     1	menu:New: New module ...
+     2	menu:URL: Set remote repository URL
+     3	menu:Push_Pull: Push & Pull procedures
+     4	menu:Branch: Create, Checkout, ... branch
+     5	menu:Status_Commit: Status, Add, Commit procedures & Logs
+     6	menu:List: List modules
+     7	menu:Check: Check config files of <obdash>
+     8	menu:Utility: Set .gitignore section recursively
+     9	menu:Remove: Remove modules
+
+...
+...
+...
+
+dbg msg on stderr -> exit [q] - continue [any key]
+^[[A
+Below the list of possible value:
+     1	menu:New: New module ...
+     2	menu:URL: Set remote repository URL
+     3	menu:Push_Pull: Push & Pull procedures
+     4	menu:Branch: Create, Checkout, ... branch
+     5	menu:Status_Commit: Status, Add, Commit procedures & Logs
+     6	menu:List: List modules
+     7	menu:Check: Check config files of <obdash>
+     8	menu:Utility: Set .gitignore section recursively
+     9	menu:Remove: Remove modules
+
+4
+result: menu:Branch: Create, Checkout, ... branch
+dbg msg - obdash.sh -> Selected: menu:Branch: Create, Checkout, ... branch
+dbg msg - obdash.sh -> menuitem_type: menu
+Below the list of possible value:
+     1	command:BSt: Branch status check (name of branch or DETACHED MODE)
+     2	command:BYC: Branch Synchro status check
+     3	command:BcC: Branch checkout
+     4	command:BCS: Branch checkout to owner & Branch synchro
+     5	command:HBC: Health Branch config file check
+     6	command:Ref: Reset to <general> refs parameter in <config> file
+     7	command:RfA: Add single branch to refs parameter in <config> file
+     8	command:BLC: Branch list from <user_branch_config> file
+     9	command:BCr: Branch creation
+    10	command:BFI: Branch configuration File Initialization
+    11	command:BFS: Branch configuration File Synchronization
+    12	command:BWS: Branch configuration oWner file Synchronization
+
+2
+result: command:BYC: Branch Synchro status check
+dbg msg - obdash.sh -> Selected: command:BYC: Branch Synchro status check
+dbg msg - obdash.sh -> menuitem_type: command
+dbg msg - obdash.sh -> 2. What kind of repo does the module belong to?
+Below the list of possible value:
+     1	__MAIN_GROUP__
+     2	submain
+     3	vaults
+     4	projects
+     5	emails
+     6	data_recording
+     7	utilities
+     8	tests
+
+4
+result: projects
+dbg msg - obdash.sh -> Selected: projects
+dbg msg - obdash.sh -> 2. What module do you want to select?
+Below the list of possible value:
+     1	  repo__main : smdl/repo__prjs
+     2	  repo__main/smdl/repo__prjs : smdl/cmake_tutorial
+     3	  repo__main/smdl/repo__prjs : smdl/haskell
+     4	  repo__main/smdl/repo__prjs : smdl/mpfw
+     5	  repo__main/smdl/repo__prjs/smdl/mpfw : code/mpfw_code
+     6	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : appl/app20240619/mpfw_fw2_appl_app20240619
+     7	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : appl/app20240619_new/mpfw_fw2_appl_app20240619_new
+     8	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : appl/app20240619_new_bis/layer/mpfw_fw2-appl-app20240619_new_bis-4appl
+     9	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : appl/app20250424/layer/mpfw_fw2-appl-app20250424-4appl
+    10	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : appl/app20250424/mpfw_fw2_appl_app20250424
+    11	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : appl/app20250625/layer/mpfw_fw2_appl_app20250625_4appl
+    12	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : appl/app20250625/layer/mpfw_fw2_appl_app20250625_5main
+    13	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : apps/mpfw_code_apps_tst_20221206
+    14	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : apps/mpfw_code_apps_tst_20230703app
+    15	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : apps/mpfw_code_apps_tst_20230810app
+    16	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : apps/mpfw_code_apps_tst_20240203app
+    17	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : apps/mpfw_code_apps_tst_20240317app
+    18	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : apps/mpfw_code_apps_tst_20240429app
+    19	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : apps/mpfw_code_apps_tst_20240619app
+    20	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : cmake/mpfw_code_cmake
+    21	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : cmake/mpfw_fw2_cmake
+    22	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/base/layer/mpfw_fw2-fnct-base-0abst
+    23	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/base/layer/mpfw_fw2-fnct-base-4test
+    24	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/base/mpfw_fw2_fnct_base
+    25	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/base_hw/layer/mpfw_fw2-fnct-base_hw-0abst
+    26	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/core/layer/mpfw_fw2-fnct-core-2wrpr
+    27	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/core/layer/mpfw_fw2-fnct-core-3real
+    28	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/core/layer/mpfw_fw2_fnct_core_2wrpr
+    29	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/core/layer/mpfw_fw2_fnct_core_3real
+    30	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/hw/layer/mpfw_fw2-fnct-hw-0abst
+    31	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/hw/layer/mpfw_fw2-fnct-hw-0abst-trdp-sdk-mac
+    32	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-mac
+    33	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-nxp
+    34	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-stm-stm32f769_disco
+    35	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/hw/layer/mpfw_fw2-fnct-hw-2wrpr-sdk
+    36	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/hw/layer/mpfw_fw2-fnct-hw-3real
+    37	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/hw/layer/mpfw_fw2_fnct_hw_0abst
+    38	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/hw/layer/mpfw_fw2_fnct_hw_1trdp_sdk
+    39	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/hw/layer/mpfw_fw2_fnct_hw_2wrpr
+    40	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/hw/layer/mpfw_fw2_fnct_hw_3real
+    41	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/res/layer/mpfw_fw2-fnct-res-1trdp-sdk-nxp
+    42	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/res/layer/mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco
+    43	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/res/layer/mpfw_fw2-fnct-res-2wrpr-sdk
+    44	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/res/layer/mpfw_fw2_fnct_res_1trdp_sdk
+    45	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/res/layer/mpfw_fw2_fnct_res_2wrpr
+    46	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/tui/layer/mpfw_fw2-fnct-tui-0abst
+    47	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/tui/layer/mpfw_fw2-fnct-tui-0abst-trdp-sdk-mac
+    48	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/tui/layer/mpfw_fw2-fnct-tui-2wrpr
+    49	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/tui/layer/mpfw_fw2-fnct-tui-2wrpr-ui
+    50	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/tui/layer/mpfw_fw2-fnct-tui-3real
+    51	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/tui/layer/mpfw_fw2-fnct-tui-3real-trdp-sdk-mac
+    52	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/tui/layer/mpfw_fw2_fnct_tui_0abst
+    53	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/tui/layer/mpfw_fw2_fnct_tui_2wrpr
+    54	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : fnct/tui/layer/mpfw_fw2_fnct_tui_3real
+    55	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : libs/mpfw_code_libs_fw2_core_core
+    56	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : libs/mpfw_code_libs_fw2_wrapper_core
+    57	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : libs/mpfw_code_libs_fw2_wrapper_resources
+    58	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : libs/mpfw_code_libs_sdk_mac
+    59	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : libs/mpfw_code_libs_sdk_mac_ext
+    60	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : libs/mpfw_code_libs_sdk_nxp
+    61	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : libs/mpfw_code_libs_sdk_stm
+    62	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : libs/mpfw_code_libs_sdk_stm32f769_disco
+    63	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : libs/mpfw_code_libs_sdk_stm32f769_disco_mod
+    64	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/app20240619/layer/mpfw_fw2_main_app20240619_5main
+    65	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/app20240619_new_bis/layer/mpfw_fw2-main-app20240619_new_bis-5main
+    66	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/app20250424/layer/mpfw_fw2-main-app20250424-5main
+    67	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/app20250424/layer/mpfw_fw2_main_app20250424_5main
+    68	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/mpfw_code_main_stm_20230420
+    69	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/mpfw_code_main_stm_20230424
+    70	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/mpfw_code_main_stm_20230501
+    71	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/mpfw_code_main_stm_20230504
+    72	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/mpfw_code_main_stm_20230505
+    73	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/mpfw_code_main_stm_20230516
+    74	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/mpfw_code_main_stm_20230520
+    75	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/mpfw_code_main_tst_20221229
+    76	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/mpfw_code_main_tst_20230522
+    77	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/mpfw_code_main_tst_20230703main
+    78	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/mpfw_code_main_tst_20230810main
+    79	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/mpfw_code_main_tst_20240203main
+    80	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/mpfw_code_main_tst_20240317main
+    81	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/mpfw_code_main_tst_20240429main
+    82	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : main/mpfw_code_main_tst_20240619main
+    83	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : trdp/sdk/mac/layer/mpfw_fw2-trdp-sdk-mac-0trdp
+    84	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : trdp/sdk/mac/layer/mpfw_fw2-trdp-sdk-mac-1trdp
+    85	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : trdp/sdk/mac/layer/mpfw_fw2_trdp_mac_0abst
+    86	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : trdp/sdk/nxp/layer/mpfw_fw2-trdp-sdk-nxp-0trdp
+    87	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : trdp/sdk/nxp/layer/mpfw_fw2-trdp-sdk-nxp-1trdp-usart
+    88	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : trdp/sdk/nxp/layer/mpfw_fw2_trdp_nxp_0abst
+    89	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2-trdp-sdk-stm-stm32f769_disco-0trdp
+    90	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2-trdp-sdk-stm-stm32f769_disco-1trdp-usart
+    91	  repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code : trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2_trdp_stm32f769_disco_0abst
+    92	  repo__main/smdl/repo__prjs/smdl/mpfw : docs/modules/radioFM/fm_radio_tea5767/Radio
+    93	  repo__main/smdl/repo__prjs/smdl/mpfw : docs/modules/radioFM/rtc_ds3231/DS3231-Real-Time-Clock-C-Driver
+    94	  repo__main/smdl/repo__prjs : smdl/mpfw_old
+    95	  repo__main/smdl/repo__prjs : smdl/ncurses
+    96	  repo__main/smdl/repo__prjs : smdl/serial_port/RS-232
+
+5
+result:   repo__main/smdl/repo__prjs/smdl/mpfw : code/mpfw_code
+dbg msg - obdash.sh -> Selected: code/mpfw_code
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing File Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code
+dbg msg - obdash.sh -> branch owner: dev_work_sonoma_mcmn
+
+dbg msg - obdash.sh -> Module info (Selected):
+dbg msg - obdash.sh -> repogroup_sel:      projects
+dbg msg - obdash.sh -> Module info (Retrived):
+dbg msg - obdash.sh -> toplevel:                /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw
+dbg msg - obdash.sh -> sm_path_abs:             /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code
+dbg msg - obdash.sh -> sm_path:                 code/mpfw_code
+
+dbg msg - obdash.sh -> URL info (Selected):
+dbg msg - obdash.sh -> URL info (Retrived):
+
+
+dbg msg - obdash.sh -> Module branch Info
+dbg msg - obdash.sh -> brc_owner:              dev_work_sonoma_mcmn
+
+dbg msg - obdash.sh -> How do you want to perform the command [Once / Recursively]?
+Below the list of possible value:
+     1	Once:        perform the commands in one shot
+     2	Recursive:   perform the commands recursively
+
+2
+result: Recursive:   perform the commands recursively
+dbg msg - obdash.sh -> Selected: Recursive
+dbg msg - obdash.sh -> ===============
+Entering 'code/mpfw_code'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code
+Entering 'appl/app20240619/mpfw_fw2_appl_app20240619'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/appl/app20240619/mpfw_fw2_appl_app20240619
+Entering 'appl/app20240619_new/mpfw_fw2_appl_app20240619_new'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/appl/app20240619_new/mpfw_fw2_appl_app20240619_new
+Entering 'appl/app20240619_new_bis/layer/mpfw_fw2-appl-app20240619_new_bis-4appl'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/appl/app20240619_new_bis/layer/mpfw_fw2-appl-app20240619_new_bis-4appl
+Entering 'appl/app20250424/layer/mpfw_fw2-appl-app20250424-4appl'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/appl/app20250424/layer/mpfw_fw2-appl-app20250424-4appl
+Entering 'appl/app20250424/mpfw_fw2_appl_app20250424'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/appl/app20250424/mpfw_fw2_appl_app20250424
+Entering 'appl/app20250625/layer/mpfw_fw2_appl_app20250625_4appl'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/appl/app20250625/layer/mpfw_fw2_appl_app20250625_4appl
+Entering 'appl/app20250625/layer/mpfw_fw2_appl_app20250625_5main'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/appl/app20250625/layer/mpfw_fw2_appl_app20250625_5main
+Entering 'apps/mpfw_code_apps_tst_20221206'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/apps/mpfw_code_apps_tst_20221206
+Entering 'apps/mpfw_code_apps_tst_20230703app'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/apps/mpfw_code_apps_tst_20230703app
+Entering 'apps/mpfw_code_apps_tst_20230810app'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/apps/mpfw_code_apps_tst_20230810app
+Entering 'apps/mpfw_code_apps_tst_20240203app'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, tag: v_00.01, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/apps/mpfw_code_apps_tst_20240203app
+Entering 'apps/mpfw_code_apps_tst_20240317app'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, tag: v_00.01, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/apps/mpfw_code_apps_tst_20240317app
+Entering 'apps/mpfw_code_apps_tst_20240429app'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, tag: v_00.01, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/apps/mpfw_code_apps_tst_20240429app
+Entering 'apps/mpfw_code_apps_tst_20240619app'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, tag: v_00.01, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/apps/mpfw_code_apps_tst_20240619app
+Entering 'cmake/mpfw_code_cmake'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, tag: v_00.01, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/cmake/mpfw_code_cmake
+Entering 'cmake/mpfw_fw2_cmake'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/cmake/mpfw_fw2_cmake
+Entering 'fnct/base/layer/mpfw_fw2-fnct-base-0abst'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/base/layer/mpfw_fw2-fnct-base-0abst
+Entering 'fnct/base/layer/mpfw_fw2-fnct-base-4test'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/base/layer/mpfw_fw2-fnct-base-4test
+Entering 'fnct/base/mpfw_fw2_fnct_base'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/base/mpfw_fw2_fnct_base
+Entering 'fnct/base_hw/layer/mpfw_fw2-fnct-base_hw-0abst'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/base_hw/layer/mpfw_fw2-fnct-base_hw-0abst
+Entering 'fnct/core/layer/mpfw_fw2-fnct-core-2wrpr'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/core/layer/mpfw_fw2-fnct-core-2wrpr
+Entering 'fnct/core/layer/mpfw_fw2-fnct-core-3real'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/core/layer/mpfw_fw2-fnct-core-3real
+Entering 'fnct/core/layer/mpfw_fw2_fnct_core_2wrpr'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/core/layer/mpfw_fw2_fnct_core_2wrpr
+Entering 'fnct/core/layer/mpfw_fw2_fnct_core_3real'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/core/layer/mpfw_fw2_fnct_core_3real
+Entering 'fnct/hw/layer/mpfw_fw2-fnct-hw-0abst'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/hw/layer/mpfw_fw2-fnct-hw-0abst
+Entering 'fnct/hw/layer/mpfw_fw2-fnct-hw-0abst-trdp-sdk-mac'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, zzz_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/hw/layer/mpfw_fw2-fnct-hw-0abst-trdp-sdk-mac
+Entering 'fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-mac'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-mac
+Entering 'fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-nxp'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-nxp
+Entering 'fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-stm-stm32f769_disco'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-stm-stm32f769_disco
+Entering 'fnct/hw/layer/mpfw_fw2-fnct-hw-2wrpr-sdk'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/hw/layer/mpfw_fw2-fnct-hw-2wrpr-sdk
+Entering 'fnct/hw/layer/mpfw_fw2-fnct-hw-3real'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/hw/layer/mpfw_fw2-fnct-hw-3real
+Entering 'fnct/hw/layer/mpfw_fw2_fnct_hw_0abst'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/hw/layer/mpfw_fw2_fnct_hw_0abst
+Entering 'fnct/hw/layer/mpfw_fw2_fnct_hw_1trdp_sdk'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/hw/layer/mpfw_fw2_fnct_hw_1trdp_sdk
+Entering 'fnct/hw/layer/mpfw_fw2_fnct_hw_2wrpr'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/hw/layer/mpfw_fw2_fnct_hw_2wrpr
+Entering 'fnct/hw/layer/mpfw_fw2_fnct_hw_3real'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/hw/layer/mpfw_fw2_fnct_hw_3real
+Entering 'fnct/res/layer/mpfw_fw2-fnct-res-1trdp-sdk-nxp'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/res/layer/mpfw_fw2-fnct-res-1trdp-sdk-nxp
+Entering 'fnct/res/layer/mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/res/layer/mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco
+Entering 'fnct/res/layer/mpfw_fw2-fnct-res-2wrpr-sdk'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/res/layer/mpfw_fw2-fnct-res-2wrpr-sdk
+Entering 'fnct/res/layer/mpfw_fw2_fnct_res_1trdp_sdk'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/res/layer/mpfw_fw2_fnct_res_1trdp_sdk
+Entering 'fnct/res/layer/mpfw_fw2_fnct_res_2wrpr'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/res/layer/mpfw_fw2_fnct_res_2wrpr
+Entering 'fnct/tui/layer/mpfw_fw2-fnct-tui-0abst'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/tui/layer/mpfw_fw2-fnct-tui-0abst
+Entering 'fnct/tui/layer/mpfw_fw2-fnct-tui-0abst-trdp-sdk-mac'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/tui/layer/mpfw_fw2-fnct-tui-0abst-trdp-sdk-mac
+Entering 'fnct/tui/layer/mpfw_fw2-fnct-tui-2wrpr'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/tui/layer/mpfw_fw2-fnct-tui-2wrpr
+Entering 'fnct/tui/layer/mpfw_fw2-fnct-tui-2wrpr-ui'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/tui/layer/mpfw_fw2-fnct-tui-2wrpr-ui
+Entering 'fnct/tui/layer/mpfw_fw2-fnct-tui-3real'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/tui/layer/mpfw_fw2-fnct-tui-3real
+Entering 'fnct/tui/layer/mpfw_fw2-fnct-tui-3real-trdp-sdk-mac'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/tui/layer/mpfw_fw2-fnct-tui-3real-trdp-sdk-mac
+Entering 'fnct/tui/layer/mpfw_fw2_fnct_tui_0abst'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/tui/layer/mpfw_fw2_fnct_tui_0abst
+Entering 'fnct/tui/layer/mpfw_fw2_fnct_tui_2wrpr'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/tui/layer/mpfw_fw2_fnct_tui_2wrpr
+Entering 'fnct/tui/layer/mpfw_fw2_fnct_tui_3real'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/fnct/tui/layer/mpfw_fw2_fnct_tui_3real
+Entering 'libs/mpfw_code_libs_fw2_core_core'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, tag: v_00.01, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_fw2_core_core
+Entering 'libs/mpfw_code_libs_fw2_wrapper_core'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_fw2_wrapper_core
+Entering 'libs/mpfw_code_libs_fw2_wrapper_resources'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_fw2_wrapper_resources
+Entering 'libs/mpfw_code_libs_sdk_mac'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, tag: v_00.01, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_sdk_mac
+Entering 'libs/mpfw_code_libs_sdk_mac_ext'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_sdk_mac_ext
+Entering 'libs/mpfw_code_libs_sdk_nxp'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, tag: v_00.01, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_sdk_nxp
+Entering 'libs/mpfw_code_libs_sdk_stm'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, tag: v_00.01, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_sdk_stm
+Entering 'libs/mpfw_code_libs_sdk_stm32f769_disco'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, tag: v_00.01, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_sdk_stm32f769_disco
+Entering 'libs/mpfw_code_libs_sdk_stm32f769_disco_mod'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/libs/mpfw_code_libs_sdk_stm32f769_disco_mod
+Entering 'main/app20240619/layer/mpfw_fw2_main_app20240619_5main'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/app20240619/layer/mpfw_fw2_main_app20240619_5main
+Entering 'main/app20240619_new_bis/layer/mpfw_fw2-main-app20240619_new_bis-5main'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/app20240619_new_bis/layer/mpfw_fw2-main-app20240619_new_bis-5main
+Entering 'main/app20250424/layer/mpfw_fw2-main-app20250424-5main'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro at half - "main" branch is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro at half - "main" branch is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - main
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/dev_work_sonoma_mcmn, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/app20250424/layer/mpfw_fw2-main-app20250424-5main
+Entering 'main/app20250424/layer/mpfw_fw2_main_app20250424_5main'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/app20250424/layer/mpfw_fw2_main_app20250424_5main
+Entering 'main/mpfw_code_main_stm_20230420'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/mpfw_code_main_stm_20230420
+Entering 'main/mpfw_code_main_stm_20230424'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/mpfw_code_main_stm_20230424
+Entering 'main/mpfw_code_main_stm_20230501'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/mpfw_code_main_stm_20230501
+Entering 'main/mpfw_code_main_stm_20230504'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/mpfw_code_main_stm_20230504
+Entering 'main/mpfw_code_main_stm_20230505'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/mpfw_code_main_stm_20230505
+Entering 'main/mpfw_code_main_stm_20230516'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/mpfw_code_main_stm_20230516
+Entering 'main/mpfw_code_main_stm_20230520'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/mpfw_code_main_stm_20230520
+Entering 'main/mpfw_code_main_tst_20221229'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/mpfw_code_main_tst_20221229
+Entering 'main/mpfw_code_main_tst_20230522'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/mpfw_code_main_tst_20230522
+Entering 'main/mpfw_code_main_tst_20230703main'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/mpfw_code_main_tst_20230703main
+Entering 'main/mpfw_code_main_tst_20230810main'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/mpfw_code_main_tst_20230810main
+Entering 'main/mpfw_code_main_tst_20240203main'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, tag: v_00.01, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/mpfw_code_main_tst_20240203main
+Entering 'main/mpfw_code_main_tst_20240317main'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/mpfw_code_main_tst_20240317main
+Entering 'main/mpfw_code_main_tst_20240429main'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, tag: v_00.01, origin/main, origin/dev_work_sonoma_mcmn, origin/HEAD, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/mpfw_code_main_tst_20240429main
+Entering 'main/mpfw_code_main_tst_20240619main'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/main/mpfw_code_main_tst_20240619main
+Entering 'trdp/sdk/mac/layer/mpfw_fw2-trdp-sdk-mac-0trdp'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/trdp/sdk/mac/layer/mpfw_fw2-trdp-sdk-mac-0trdp
+Entering 'trdp/sdk/mac/layer/mpfw_fw2-trdp-sdk-mac-1trdp'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/trdp/sdk/mac/layer/mpfw_fw2-trdp-sdk-mac-1trdp
+Entering 'trdp/sdk/mac/layer/mpfw_fw2_trdp_mac_0abst'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/trdp/sdk/mac/layer/mpfw_fw2_trdp_mac_0abst
+Entering 'trdp/sdk/nxp/layer/mpfw_fw2-trdp-sdk-nxp-0trdp'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/trdp/sdk/nxp/layer/mpfw_fw2-trdp-sdk-nxp-0trdp
+Entering 'trdp/sdk/nxp/layer/mpfw_fw2-trdp-sdk-nxp-1trdp-usart'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/trdp/sdk/nxp/layer/mpfw_fw2-trdp-sdk-nxp-1trdp-usart
+Entering 'trdp/sdk/nxp/layer/mpfw_fw2_trdp_nxp_0abst'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/trdp/sdk/nxp/layer/mpfw_fw2_trdp_nxp_0abst
+Entering 'trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2-trdp-sdk-stm-stm32f769_disco-0trdp'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2-trdp-sdk-stm-stm32f769_disco-0trdp
+Entering 'trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2-trdp-sdk-stm-stm32f769_disco-1trdp-usart'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2-trdp-sdk-stm-stm32f769_disco-1trdp-usart
+Entering 'trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2_trdp_stm32f769_disco_0abst'
+dbg msg - git_sub_repo_local_cmd.sh -> ------ Performing Check    ---------
+dbg msg - git_sub_repo_local_cmd.sh -> "branch owner" of current module and its reference (the first in recursive procedure) one's matches: dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> local  - Synchro OK - all branches are synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> remote - Synchro OK but ... the other user is not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh ->     + List of remote branch already synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         + main
+dbg msg - git_sub_repo_local_cmd.sh ->         + dev_work_sonoma_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> +++++
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh ->     - List of remote branch not yet synchronized
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_catalina_mcbk
+dbg msg - git_sub_repo_local_cmd.sh ->         - dev_work_bigsur_mcmn
+dbg msg - git_sub_repo_local_cmd.sh -> -----
+dbg msg - git_sub_repo_local_cmd.sh -> git log ... >  HEAD -> dev_work_sonoma_mcmn, origin/main, origin/dev_work_sonoma_mcmn, main, <
+dbg msg - git_sub_repo_local_cmd.sh -> =============== /Users/work/ObsiData/repo__main/smdl/repo__prjs/smdl/mpfw/code/mpfw_code/trdp/sdk/stm/stm32f769_disco/layer/mpfw_fw2_trdp_stm32f769_disco_0abst
+dbg msg on stderr -> exit [q] - continue [any key]
+

@@ -1,0 +1,74 @@
+Sun May 31 11:19:01 CEST 2026
+---------------
+******************************************************************
+***                                                            ***
+0 - modulo_test_20260528_A
+    
+    ./repos_sync.sh --scn-intgrm 1 --ws-intgrm ws3 --env-intgrm modulo_test_20260528_A git:push
+    ./repos_sync.sh --scn-intgrm 1 --ws-intgrm ws3 --env-intgrm "modulo_test_20260528_A" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: modulo_test_20260528_A git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/manager/intgrm_ws3/modulo_test_20260528_A folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* af4f36b322b4d542729331d9347eb7c60fe1b385 (HEAD -> github_main, github/main, new_update) Test_First_Release release ver. 0.2.0.[fe2b942]
+* 73626098c1c1c7d3cbcc16665d77b80340171f46 Empty commit
+* fe2b9423f63540cef49aaf940453d4b6ba9f7c17 (dvlpr1_local1/main, dvlpr1_local1_main) Second_commit
+* 04d368b9374de461eb7853062df298215db658d9 First_commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+1 - modulo_test_20260528_B
+    
+    ./repos_sync.sh --scn-intgrm 1 --ws-intgrm ws3 --env-intgrm modulo_test_20260528_B git:push
+    ./repos_sync.sh --scn-intgrm 1 --ws-intgrm ws3 --env-intgrm "modulo_test_20260528_B" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: modulo_test_20260528_B git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/manager/intgrm_ws3/modulo_test_20260528_B folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 5499075bfb172353cf1969f7c817fb593cc94ae8 (HEAD -> github_main, github/main, new_update) Test_First_Release release ver. 0.1.0.[96e2e5f]
+* faedbc780e62ec93fb250aa26a30171ba3f6f9d5 Empty commit
+* 96e2e5f9c7291153fc2e28f58e86f10c3ce69f3b (dvlpr1_local1/main, dvlpr1_local1_main) Third_commit~^~
+* d865007fd228040c510c66af4cf5027e58a867ed Second_commit---
+* 80a846334dbcaa60ebe5f9fdd714feb067f55944 First_commit___
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+2 - modulo_test_20260528_C
+    
+    ./repos_sync.sh --scn-intgrm 1 --ws-intgrm ws3 --env-intgrm modulo_test_20260528_C git:push
+    ./repos_sync.sh --scn-intgrm 1 --ws-intgrm ws3 --env-intgrm "modulo_test_20260528_C" git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: modulo_test_20260528_C git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/manager/intgrm_ws3/modulo_test_20260528_C folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 3b86ad7e4330b4bc9b77663e637f7986815a50b9 (HEAD -> github_main, github/main, new_update) Test_First_Release release ver. 0.1.0.[4f707ae]
+* a2142b4e92920f6ddabdb791609f5ab9dc89e1f9 Empty commit
+* 4f707ae0366c57319de06a6e1cbe0885c37f79e7 (dvlpr1_local1/main, dvlpr1_local1_main) Forth_commit_@@@@@
+* 4623963e9b69b3292efb897efaf9946f10c560d8 Forth
+* 49124a71fd4b822e7209635e825554fd104899bf Second_commit°°°°°
+* 26051a4bbfb254f5226bd1b9d50c39a4605725f4 First_commit.....
+***                                                            ***
+******************************************************************

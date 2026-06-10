@@ -1,1 +1,0 @@
-    ./scrp/intgrm/scrp/repos_sync.sh --scn-intgrm reale --ws-intgrm test1 --env-intgrm "mpfw_code_apps_tst_20230810app" git:log

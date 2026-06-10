@@ -306,7 +306,7 @@ function input_param_default    {
 
     ## ----------------------------
     rel_f_1_default="0"
-    rel_f_2_default="1"
+    rel_f_2_default="0"
     rel_f_3_default="0"
     rel_f_4_default="[1234567]"
     ## ----------------------------
@@ -334,7 +334,7 @@ function chk_input_params   {
         protocol_repo_dvlpr=${repo_dvlpr%%://*}
         path_repo_dvlpr=${repo_dvlpr#*://}
         [ -d "$path_repo_dvlpr" ] && {
-            echo_clrd 1 33 "INFO - Protocol about \"github\" repo is $protocol_repo_dvlpr"
+            echo_clrd 1 33 "INFO - Protocol about \"DVLPR\" repo is $protocol_repo_dvlpr"
             echo_clrd 1 33 "INFO - \"DVLPR\" repository exists."
         } || {
             echo_clrd 1 31 "ERROR - \"Developer\" repository \"$path_repo_dvlpr\" does not exist - sync procedure is aborted."
@@ -350,8 +350,12 @@ function chk_input_params   {
                 [ -d "$path_repo_publc" ] && echo_clrd 1 33 "INFO - \"GITHUB\" repository exists." && {
                     echo_clrd 1 33 "INFO - \"PUBLC\" repository exists."
                 } || {
-                    echo_clrd 1 33 "INFO - \"Public/github\" repository \"$path_repo_publc\" does not exist - sync procedure is aborted."
-                    exit 1
+                    echo_clrd 1 33 "INFO - \"Public/github\" repository \"$path_repo_publc\" does not exist."
+
+                    echo_clrd 1 33 "INFO - creating $path_repo_publc folder/'remote repository'"
+                    mkdir "$path_repo_publc" && {
+                        ( cd "$path_repo_publc" && git init --bare )
+                    }
                 }
             ;;
             ("https")
@@ -1216,7 +1220,7 @@ function env_public_remote  {
     env_publc_cmd=$(echo "$env_publc_remote" | cut -d' ' -f3)
     env_publc_cmd_param_1=$(echo "$env_publc_cmd" | cut -d':' -f1)
     ## create local repository
-    local l_root_remote_repos_folder="$HOME/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/public/https/$root_folder_path_dvlpr"
+    local l_root_remote_repos_folder="$HOME/ObsiData/distributed_git/integration_manager_workflow/$scenario_intgrm/remote/public/https/$root_folder_path_dvlpr"
     local l_repo_to_create="$l_root_remote_repos_folder/$project_name.git"
     echo "$l_repo_to_create" | grep "$l_root_remote_repos_folder/" >/dev/null && {
 
@@ -1310,71 +1314,80 @@ function env_integration_manager  {
     echo_clrd 1 32 "Start - environment of integration manager configuration (--env-intgrm) "
     echo_clrd 1 31 "environment of integration manager params: $env_intgrm"
 
-    project_name=$(echo "$env_intgrm" | cut -d' ' -f1)
+    first_param=$(echo "$env_intgrm" | cut -d' ' -f1)
     env_intgrm_cmd=$(echo "$env_intgrm" | cut -d' ' -f2)
-    env_intgrm_cmd_param_1=$(echo "$env_intgrm_cmd" | cut -d':' -f1)
-    ## create local repository
-    local l_repo_to_create="$HOME/ObsiData/distributed_git/integration_manager_workflow/$scenario_intgrm/manager/$workstation_intgrm/$project_name"
+    
+    [ "cmd" = "$first_param" ] &&   {
+        [ "get_root" = "$env_intgrm_cmd" ]  &&  {
+            echo "$HOME/ObsiData/distributed_git/integration_manager_workflow/$scenario_intgrm/manager/$workstation_intgrm"
+        }
+        true
+    } || {
+        project_name="$first_param"
 
-    [ -n "$project_name" ] && {
-        [ -d "$l_repo_to_create" ] && {
-            echo_clrd 1 32 "INFO - $l_repo_to_create folder already exist"
-            cd "$l_repo_to_create"
-        } || {
-            echo_clrd 1 31 "INFO - $l_repo_to_create folder DOES NOT exist"
-            exit 1
-        }
-    }
+        env_intgrm_cmd_param_1=$(echo "$env_intgrm_cmd" | cut -d':' -f1)
+        ## create local repository
+        local l_repo_to_create="$HOME/ObsiData/distributed_git/integration_manager_workflow/$scenario_intgrm/manager/$workstation_intgrm/$project_name"
 
-    ## check .git folder existence
-    [ "$PWD" = "$l_repo_to_create" ] && {
-        [ -d ".git" ] && {
-            echo_clrd 1 32 "INFO - git repository is already initialized"
-        } || {
-            echo_clrd 1 31 "INFO - git repository has to be initialized yet"
-        }
-    }
-
-    [ "$env_intgrm_cmd_param_1" = "git" ] && {
-        env_intgrm_cmd_param_2=$(echo "$env_intgrm_cmd" | cut -d':' -f2)
-        [ "$env_intgrm_cmd_param_2" = "status" ] && {
-            echo_clrd 1 33 "INFO - performing 'git status' command"
-            git status
-        }
-        [ "$env_intgrm_cmd_param_2" = "log" ] && {
-            echo_clrd 1 33 "INFO - performing 'git log' command"
-            git logpretty
-        }
-        [ "$env_intgrm_cmd_param_2" = "remote" ] && {
-            env_intgrm_cmd_param_3=$(echo "$env_intgrm_cmd" | cut -d':' -f3)
-            [ -z "$env_intgrm_cmd_param_3" ] && {
-                echo_clrd 1 33 "INFO - performing 'git remote' command"
-                git remote
+        [ -n "$project_name" ] && {
+            [ -d "$l_repo_to_create" ] && {
+                echo_clrd 1 32 "INFO - $l_repo_to_create folder already exist"
+                cd "$l_repo_to_create"
             } || {
-                echo_clrd 1 33 "INFO - performing 'git remote show \"$env_intgrm_cmd_param_3\"' command"
-                git remote show "$env_intgrm_cmd_param_3"
+                echo_clrd 1 31 "INFO - $l_repo_to_create folder DOES NOT exist"
+                exit 1
             }
         }
 
-        [ "$env_intgrm_cmd_param_2" = "push" ] && {
-            env_intgrm_cmd_param_3=$(echo "$env_intgrm_cmd" | cut -d':' -f3)
-            [ -z "$env_intgrm_cmd_param_3" ] && {
-                echo_clrd 1 33 "INFO - performing 'git push github github_main:main' command"
-                git push github github_main:main
-                true
+        ## check .git folder existence
+        [ "$PWD" = "$l_repo_to_create" ] && {
+            [ -d ".git" ] && {
+                echo_clrd 1 32 "INFO - git repository is already initialized"
             } || {
-                [ "$env_intgrm_cmd_param_3" = "set-upstream" ] && {
-                    env_intgrm_cmd_param_4=$(echo "$env_intgrm_cmd" | cut -d':' -f4)
-                    [ -z "$env_intgrm_cmd_param_4" ] && {
-                        echo_clrd 1 33 "INFO - performing 'git push --set-upstream github github_main' command"
-                        git push --set-upstream github github_main:main
-                    }
+                echo_clrd 1 31 "INFO - git repository has to be initialized yet"
+            }
+        }
+
+        [ "$env_intgrm_cmd_param_1" = "git" ] && {
+            env_intgrm_cmd_param_2=$(echo "$env_intgrm_cmd" | cut -d':' -f2)
+            [ "$env_intgrm_cmd_param_2" = "status" ] && {
+                echo_clrd 1 33 "INFO - performing 'git status' command"
+                git status
+            }
+            [ "$env_intgrm_cmd_param_2" = "log" ] && {
+                echo_clrd 1 33 "INFO - performing 'git log' command"
+                git logpretty
+            }
+            [ "$env_intgrm_cmd_param_2" = "remote" ] && {
+                env_intgrm_cmd_param_3=$(echo "$env_intgrm_cmd" | cut -d':' -f3)
+                [ -z "$env_intgrm_cmd_param_3" ] && {
+                    echo_clrd 1 33 "INFO - performing 'git remote' command"
+                    git remote
+                } || {
+                    echo_clrd 1 33 "INFO - performing 'git remote show \"$env_intgrm_cmd_param_3\"' command"
+                    git remote show "$env_intgrm_cmd_param_3"
                 }
-                true
+            }
+
+            [ "$env_intgrm_cmd_param_2" = "push" ] && {
+                env_intgrm_cmd_param_3=$(echo "$env_intgrm_cmd" | cut -d':' -f3)
+                [ -z "$env_intgrm_cmd_param_3" ] && {
+                    echo_clrd 1 33 "INFO - performing 'git push github github_main:main' command"
+                    git push github github_main:main
+                    true
+                } || {
+                    [ "$env_intgrm_cmd_param_3" = "set-upstream" ] && {
+                        env_intgrm_cmd_param_4=$(echo "$env_intgrm_cmd" | cut -d':' -f4)
+                        [ -z "$env_intgrm_cmd_param_4" ] && {
+                            echo_clrd 1 33 "INFO - performing 'git push --set-upstream github github_main' command"
+                            git push --set-upstream github github_main:main
+                        }
+                    }
+                    true
+                }
             }
         }
     }
-
     exit 0
 
 }
@@ -1541,9 +1554,11 @@ function env_developer  {
             echo "up - prima riga" > file_up.txt
             echo "down - prima riga" > file_dw.txt
             { cat file_up.txt; cat file_dw.txt; } > file_ud.txt
+            ## echo_clrd 1 33 "INFO - performing 'git add .' command"
             ## git add .
+            ## echo_clrd 1 33 "INFO - performing 'git commit -m ...' command"
             ## git commit -m "Standard message"
-            echo_clrd 1 33 "INFO - performing 'git push' command"
+            ## echo_clrd 1 33 "INFO - performing 'git push' command"
             ## git push --set-upstream my_public_repo
         }
 
@@ -1689,6 +1704,8 @@ function help   {
     echo_clrd 1 35 "                - ${BASH_SOURCE[0]} --publc \"file://$HOME/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/public/https/github/Module_02.git\" --dvlpr \"file://$HOME/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/mypass2_repo/Module_02.git\" --rel-name First_Release --rel-null 1 3  --rel-inc 2"
     echo_clrd 1 33 "            - \"Real scenario\" example"
     echo_clrd 1 35 "                - ${BASH_SOURCE[0]} --publc \"file://$HOME/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/public/https/github/Module_02.git\" --dvlpr \"file://$HOME/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/mypass2_repo/Module_02.git\" --rel-name First_Release --rel-null 1 3  --rel-inc 2"
+    echo_clrd 1 35 "                - ${BASH_SOURCE[0]} --publc \"https://github.com/MuraDaco/mpfw_code_main_stm_20230424.git\"                                                            --dvlpr \"file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_stm_20230424.git\"                               --rel-name First_Release --rel-null 1 3  --rel-inc 2 --scn-intgrm reale --ws-intgrm github"
+    echo_clrd 1 35 "                - ${BASH_SOURCE[0]}  --scn-intgrm reale --ws-intgrm github --publc \"https://github.com/MuraDaco/mpfw_code_main_stm_20230424.git\"                     --dvlpr \"file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code_main_stm_20230424.git\"                               --rel-name First_Release --rel-null 1 3  --rel-inc 2"
     echo_clrd 1 33 "    - check commands & its options"
     echo_clrd 1 33 "        --env-intgrm"
     echo_clrd 1 33 "            ${BASH_SOURCE[0]} --scn-intgrm <scenario name> --ws-intgrm <workstation name> --env-intgrm <project/module name> <command>"    

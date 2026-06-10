@@ -1,0 +1,545 @@
+Mon Jun  1 15:46:34 CEST 2026
+---------------
+command: push
+---------------
+******************************************************************
+***                                                            ***
+10 - mpfw_code_libs_fw2_core_core
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_fw2_core_core git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_fw2_core_core git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_libs_fw2_core_core git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_test4/mpfw_code_libs_fw2_core_core folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 7ab2daed982c68dbc897de0deda21fa110cf1a78 (HEAD -> github_main, github/main, new_update) Test_First_Release release ver. 0.1.0.[6100de9]
+* bc4d70d84da8653a64268f40547fb36d3c87dfc9 Empty commit
+* 6100de952cd750fd153a7cc018fa92783dfe818e (tag: v_00.01, dvlpr1_local1/main, dvlpr1_local1_main) AutoRecursiveCommit from <code/mpfw_code> module: Upd .gitignore (exclude obdash_branches.cfg file)
+* 643a05fcd7d4831fbd160e603425874266de23a8 Upd cmake project files management -> build_chk.sh -> OK
+* ebdef006307d4ce35a1b16105909db0bd2d5b6e1 Upd cmake project files management - new & old versions -> build_chk.sh OK
+* 909f443e9233d58bce0f02337987268f74eda123 Upd cmake project files management - build_chk.sh -> OK
+* 393219f3a36291b1aa1aeaf263e21a67af6a3078 Upd cmake project files management
+* 8ae70502d7ed2fc012a92414aacf64949465dc57 AutoRecursiveCommit from <smdl/mpfw> module: Add <gmms> config files
+* 3f6717193d9b6be46796d0028e6abf6111f6a1ff (tag: v_00.00) AutoRecursiveCommit from <smdl/mpfw> module: Add header license in every files
+* 4d63caa1364f824d8d451485fda484985c61b6ad AutoRecursiveCommit from <smdl/mpfw> module: Add license files in root folder
+* 4ab057dcb940fa39bd342bebf102d518f04b12d5 AutoRecursiveCommit from <smdl/mpfw> module: Fixed some little bugs -> OK on stm32f769_disco & nxp
+* 74b53f81ec4fefe11c2162aa76883bfbddab1484 AutoRecursiveCommit from <smdl/mpfw> module: Upd set rs485 address at compile time
+* 1955dec5d9243527db2edb07ff02a94cd8119ab7 AutoRecursiveCommit from <smdl/mpfw> module: Upd cube & xpresso workspaces & cprojects -> build OK but to test on device
+* e918f592f9c878b3d46ff5792addadd65568a7e6 (tag: tst_20230810_multidevice) AutoRecursiveCommit from <smdl/mpfw> module: Fixed a bug that causes a segmentatioin fault in rsSerial::Tx function (mac platform only)
+* e76f87708e0ef613d68cc4d6708c068acea1fee8 (tag: tst_20230703_uyProtocol) AutoRecursiveCommit from <smdl/mpfw> module: Upd cube wsp files
+* 67899d522c387f49ecc189bdf4213eea098a24b7 AutoRecursiveCommit from <smdl/mpfw> module: uyProtcol has been implemented on stm32f769_disco platform
+* a149671ebfcf33a47745b91049863a8adb7d5f50 AutoRecursiveCommit from <smdl/mpfw> module: Bugs Fix -> Run on nxp LPC54608 -> OK
+* e244175394dc4cbf27c455e40560d3f1cf467c86 AutoRecursiveCommit from <smdl/mpfw> module: Upd usart sdk & uyProtocol to improve the com procedure -> build mac, nxp & stm32f7 -> OK - run on mac -> OK
+* d166cb8ea6e3170e7c198abbea1e2e214541633e AutoRecursiveCommit from <smdl/mpfw> module: uyProtocol implemented on nxp platform -> build cmake & xpresso --> OK
+* 0b2fbfd9cac7610cecae280da8c9af3204e27b7b AutoRecursiveCommit from <smdl/mpfw> module: uyProtocol implemented on mac platform -> OK build & run
+* f78d26d2558ed8e0a4053e1ed9b832a373f6d200 (tag: tst_20230522_2, tag: tst_20230522_1) AutoRecursiveCommit from <code/mpfw_code> module: Build stm_20230516 main app -> cmake:OK cube:OK
+* 819877241f6ce72fb402113c6fef5341f5c83cd3 AutoRecursiveCommit from <code/mpfw_code> module: Synchronization - cmake, cube & xpresso -> OK (2)
+* 88f26a0e6ead0b0486df489192764c72318e26c8 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake file to multi-app management: some improvment
+* 382f6e0f6f550dd688c87e8b5f917e58a1fd1155 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-platform management: stm_20230420 & stm_20230424 main-apps -> build OK
+* 3770a5ab8be536bc7e7d013b1c31cb12ed107988 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi platform management: tst_20221229 -> build OK
+* 07aedcbd671a7d0efeb7001b4e6b39939126c315 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-platform: fw2_lib_core_core build -> OK
+* a696b2ab74062ec713d15bbc00609830d76664a7 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to manage multiplatform - tst_20221206 build ok
+* ca80fcc75464b5168082fec9a205f5211287ddb8 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-application management
+* f7aa299e88f3521660a04290d6d528469a6f1bc5 AutoRecursiveCommit from <code/mpfw_code> module: Update cmake files to add stm32 application
+* e2df5cc0467bc6e8e436684869ed2bb31af81303 AutoRecursiveCommit from <repo__main> module: Synchronization
+* ccdcc06dd3c4007e2472e55ca452b9ef8312d2a4 AutoRecursiveCommit from <smdl/mpfw> module: Upd xpresso & cmake files
+* 132e0b0660d9fe75c33c7e6e8f78d71478f0d39d AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files of mpfw_code, fw2_core_core & fw2_wrapper_core modules
+* ee307eb7c6309159e8aac5f1ff58a2fe37233868 AutoRecursiveCommit from "code/mpfw_code" module: cmake files[D[
+* 93d118fc87ece10d9e29de9db7e717f098037c5b Import from mpfw_old/code/libs/fw2/core/core
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+11 - mpfw_code_libs_fw2_wrapper_core
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_fw2_wrapper_core git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_fw2_wrapper_core git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_libs_fw2_wrapper_core git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_test4/mpfw_code_libs_fw2_wrapper_core folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 1c1957375c1ca0bde6a9a26c67963dc9234798ed (HEAD -> github_main, github/main, new_update) Test_First_Release release ver. 0.1.0.[0792975]
+* 3465982fe63390c4a75a8c1cec346e91acdbd43b Empty commit
+* 07929753af7565d026466e110c0920e78d6914ac (dvlpr1_local1/main, dvlpr1_local1_main) Upd stm32f769_disco/wsp/cube/fw2_wrapper_core/.cproject file
+* 8043a65f849de4c877795c7f6cc131e2be58a13d (tag: v_00.01) AutoRecursiveCommit from <code/mpfw_code> module: Upd .gitignore (exclude obdash_branches.cfg file)
+* 7eca72b338a5b69e6b98ee7b7a3b3eb03b11ff4e Upd cmake project files management -> build_chk.sh -> OK
+* e53ec5c42b1a4406929d9a9fecac4353d951941e Upd cmake project files management - new & old versions -> build_chk.sh OK
+* 9153520c642ed0d6e26d13b802a843a41efc72e5 Upd cmake project files management - build_chk.sh -> OK
+* 181ad1074ec9905080e80b013657b3eeca9b6aaa Upd cmake project files management
+* a556201842b63d4c0aff107a30e27a182bc75d27 AutoRecursiveCommit from <smdl/mpfw> module: Add <gmms> config files
+* 267ef16cb18d81d2411e86ae1281661fd3fbdb8f (tag: v_00.00) AutoRecursiveCommit from <smdl/mpfw> module: Add header license in every files
+* 07e42090da4750a3ec49cbb985857c0016f28a1d AutoRecursiveCommit from <smdl/mpfw> module: Add license files in root folder
+* 7704826a3f29b79617807568cd3249ba68bfeaf3 (tag: tst_20230810_multidevice, tag: tst_20230703_uyProtocol) AutoRecursiveCommit from <smdl/mpfw> module: Upd tst_20230703 main & app module - Upd nxp folder of some modules
+* 1959711c4f3e0e6d52d04cbb5270f228297396ae (tag: tst_20230522_2, tag: tst_20230522_1) AutoRecursiveCommit from <code/mpfw_code> module: Upd to fix fw2_wrapper_resources/uart on stm32f769_disco platform: build cmake & cube OK
+* e8ec0a95c71e89d003636a29eb13db221f7da1e0 AutoRecursiveCommit from <code/mpfw_code> module: Synchronization - cmake, cube & xpresso -> OK (2)
+* 42368376820e91c2775de4f66c4c1bf3183e8d27 AutoRecursiveCommit from <code/mpfw_code> module: Add fw2_wrapper_core lib to stm_20230504 main
+* 0ce3fdf51f0e08766dba7d1289c517e97cc96439 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake file to multi-app management: some improvment
+* ee37849e252da4961820ad03c8846995b3c56312 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-platform management: stm_20230420 & stm_20230424 main-apps -> build OK
+* 1f8839389bef5e4443bdd4525a67629a70939db5 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi platform management: tst_20221229 -> build OK
+* 569f492ef0f4d06da904610b0712a2b9d698e9e5 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake file to multiplatform: update all module -> build OK
+* a27c1a56acb47df4494bfabd38d6737048793677 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to manage multiplatform - tst_20221206 build ok
+* f8c4c3d1e4f4735b3b75e2a2f77b92cc3c75f408 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-application management
+* 42873f1af41561c3a9c2df14609592728bb8ff6a AutoRecursiveCommit from <code/mpfw_code> module: Update cmake files to add stm32 application
+* 6340ab68a920fa40984b272d0b7918083dcdd5db AutoRecursiveCommit from <smdl/mpfw> module: Upd xpresso & cmake files
+* 054630d8ee88902b2616c6871895f3ce56825371 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files of mpfw_code, fw2_core_core & fw2_wrapper_core modules
+* 4facd9545d98a7a7e19011bab5ed3e23351c5489 AutoRecursiveCommit from "code/mpfw_code" module: cmake files[D[
+* 08846b3fd19836d2b1a4f595b5a296f1c345e262 Import from mpfw_old/code/libs/fw2/wrapper/core
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+12 - mpfw_code_libs_fw2_wrapper_resources
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_fw2_wrapper_resources git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_fw2_wrapper_resources git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_libs_fw2_wrapper_resources git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_test4/mpfw_code_libs_fw2_wrapper_resources folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 021b11a8a6a2fbb0985d1acc1353f3315a5191d4 (HEAD -> github_main, github/main, new_update) Test_First_Release release ver. 0.1.0.[58932c7]
+* 5e3468f57a6021bffb997129cb868f6fc3b4c2a3 Empty commit
+* 58932c75126c8ffd3cb7a3e09845d6f71a74fdf9 (dvlpr1_local1/main, dvlpr1_local1_main) Upd stm32f769_disco/wsp/cube/.../.cproject & settings/org.eclipse.cdt.core.prefs
+* 5fe7584cc0b06461cf04a0d8b70723b98b2b7689 (tag: v_00.01) AutoRecursiveCommit from <code/mpfw_code> module: Upd .gitignore (exclude obdash_branches.cfg file)
+* 9955f6e42b3782ecf8381c7f1040348e13b2df0b Upd cmake project files management -> build_chk.sh -> OK
+* eaa732e148d656e21456a39382c7a62381c761a7 Upd cmake project files management - new & old versions -> build_chk.sh OK
+* 909a6b82034b1606477ee0a400333a88472c94ee Upd cmake project files management - build_chk.sh -> OK
+* aa463e7c92620ef0e5411eb7124543f673c43e5c Upd cmake project files management
+* e6bc8d53b10f6391da5a574499866771565162c4 AutoRecursiveCommit from <smdl/mpfw> module: Add <gmms> config files
+* 46fac4561ff9869cb46bc9ce47c542fc4675d0ce (tag: v_00.00) AutoRecursiveCommit from <smdl/mpfw> module: Add header license in every files
+* 38a765c69f9f0056e18307f8bdc177f32535b07a AutoRecursiveCommit from <smdl/mpfw> module: Add license files in root folder
+* 553214c6add04e06e56cb7e9c71ad540a94378c9 AutoRecursiveCommit from <smdl/mpfw> module: Upd cube & xpresso workspaces & cprojects -> build OK but to test on device
+* 2fe512292c382da50529f39f2a7956ac08a28329 (tag: tst_20230810_multidevice) AutoRecursiveCommit from <smdl/mpfw> module: Fixed a bug that causes a segmentatioin fault in rsSerial::Tx function (mac platform only)
+* c97ba84d772875521fe9e1071880fa5c46338fde (tag: tst_20230703_uyProtocol) AutoRecursiveCommit from <smdl/mpfw> module: Nothing important to mention
+* b1bad0785b0523e926d2dc90136b6c07b05d49d0 AutoRecursiveCommit from <smdl/mpfw> module: Bug Fixed -> Now run on stm32f769_disco is OK
+* 405a2507a58312bc7f304f391949cf8a53c1e32a AutoRecursiveCommit from <smdl/mpfw> module: Upd cube wsp files
+* 682dead9e9d4fecc130cff43239bb0782abd48c5 AutoRecursiveCommit from <smdl/mpfw> module: uyProtcol has been implemented on stm32f769_disco platform
+* 971b7291ae8a248b706154c9db0bcb5f4910c055 AutoRecursiveCommit from <smdl/mpfw> module: Bug Fix tx_rx via interrupt on stm32f7
+* d9dcf5e37d17fb8865bf5fcd5c34b9a76decff89 AutoRecursiveCommit from <smdl/mpfw> module: Upd usart management on stm32f7 -> build all -> OK
+* 4d676c1f5a9ddad26e775eb5cc829ff4d2181303 AutoRecursiveCommit from <smdl/mpfw> module: Bugs Fix -> Run on nxp LPC54608 -> OK
+* a209236ff15ed95a4c76d83f3dee09ac3da86561 AutoRecursiveCommit from <smdl/mpfw> module: Upd usart sdk & uyProtocol to improve the com procedure -> build mac, nxp & stm32f7 -> OK - run on mac -> OK
+* 407e181c5beacfbd4cebe2cddd63360598650f2c AutoRecursiveCommit from <smdl/mpfw> module: Upd to fix some bugs -> uyProtocol on nxp -> build & run -> OK
+* 86c7ab2de10fe6719270e18498032e97ca231014 AutoRecursiveCommit from <smdl/mpfw> module: uyProtocol implemented on nxp platform -> build cmake & xpresso --> OK
+* 0b78c59cd4bc16d25e2531431a5074b79481a200 AutoRecursiveCommit from <smdl/mpfw> module: uyProtocol implemented on mac platform -> OK build & run
+* bbf5618dd0d90a40b310ada55c69d3c13504b186 Upd nxp & common src files - tx non-blocking: OK
+*   c34053ef9dd843d06a589f494a7cc688af4c6590 Merge from <dev_work_catalina_mcbk> branch
+|\  
+| * c02ed4d567d5d8e18fcea3cb9eb500ddea7cba99 Upd nxp/rsSerial module - some optimization & baudrate modification
+* | 0dba2b7e2d75bda8e0ae6584c2493a4e455d7c1b Upd rsSerial to manage non-blocking usart procedures
+|/  
+* da997ab9faede894636ac4733dee23fea15bb976 AutoRecursiveCommit from <smdl/mpfw> module: Upd tst_20230703 main & app module - Upd nxp folder of some modules
+* d1eb05ababffda88b9cd4ad3742e355a831748b8 AutoRecursiveCommit from <smdl/mpfw> module: Add new main & app (tst_20230703)
+* 153902e79899e6f21dbae534632a88f54f6844bf Upd rsSerial.ccp (stm32f769_disco) file
+* 54bcc46552ec103d70549a661a0a66e44467ba2d (tag: tst_20230522_2, tag: tst_20230522_1) AutoRecursiveCommit from <smdl/mpfw> module: Add tst_20230522 main app with mac, nxp & stm32f769_disco platforms
+* 61a08c8f182d7eaff77f388fd0235ae191296440 AutoRecursiveCommit from <code/mpfw_code> module: Upd to fix fw2_wrapper_resources/uart on stm32f769_disco platform: build cmake & cube OK
+* 99471e315ffc1f1ffc8dad3a3ac4eea6ec76407d AutoRecursiveCommit from <code/mpfw_code> module: Build stm_20230516 main app -> cmake:OK cube:OK
+* 63d2aa68fabc0a13f44247a7d62cbc8d5f621b5e AutoRecursiveCommit from <code/mpfw_code> module: Synchronization - cmake, cube & xpresso -> OK (2)
+* 4c6757ebf6504699a5c528baf6c3b883fc4a39a5 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake file to multi-app management: some improvment
+* 1cc35217136d5f2fe57b77ece7be021dbd12d912 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-platform management: stm_20230420 & stm_20230424 main-apps -> build OK
+* cda6c7fa6a9554ebf828ea810a34f16e04d075b7 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi platform management: tst_20221229 -> build OK
+* 6ebaa8e65afe03a9e8736e1f4c2d50c5f91f4a5b AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake file to multiplatform: update all module -> build OK
+* 39c00ae4ad82a025f473c1d6db3252c7d0f02032 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to manage multiplatform - tst_20221206 build ok
+* d7292bb878dccc645296c9b879cccedf23904c67 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-application management
+* 7e828e7a54498263cff1ddb0cafe835287bf1c48 AutoRecursiveCommit from <code/mpfw_code> module: Update cmake files to add stm32 application
+* d9e6ac622cd01e10b034fa1b87c64e4453a294d4 AutoRecursiveCommit from <smdl/mpfw> module: Upd xpresso & cmake files
+* be95df5869248f1f4ac1ea82aa83252058ef832b AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files for nxp build
+* bcba9d41fb81b323d3fbc3e539e68b3634504133 AutoRecursiveCommit from "code/mpfw_code" module: cmake files[D[
+* a18b553bd6ef1bac11e3244676ea02e028dfbc06 Import from mpfw_old/code/libs/fw2/wrapper/resource
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+13 - mpfw_code_libs_sdk_mac
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_sdk_mac git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_sdk_mac git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_libs_sdk_mac git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_test4/mpfw_code_libs_sdk_mac folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* acedf8a7677e5e0f27e1933dc489f5b8be142b24 (HEAD -> github_main, github/main, new_update) Test_First_Release release ver. 0.1.0.[1b51db1]
+* e48a6d1afd8a7fd18aa12d6732eaa5c3d145a7c2 Empty commit
+* 1b51db1a4e8e47ca8ef3d9d567a0d83946f5d255 (tag: v_00.01, dvlpr1_local1/main, dvlpr1_local1_main) Add 20240619main module (add v_05/drivers)
+* 18478c46cb4bf85863d8c4a549aed801089a384a AutoRecursiveCommit from <code/mpfw_code> module: Upd .gitignore (exclude obdash_branches.cfg file)
+* d5a5724e80b97bfbcb6be0bd232a693884c1f146 Upd sdk_process.h (under Catalina OS - error )
+* 46d4fd9fa5a5381f44fb5c04682131f4c7469946 Upd cmake project files management -> build_chk.sh -> OK
+* acc29dc5151fce4ad6ad30484ab8ab381acdb18e Upd cmake project files management - new & old versions -> build_chk.sh OK
+* 1263eb66ffba7f8aae31a02470ecfd71b0d331a3 Upd cmake project files management - build_chk.sh -> OK
+* bb59ca853ddfd372f4cb04846f47a035f6222e5a Upd cmake project files management
+* 4d01c35aa0abc65f08e336f4fd6b8ddad4388e17 AutoRecursiveCommit from <smdl/mpfw> module: Add <gmms> config files
+* a10fa0056be41d0a1f111a838dae67bf5d3081bb (tag: v_00.00) AutoRecursiveCommit from <smdl/mpfw> module: Add header license in every files
+* 30948a1444b986bc57b7d80086c6f67486230ee5 AutoRecursiveCommit from <smdl/mpfw> module: Add license files in root folder
+* c46da6c5112c5a76a6a8239ef1cfa956d90fe64f AutoRecursiveCommit from <smdl/mpfw> module: Upd set rs485 address at compile time
+* 37e5e9335e74cb1f38ccb21444b59d88d6490cdf AutoRecursiveCommit from <smdl/mpfw> module: Upd cube & xpresso workspaces & cprojects -> build OK but to test on device
+* 86ec3155be30fb5cbe095d32a600392ef8ebbb5f (tag: tst_20230810_multidevice) AutoRecursiveCommit from <smdl/mpfw> module: Fixed a bug that causes a segmentatioin fault in rsSerial::Tx function (mac platform only)
+* d4c30b8f5a93f908afb2c4f3c41acf2fed618c41 (tag: tst_20230703_uyProtocol) AutoRecursiveCommit from <smdl/mpfw> module: uyProtcol has been implemented on stm32f769_disco platform
+* 8865f1f557ced9b5c10653670add59dcad1d7cbc AutoRecursiveCommit from <smdl/mpfw> module: Upd usart sdk & uyProtocol to improve the com procedure -> build mac, nxp & stm32f7 -> OK - run on mac -> OK
+* 6651e410a6d64677d5a4c66dda95075f0ce695c4 AutoRecursiveCommit from <smdl/mpfw> module: uyProtocol implemented on mac platform -> OK build & run
+* 5d463468e43e8475a96f20c1827c0bac8f49d65a (tag: tst_20230522_2, tag: tst_20230522_1) AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake file to multi-app management: some improvment
+* ed9490d29a91e754d0d6f1551519fa79fda7a5a8 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-platform management: stm_20230420 & stm_20230424 main-apps -> build OK
+* 2db2a2702883d8e2f20f5c13fb770392caa36064 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi platform management: tst_20221229 -> build OK
+* c3f9851693f377d9a34a31062702e2426ded330a First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+14 - mpfw_code_libs_sdk_mac_ext
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_sdk_mac_ext git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_sdk_mac_ext git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_libs_sdk_mac_ext git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_test4/mpfw_code_libs_sdk_mac_ext folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 7479d73877f294987f2d61fdbbbfb360c3b89479 (HEAD -> github_main, github/main) Test_First_Release release ver. 0.1.0.[e162b0d]
+| * d45d60dce0561dae0f825a2ae918f4d7584de6b6 (new_update) Test_First_Release release ver. 0.1.0.[e162b0d]
+|/  
+* e5df9a1887ec3d7288b04ebdfb3f77a8467406dc Empty commit
+* e162b0d370b55a841f4644dd2527ce74409e55a3 (dvlpr1_local1/main, dvlpr1_local1_main) Add test mini-project to test build & compile procedures
+* e8f1f53e1620b6c076c73b59979cfd6fd28fa4cf Remove unused modules (appl_app20250424_4appl & _5main)
+* 58ec0a906724248593a5b8de6f3dd9a497ed2918 Step 18 - Add new app (app20250625)
+* d54f00dbc25cbc85b703a612f9f9f21579e50c02 Step 17 - set_public_rpath/dirs optimization - build & run -> OK
+* fb63684fde5da738d97a0b8e869387482a4fbfc7 Step 16 - build a lib with its dependenties libs (all-in-one) - build & run -> OK
+* 6e1c31d381b6298aeee584d09527f22f5de3d4c6 Step 15 - CMakeList unified - build & run -> OK
+* 4d7721576fbe3c9e34ca1da68ecc98239865fc84 Step 14 - cmake software source version management implemented - build & run -> OK
+* 084a59b87461a9337e5129d06022d4f45e8ef7c8 Step 13 - set_target_link_lib_macro implemented - build & run -> OK
+* c52ba5a40dd56ec18fc5ee04e73d14518f7fcb1f Step 12 - update macro_init.cmake file - build & run -> OK
+* 2fcb5f2b77ddf9521290a3755b0539efbeaee697 Step 11 - remove wrong files - build & run -> OK
+* b6082b7dc1675e12b22e5539c5b57cfbcc98fb74 Step 10 - wsp dirs renamed & remove xxx_ files - build & run -> OK
+* 8c95ba1ff79f49421fc511e95b95fb9f8f243b2e Step 09 - semplified procedure (see macro_init.cmake) - build & run -> OK
+* f7bb5edb3487aa72425b6853632e510991ede62f Step 08 - wsp dirs versioning is implemented
+* 95a7812ce992e66146cc634ec866a7f2e739a751 Step 07 - Update wsp dirs to version them
+* cb74a5d974831ef416cef5dec88fb2d03be17447 Step 06 - Update cmake files to parametrize platform name
+* 10cd8e85910c936e5a29785c3c5e14f86771fdda Step 05 - rename <smod> directory in <layer>
+* 9faf0a1208486fd86b4359763a89df940791513f Step 04 - Update set_public_dirs.cmake & set_public_rpath.cmake
+* 94348233cc5761c49a634ad08eb416d35d461fac Step 03 - libraries & sub-libraries management
+* 98e2197b65ae77cd924c8a48da513d3ca05ee81d Step 02 - cmake files modularization (config files management)
+* 520b580d1e487a43f33086b72a3cf70dce700a2f Step 01 - cmake files modularization (rpath & dir recursive)
+* 502b57e125655771b2801e33457bbf1f5ac30c57 Update cmake files to improve the readbilty
+* b3612c806695aece40129d942e7eb352018ff0d7 Create libraries directories based on group of functionalities
+* 9c5e97423fcbaca7f40e579fcfd96e245becc3bc Update all CMakeLists.txt files & Introduce group of functionalities modules
+* 66562859f9c4cb86ff5fe58a4e077df3c60d4aff Update CMakeLists.txt files of main & app modules
+* 0dac8286e90920ceac32dc3ae216dc6c79ee71f6 Add preview/mpfw_code directory
+* 4286581f167df195a803393fbaef92db68430d8f Bug fixed - root window crash when enter key
+* b5bd5d929a6ba6fab8a898c57ca43b2e98d4f92e Clean unused files & folders
+* 80ae4ca20168f09191d5eb5b8644ae5b8b32acbb step 01 -> paste & copy clipboard (completed) -> build & run -> OK
+* ae17c29ffa941728f791e71180d9081bdae89ae4 Add example programs about clipboard copy & paste
+* b494835e9257373be415eb1a2348c331ac8b6ac2 step 04 -> update name files -> build & run -> OK
+* 9ce78eb5f388a1f0d5d19a191548d1d201163780 step 03 -> update cmake files -> build & run -> OK
+* 8c04b3942438ed6cf0a7383e600ddecc7e5905c2 step 02 ->  hardware interface classes implementation (update mcuPinPort class ) -> build & run -> OK
+* db52d18cd25e7f352744990b9f08ea511cd2d513 step 01 ->  hardware interface classes implementation (update manager modules of pph, mcu ) -> build & run -> OK
+* 52fbb4f0bc7b0ede2df2b4a6d350de288d464732 step 11 ->  dtyCntnr1ArrayShmProxListX to dtyCntnr1StreamListX (completed & tested) -> build & run -> OK
+* 379e300ec43bc243b35baa54a3dc2364606d0a35 step 10 ->  dtyCntnr1ArrayShmProxListX to dtyCntnr1StreamListX (completed but to be tested) -> build & run -> OK
+* f781f5841f72d5d9399dc0132b50996df609091e step 09 ->  dtyCntnr1ArrayShmProxListX to dtyCntnr1StreamListX (to complete) -> build & run -> OK
+* a87915d21024b23c03ba28047ae054d9317aa772 step 08 ->  dtyCntnr1ArrayShmProxListX implemented & tested -> build & run -> OK
+* 015e5106e7bec395dd184a271bdea0dc6c08ebe0 step 07 ->  dtyCntnr1StreamListX implemented & tested -> build & run -> OK
+* 7fb5b31e34f4c49c967b724cd98ee73067c4d27b step 06 -> update dtyCntnrStream module working progress -> build & run -> OK
+* 9c5e97d49e8eb4810cae141cb3764fdfac84b1f5 step 05 -> update dtyCntnrStream module working progress -> build & run -> OK
+* 7c185d3789930999f10fd8ad0a8bf0c32e02c718 step 04 -> start update dtyCntnrStream module -> build & run -> OK
+* 2358fdaed0e364452b0ab9ae1b178169108a7f1f step 03 -> dty library re-ordered -> build & run -> OK
+* 99506ad1ad586b834fcff352ba9cc90644ee2f3c step 02 -> libraries creation -> build & run -> OK
+* de5db502ae7ab6518c8c15833f3f5aceb61ffa29 step 01 -> dty library creation -> build & run -> OK
+* 4da4d4eb1421786ba51e8455b54ad5d6b1e6d615 Add v_05_ref folder
+* a6e5b0222aec3ff02a0fdf14f3a06f46d4c9f3e1 step 06 -> remove some files-> build & run -> OK
+* a61501b6fc82262aab5eeebe7008bc537867fa7e step 05 -> tuiCplt modules & its macro define implementation -> build & run -> OK
+* a983fe1bd2632fcc957393c924f0b4ea90906b6b step 04 -> tui macro define (McuUsart) -> build & run -> OK
+* 748cc76fe2445898b7681b7dac262f446828b0a0 step 03 -> tui macro define -> build & run -> OK
+* 69c4e991feba634f9158a0a14d9e3763fdee79c6 step 03 -> tui mcuUSART module -> build & run -> OK
+* 22629b33baa3cb92f64c542d5894b896e90d219c step 02 -> tui root window elements array (replacement reference with pointer) -> build & run -> OK
+* 47fc72a9f9f86b3b54b85941d27a8393d2fb6599 step 01 -> tui modules re-organinzation (to be debugged) -> build & run -> OK
+* 9f5342b8cbb51dcdc6d5b695be2b02a612297406 Add v_04_ref folder
+* 6119c9fe0abc127bb5a37f8580222414f71f641d [tuiUnitMcuUsart] & [pphUsart] (step 7: usart window duplicate) -> build & run -> OK
+* 71caa6955ff348db58f754286a50238a24a6e673 [tuiUnitMcuUsart] & [pphUsart] (step 6: IPC OK) -> build & run -> OK
+* d0cb13fc46425b1b7676b782153dc2cd6c577b06 [pph], [mcu] & [shm] Managers (step 5: locked time slot debug) -> build & run -> OK
+* c9e91b7eb05f0c18a26f853ae966121c264523b9 [tuiUnitMcuUsart] & [dtyCntnrStreamList] (step 4: dtyCntnr Update) -> build & run -> OK
+* 429b7af27310f3c0677fa1819cdd18a0eecb99dd [tuiUnitMcuUsart] (step 3: base cntrn rename) -> build & run -> OK
+* 5dad900dfc5797e1fe33c32b306920eafdf39fe8 [tuiUnitMcuUsart] (step 2: loop on) -> build & run -> OK
+* 1b8cd22d1b496ef9f8734eadb8b7ab2d12600a98 [tuiUnitMcuUsart] (step 1) -> build & run -> OK
+* e29892b531b7c13bb648f467ccd02ec064547000 Add v_03_ref folder
+* 387c8e88585e996f597e5512f19968f2b9251b4f [tuiMcuDgtInOut], [shm] modules & refersh procedure (step 3) -> build & run -> OK
+* 5fa603394932631e331e6819eee38e4490ffe4d6 [pphButton] & [shm] modules (step 1) -> build & run -> OK
+* dd56fd9cbc097ff9e29566e330e25a470e2eccde Bug fixed in process deleting procedure -> build & run -> OK
+* ad92e0d308ed17afe32ab73fe3bf590ac590e452 loop activation about [pph] & [mcu] modules with [tui] modules (step 2) -> build & run -> OK
+* 712afce6c36d755b8190bd73e8726ba95af5be29 Activation of [pph] & [mcu] modules with [tui] modules -> build & rin -> OK
+* 03ee5c3fc3170eb00a34d14d7d8a6acfbb417591 (tag: v_00.01) New tui elements management - step12 - bld & run OK -> dtyCntnrArraySet & co -> tested & cleaned -> OK
+* 5a7853ba1248107bfd5718cb992a3b9233088734 New tui elements management - step11 - bld & run OK -> dtyCntnrStreamList & co -> tested & cleaned -> OK
+* 363a2a9db634f5ccdfd7f1ddc88761e634133b11 New tui elements management - step10 - bld & run OK -> dtyCntnrStreamList & co -> tested but to be cleaned-> OK
+* 6d12b4df9b7f31191ac38bd8255e0395625aadaa New tui elements management - step 9 - bld & run OK -> dtyProtocolData & co -> tested -> OK
+* 4818975deecffd019a3303315aa1c9cee18389c6 New tui elements management - step 8 - bld & run OK -> Add tuiUnitTextUsart, dtyProtocolData & co -> to be tested
+* b7c041af8027445fa522346c0d56014462107319 New tui elements management - step 7 - bld & run OK -> Add tuiUnitEbox -> tested -> OK
+* 7d1f393476ff4a49332bfea40bee2c203ae1eed3 New tui elements management - step 6 - bld & run OK -> tuiUnitCntrLis & Co -> tested -> OK
+* c055464cfdb4daeff35657854ad52ae94677e94b New tui elements management - step 5 - bld & run OK -> tuiUnitCntrLis & Co -> to be tested
+* bf728b589f5f0e7e74f6e6cba5293e8cc41410c1 New tui elements management - step 4 - bld & run OK -> tuiGraphicUnitWin & tuiGraphicCoord/tuiDrvGraphic cleaning -> OK
+* b3f0f5adc88d1c03486437944b7c2e5ee0fb0186 New tui elements management - step 3 - bld & run OK -> tuiUnitDebugList & tuiGrapghicUnitBase with mouse click active -> OK
+* e78ba9fbee9ee214762ed14b50b65f74783936e5 New tui elements management - step 2 - bld & run OK -> tuiUnitDebugList & tuiGrapghicUnitBase OK - remove tuiGraphicParent_t class because of issue with dreaded diamond
+* a7bc27adb08aad371d7cd565fd0aafd2de36b0da New tui elements management - step 1 - bld & run OK -> displayChildren -> OK
+* 1fe4591b5009259758af3542e6dbf5e87cf7bb7a Add v_02_ref folder
+* 5bbd5e86201aee4be51b57199bd7dbaca4979781 New container class Testing step 10 - bld & run OK -> tuiBaseLboxX with select by mouse
+* 57420162e261acb61c15fc50afa7af72b64bed6f New container class Testing step 9 - bld & run OK -> tuiBaseLboxX with two sub window inside
+* a5db913baaa5b2ba6908dde2b4c7286dc09922bb New container class Testing step 8 - bld & run OK -> tuiBaseLboxX with sub window inside
+* a17a47f249fd7dfa25daeae00fe765958c9e5fe7 New container class Testing step 7 - bld & run OK -> tuiBaseLboxX first run is OK
+* fc7e99b023d5e0fe3172dd3df08e23b39b8bb6e5 New container class Testing step 6 - bld & run OK -> tuiBaseLboxY bug fixed now is OK
+* 33e74a1a7b6c3d741c92b020120d6f5f2bf16295 New container class Testing step 5 - bld & run OK -> selecting data block by mouse OK
+* 714d5c9b9837a56ca05de78fe458ff7501b56e4f New container class Testing step 4 - bld & run OK -> data block selection OK
+* 8b12ccdbbbc36d1f6e6dc3226b15760c070675f7 New container class Testing step 3 - bld & run OK -> data block selection OK
+* e7a16d8866719a343d90891f1db21176f0bfbf4d New container class Testing step 2 - bld & run OK -> margins management OK
+* 78051a346ccfaa12d5e9d1a8cf103749d52676e5 New container class Testing step 1 - bld & run OK
+* 94e0e9e0a8112f27d4f118ab1f31da9a7752ff5c New container class (to test) - build OK - Run OK
+* 026fa7b27308ad1296aad09d15aa69f725a19401 Select / deselect procs improvement & upd Button
+* 3615b2b5f2c8a770e16d8f63cbf4adefd4b870db Add tuiBaseChoise and begin of develop
+* d44d876e6f13f127a31f37aa6de8e0fc5b2ddbd0 Add tuiBaseButton module -> test OK
+* df1a800a13c53c3472296bc93d0bce15ece43b50 Upd tui modules about init function -> test OK
+* fd7d4657d46cf803cb407e3f17580c548dc7b7a5 Add tuiSubWin & tuiAppUsart -> test OK
+* cdc419a6beb7c91751fa99f8389ada2dd7d75e35 Upd tuiEbox with ins, del & backspace events
+* dcce2acf7aae20314f3171fe47da7285b532b542 Upd SelectByMouse function -> test OK
+* 6a2a5a382f11c10b7b0699774d3f2e9fceba7680 Upd tuiTextUsart & Co to manage events Up & Down
+* b211324228678dba49700e00dd72b2705eae9621 Add tuiTextUsart module and its associates
+* c26d63df66ee7b224e538b010d191e13f4e57348 develop Lbox scrollable - step 5 - bug on selectElements function fixed
+* 24c8298ec1fd435a79c778023fd0a4cc2e0102e9 develop Lbox scrollable - step 4 - elements display recursively
+* 96c7a6358b0e10f97562bd073f9016ec3b2d1469 develop Lbox scrollable - step 3 - elements display recursively
+* 071db6cca7b37d8979e0e89a965ee16ddb07f7ab develop Lbox scrollable - step 2 - elements display recursively
+* 9e90ce061569ee90061d9b39e864edbc81a33383 develop Lbox scrollable - step 1 - elements display recursively
+* 9f7284eda7092e298caf4cf7bc21ada184f3d908 add tuiBaseLboxY & tuiBaseListUnitY modules
+* 703f35e9843716e06253020088b05040628afe6f code cleaning - remove tuiWin module and others
+* 4d000a113b92e38b081418ebecc34f6a730fcea0 bit bug fixed about elements selection
+* d21c97d06b5378b00bfe6487edc8bed2acbd97c4 tuiBase modules -> key & mouse OK
+* 8fc35121991e6af000c7573d44a4c968080f74ae tuiBaseLbox key & mouse OK
+* 639f693aebb0b5583f8e575e886b6766f0573188 Upd select/deselect procedures improvement - step 2 - end
+* d0ebf652c00c4aa1f5f1d288ea913f1f2217428a Upd select/deselect procedures improvement - step 1
+* 21a195b9482a9e2b576cbd75cc640b54129708bb Add tuiWinRoot class -> compile & run -> OK
+* 4773ec3a90631fe8468d5a7c80a0e9307de35158 tui moudules with mouse & key management -> OK
+* 3e80fa1fbbae9d1666eaa4b6f094f2ae5b2e18a0 pph & tui modules (minimum) -> OK
+* 04d8420d24d48e230ede07175cb3d5bf7473c353 Button module -> OK
+* 891f51cc14b61f1d6aaf0d42e8a9c49c9fdf9894 First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+15 - mpfw_code_libs_sdk_nxp
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_sdk_nxp git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_sdk_nxp git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_libs_sdk_nxp git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_test4/mpfw_code_libs_sdk_nxp folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 85467285f14e8bf60e66f275e0bb8a7c67fe07e4 (HEAD -> github_main, github/main) Test_First_Release release ver. 0.1.0.[4b602a0]
+| * 66a1c1450e898d0af439923cd6bbbbe97ffda4b8 (new_update) Test_First_Release release ver. 0.1.0.[4b602a0]
+|/  
+* fc33ef7ec816e1111caa4117ea7dc4d0ba79f366 Empty commit
+* 4b602a0639949dbe469716d3e91433388330133b (tag: v_00.01, dvlpr1_local1/main, dvlpr1_local1_main) AutoRecursiveCommit from <code/mpfw_code> module: Upd .gitignore (exclude obdash_branches.cfg file)
+* 085b3ae46fe7d9d84e157f80d660a41bc415015d Upd cmake project files management -> build_chk.sh -> OK
+* 6eb00dffdccca9bd3d2512ff3fe10fac0ea4f85c Upd cmake project files management - new & old versions -> build_chk.sh OK
+* b409694d55a4555a2e6a97a353ef389934cb2ff3 Upd cmake project files management - build_chk.sh -> OK
+* 569b08f7f749097acf974fe46e11320ee57503e8 Upd cmake project files management & add new source version
+* 3e561b83bec2625036f1c3b0b781dee764f55075 Add <obdash_branches.cfg> file
+* 53a4b246d13e8a3ed8046f5391addf7be26a4da1 Upd .gitignore: add <obdash_branches_owner.cfg> file
+* 11977b68e9de5eecb9ba5367519545d47768fcb0 (tag: v_00.00) AutoRecursiveCommit from <smdl/mpfw> module: Add header license in every files
+* 3240af33359b6cced83818c1f0ccc8f002eee351 AutoRecursiveCommit from <smdl/mpfw> module: Add license files in root folder
+* 9a52ce45e92cf1ae36f486b4d94639ad9795fd27 AutoRecursiveCommit from <smdl/mpfw> module: Fixed some little bugs -> OK on stm32f769_disco & nxp
+* 94c57ac854d193fd26ca6781b6d5e30d0fe84446 AutoRecursiveCommit from <smdl/mpfw> module: Upd set rs485 address at compile time
+* e354badb286b9ef4428b1955348a5ea4c803e63f AutoRecursiveCommit from <smdl/mpfw> module: Upd cube & xpresso workspaces & cprojects -> build OK but to test on device
+* 4d33bfef8d4c0f71e0bed189e12ad58a95713200 (tag: tst_20230810_multidevice, tag: tst_20230703_uyProtocol) AutoRecursiveCommit from <smdl/mpfw> module: uyProtcol has been implemented on stm32f769_disco platform
+* 48128e7a219cb40622166a1f888a9ed52aeaecc8 AutoRecursiveCommit from <smdl/mpfw> module: Bugs Fix -> Run on nxp LPC54608 -> OK
+* 7616245ec38c371a27b4435ad49cff580b40de5d AutoRecursiveCommit from <smdl/mpfw> module: Upd usart sdk & uyProtocol to improve the com procedure -> build mac, nxp & stm32f7 -> OK - run on mac -> OK
+* a23d3cb47b2258d94c6dbcd0eefb974168664a18 AutoRecursiveCommit from <smdl/mpfw> module: uyProtocol implemented on nxp platform -> build cmake & xpresso --> OK
+* 564bb00b9f11165b9b15cfff988c7c32a2c248f8 AutoRecursiveCommit from <smdl/mpfw> module: uyProtocol implemented on mac platform -> OK build & run
+* 1a27333adcd10153fade608eef7a8193410b7657 AutoRecursiveCommit from <smdl/mpfw> module: Upd tst_20230703 main & app module - Upd nxp folder of some modules
+* 734f72f314dbd340d42dcb7a7ee8c7ac4b91978d (tag: tst_20230522_2, tag: tst_20230522_1) AutoRecursiveCommit from <code/mpfw_code> module: Build stm_20230516 main app -> cmake:OK cube:OK
+* 2eac499dbdec085f472c0eb77a30b9ccd5163dc0 AutoRecursiveCommit from <code/mpfw_code> module: Synchronization - cmake, cube & xpresso -> OK (2)
+* 1725716e49a0a136940cc8cf125fdfe87dfca322 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake file to multi-app management: some improvment
+* 23dcd96d67009e371e628f3cdc510ffb96681251 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-platform management: stm_20230420 & stm_20230424 main-apps -> build OK
+* 5d3a70b6c732bce78c5a0e5ede677116d93bc915 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi platform management: tst_20221229 -> build OK
+* 755e31dbdc1d6aed1dbe1aa98cbe0cfd1b28568e AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-platform: fw2_lib_core_core build -> OK
+* 351ae247965cfde78e0fc93722d7055b3b79e493 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to manage multiplatform - tst_20221206 build ok
+* a8531ee59bb9b3f8087cdf3c726acf63d8419897 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmakefile -> platform parametrization in tst_20221229 app -> build on mac & nxp: OK
+* 3398de0f01ff89043d3cefc504e2922c52ac52b9 AutoRecursiveCommit from <code/mpfw_code> module: Upd trivial
+* cd757808f04be22f4c68b01119bd57f20826cb2a AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files: improvment in setting cmake cross variables
+* 3286526b64bea9c5d5fbf8fa2294e20966490746 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-application management
+* 8469c3ab535622efcb6f89b2dc6acbdd26ab6b5c AutoRecursiveCommit from <code/mpfw_code> module: Update cmake files to add stm32 application
+* 8ad1aa93a9011ff609e1d113041499dc20d44584 AutoRecursiveCommit from <repo__main> module: Synchronization
+* 1a363d6da85249264c2a84a3aaed13d06d7c2c14 AutoRecursiveCommit from <smdl/mpfw> module: Upd xpresso & cmake files
+* c07cdccdd12c79b2cabdda70ee80b2c845ca5f4b AutoRecursiveCommit from "code/mpfw_code" module: cmake files[D[
+* 4091ba6c46e83a26609925c9545110d7b7f1eb94 Import from mpfw_old/code/libs/sdk_nxp
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+16 - mpfw_code_libs_sdk_stm
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_sdk_stm git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_sdk_stm git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_libs_sdk_stm git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_test4/mpfw_code_libs_sdk_stm folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* ecea1d9a1deb423ea0bf2c87b85829b65f164d16 (HEAD -> github_main, github/main, new_update) Test_First_Release release ver. 0.1.0.[def2769]
+* 418e74ec5258d82875c0e52bbec8a4753f3e00fe Empty commit
+* def27690330897598e24615dfd991ad9fee10a02 (tag: v_00.01, dvlpr1_local1/main, dvlpr1_local1_main) AutoRecursiveCommit from <code/mpfw_code> module: Upd .gitignore (exclude obdash_branches.cfg file)
+* 23942b85ba63abafeea78aab25ed0ef70beb1f5b AutoRecursiveCommit from <smdl/mpfw> module: Add <gmms> config files
+* a785ea8523cd6749feeb4f192fb70ba5b340967b (tag: v_00.00) AutoRecursiveCommit from <smdl/mpfw> module: Add header license in every files
+* d0d0c8a3b58b694722ea21db51b0ad7f3eac244e AutoRecursiveCommit from <smdl/mpfw> module: Add license files in root folder
+* d8f29ed8cf22782e3f277e36710eba725c19d2bc (tag: tst_20230810_multidevice, tag: tst_20230703_uyProtocol, tag: tst_20230522_2, tag: tst_20230522_1) First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+17 - mpfw_code_libs_sdk_stm32f769_disco
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_sdk_stm32f769_disco git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_sdk_stm32f769_disco git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_libs_sdk_stm32f769_disco git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_test4/mpfw_code_libs_sdk_stm32f769_disco folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* f79913bcdd9b1460afa453dae06eb9135c65265b (HEAD -> github_main, github/main) Test_First_Release release ver. 0.1.0.[eb377a4]
+| * a62a3fdcae0d15749d47ee080e7d54815a41b2b9 (new_update) Test_First_Release release ver. 0.1.0.[eb377a4]
+|/  
+* 2d9774e1d1a683da1a74263574575c2921046b11 Empty commit
+* eb377a4214fb577afd6f32712bd54bb99cf61a65 (tag: v_00.01, dvlpr1_local1/main, dvlpr1_local1_main) Upd 20240617-night
+* 29fb486d2c5cc6897603cb0d659edef095af0e41 AutoRecursiveCommit from <code/mpfw_code> module: Upd .gitignore (exclude obdash_branches.cfg file)
+* 585aeb5d8005d192731e319f8bc6259553629608 Upd set_cpp_files.cmake -> disable _hal_uart.c file
+* de9338b7876a1ae3a97d950c1ca262249fac853b Ups tst_20240317 app: add usb functions in main()
+* ec26f00c0c7cc74a4d3d99d7d4f875e62fffabc9 Upd tst_20240317 app -> BSP & MSC examples fused together -> test on board -> OK
+* 344a5d9f9213976c693aa7917e212038f0a9efa5 Upd cmake project files management -> build_chk.sh -> OK
+* 8dbf0ce8162a1f01c7869df171f45a6ce04146e7 Upd cmake project files management - new & old versions -> build_chk.sh OK
+* 6d26f4d75e546ca8f007f2c8f423d53c9c892ba1 Upd cmake project files management - build_chk.sh -> OK
+* 0d9c6545b5c95aaa793090618dd5ab1bd89f9463 Upd cmake project files management & add new source version
+* 68f5a3d07e395d395dce419a91638422d2b8a50f AutoRecursiveCommit from <smdl/mpfw> module: Add <gmms> config files
+* 43e56b0f27cea64ef4fbeb521c6cc0106ddfef75 (tag: v_00.00) AutoRecursiveCommit from <smdl/mpfw> module: Add header license in every files
+* 0caf1eb3d387e9a26ccb12fd652078f720469c3c AutoRecursiveCommit from <smdl/mpfw> module: Add license files in root folder
+* 6102db0a8e8da67da3774eb4452944a896d53bc2 AutoRecursiveCommit from <smdl/mpfw> module: Fixed some little bugs -> OK on stm32f769_disco & nxp
+* ba9d9f40e895e54c2437824d03d986608d20b0e5 AutoRecursiveCommit from <smdl/mpfw> module: Upd set rs485 address at compile time
+* 92c51d05d7e5a0700bb98ae237aec4859db5ee8d AutoRecursiveCommit from <smdl/mpfw> module: Upd cube & xpresso workspaces & cprojects -> build OK but to test on device
+* ae36b93df9f9f9c513b48d7baa520ef3dda4a657 (tag: tst_20230810_multidevice, tag: tst_20230703_uyProtocol) AutoRecursiveCommit from <smdl/mpfw> module: uyProtcol has been implemented on stm32f769_disco platform
+* c41825cee0d6fa89f0664dd5eeac4ff10c36392c AutoRecursiveCommit from <smdl/mpfw> module: Bug Fix tx_rx via interrupt on stm32f7
+* 8ecf6f9c63ddd4143d41781accb680346beb6c18 AutoRecursiveCommit from <smdl/mpfw> module: uyProtocol implemented on mac platform -> OK build & run
+* 5eb88a0357d7599102ecd3718a950db14b4b62be AutoRecursiveCommit from <smdl/mpfw> module: Upd tst_20230703 main & app module - Upd nxp folder of some modules
+* f3466aed40abb727abbb99a35ffdbaf41fb47345 AutoRecursiveCommit from <code/mpfw_code> module: Add timer interrupt to manage SysTick
+* 058e0c750209ef02dcc024c1581169a34db88c56 (tag: tst_20230522_2) AutoRecursiveCommit from <smdl/mpfw> module: Synchronization
+* f1ad2a376d076a8cc0e3884ff77372ce3b4a53df AutoRecursiveCommit from <smdl/mpfw> module: Commit on new (owner) branch
+* dc12b831c5ee573e12fc022103aa267d49a6aa70 (tag: tst_20230522_1) AutoRecursiveCommit from <smdl/mpfw> module: Upd tst_20230522 main app - add cube workspace & project - build cmake, cube -> OK
+* 9d49ece482b2c1b5b8bb055f1a7e154ce94a42e6 AutoRecursiveCommit from <smdl/mpfw> module: Add tst_20230522 main app with mac, nxp & stm32f769_disco platforms
+* b27f6cbbc766da1572510e8720d811224c87ea02 AutoRecursiveCommit from <code/mpfw_code> module: Upd to fix fw2_wrapper_resources/uart on stm32f769_disco platform: build cmake & cube OK
+* bbbad12baf2b7a565652a46f631d86b05bd70535 AutoRecursiveCommit from <code/mpfw_code> module: Build stm_20230516 main app -> cmake:OK cube:OK
+* 6ecf26afb0781cf4d7b7fe470d56b020f2cac1c6 AutoRecursiveCommit from <code/mpfw_code> module: Synchronization - cmake, cube & xpresso -> OK (2)
+* d95a955826b95e30ffbe3c65402bfe04dd860260 AutoRecursiveCommit from <code/mpfw_code> module: Add fw2_wrapper_core lib to stm_20230504 main
+* 2e956bf7490b756b7db70df7f0ebdd2984e3b518 AutoRecursiveCommit from <code/mpfw_code> module: Upd cube project for stm_20230501 project
+* 64266ba392fc687db33cfb3eccc269e1b7a8ae43 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake file to multi-app management: some improvment
+* 7f03a4204888eeb87b0f9f0a19b45a374df95dbf AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-platform management: stm_20230420 & stm_20230424 main-apps -> build OK
+* 58637063fa03fdcd08502f0013e133402217700d AutoRecursiveCommit from <code/mpfw_code> module: Upd stm_20230424 & Add stm_20230501 mains
+* 0499992f2ef9769c6678a6e8bb3a8180a217b94a AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi platform management: tst_20221229 -> build OK
+* ffc7a7084619e61f615ac58979ff7c16037bb005 AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to manage multiplatform - tst_20221206 build ok
+* 9a0d66e156d51ac122c630e1f6d420353e7d2434 First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+18 - mpfw_code_libs_sdk_stm32f769_disco_mod
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_sdk_stm32f769_disco_mod git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_libs_sdk_stm32f769_disco_mod git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_libs_sdk_stm32f769_disco_mod git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_test4/mpfw_code_libs_sdk_stm32f769_disco_mod folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 5c1880881564d47e45572ab3cb5343922692e39a (HEAD -> github_main, github/main, new_update) Test_First_Release release ver. 0.1.0.[b6346ef]
+* de344c4811716d4fde3909a5165a0f481273976c Empty commit
+* b6346efc3b05cf472925482d02e42994e16e115b (dvlpr1_local1/main, dvlpr1_local1_main) Upd 20240617-night
+* feb4fa022b31a2c7b4b69863d609fbe95321719a AutoRecursiveCommit from <code/mpfw_code> module: Upd .gitignore (exclude obdash_branches.cfg file)
+* 1a5127d2b1a49f0ae1353bb03aa22684d0007f29 First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+19 - mpfw_code_main_stm_20230420
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_main_stm_20230420 git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm test4 --env-intgrm mpfw_code_main_stm_20230420 git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_code_main_stm_20230420 git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_test4/mpfw_code_main_stm_20230420 folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 8d469777ba8acd624a490d0a31a2023b4b543e12 (HEAD -> github_main, github/main, new_update) Test_First_Release release ver. 0.1.0.[afbd726]
+* db1cd5e1869659d92c4e55a23cee6b6a86d15672 Empty commit
+* afbd726622f2f2b1c06d1b3416a9c42fecf2e673 (dvlpr1_local1/main, dvlpr1_local1_main) Upd .gitignore (exclude obdash_branches.cfg file)
+* e6de9ba796ad45032cad76eba82776ed4ac711a2 AutoRecursiveCommit from <smdl/mpfw> module: Add <gmms> config files
+* f80c09266526dcb0c1d671315157341088390998 (tag: v_00.00) AutoRecursiveCommit from <smdl/mpfw> module: Add header license in every files
+* f40094d7ec6bbcc3fdda93549c77e0ffe007b3b8 AutoRecursiveCommit from <smdl/mpfw> module: Add license files in root folder
+* f59967f4086a48ee471b7cdf6839dfcc759923df (tag: tst_20230810_multidevice, tag: tst_20230703_uyProtocol, tag: tst_20230522_2, tag: tst_20230522_1) AutoRecursiveCommit from <code/mpfw_code> module: Synchronization - cmake, cube & xpresso -> OK (2)
+* d5021e4821d03d877ad68087511263f8a6f31e3c AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake file to multi-app management: some improvment
+* 1ec5dbab385bc1d6fed0f6dd3284737e60f5ecdd AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi-platform management: stm_20230420 & stm_20230424 main-apps -> build OK
+* adb185e0101ed83869ce6b9d73ce2b099a1ef76e AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files to multi platform management: tst_20221229 -> build OK
+* 5726177fc7f272b2241ce6bc1bfeac220153715f AutoRecursiveCommit from <code/mpfw_code> module: Upd cmake files: improvment in setting cmake cross variables
+* bd4e2fb514eb95b78cb828f4bb4349714b04a5ad First commit
+***                                                            ***
+******************************************************************

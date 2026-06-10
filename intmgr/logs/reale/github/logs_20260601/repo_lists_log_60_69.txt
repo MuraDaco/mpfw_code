@@ -1,0 +1,253 @@
+Mon Jun  1 18:14:17 CEST 2026
+---------------
+command: push
+---------------
+******************************************************************
+***                                                            ***
+60 - mpfw_fw2-trdp-sdk-mac-1trdp
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-trdp-sdk-mac-1trdp git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-trdp-sdk-mac-1trdp git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-trdp-sdk-mac-1trdp git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-trdp-sdk-mac-1trdp folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 98fbe01cee04c547c476a7cc6534a5f742ba02c5 (HEAD -> github_main, github/main, new_update) Update_First_Release release ver. 0.1.0.[39643ea]
+* 98534299de1a6f42341f188fb33702158c8b034b Empty commit
+* 39643ea7ca561535dcc5fa0773e85f5b65df824a (dvlpr1_local1/main, dvlpr1_local1_main) First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+61 - mpfw_fw2-trdp-sdk-nxp-0trdp
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-trdp-sdk-nxp-0trdp git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-trdp-sdk-nxp-0trdp git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-trdp-sdk-nxp-0trdp git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-trdp-sdk-nxp-0trdp folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 491f6c6c54180ffc4c6ab0f8b493b13128f1f408 (HEAD -> github_main, github/main) Update_First_Release release ver. 0.4.0.[da66430]
+| * b7ac35f0c08ef04d4ba67b1205ec94df918dbf3a (new_update) Update_First_Release release ver. 0.4.0.[da66430]
+| * 87ab5c30e65af11842240e54955995d3f8b475be Empty branch
+|/  
+* ba8a553de752272e52d16acfe9506e459ef3bdaf First_Release release ver. 0.3.0.[4637e10]
+* 74aabc015b38c12a9078b0f218327c9011037dd6 First_Release release ver. 0.2.0.[846225f]
+* 45e196b4d24a4b5f7e2aa668cb37aa132cf5a17e Empty commit
+* da6643086531be21d7a25b7b1300c03614a3f583 (dvlpr1_local1/main, dvlpr1_local1_main) Tx-Rx usart by pph - step 2.bis (debugged)
+* 4637e109329d0b9f0402741bbc62ac7c628ccfd8 Upd set_public_dirs.cmake file
+* 846225f58579dcb2c56429676753cb7841ae213a First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+62 - mpfw_fw2-trdp-sdk-nxp-1trdp-usart
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-trdp-sdk-nxp-1trdp-usart git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-trdp-sdk-nxp-1trdp-usart git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-trdp-sdk-nxp-1trdp-usart git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-trdp-sdk-nxp-1trdp-usart folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* b86f2fa0f56d46cfdcc636536f3a9b47eb89bb9c (HEAD -> github_main, github/main) Update_First_Release release ver. 0.3.0.[433b3f6]
+| * c6a4fb25b8c3f09ba1b13f6c18f9258d1b637440 (new_update) Update_First_Release release ver. 0.3.0.[433b3f6]
+| * fa32d29beffee560953347e453c8c746bf159dc9 Empty branch
+|/  
+* ef421e9abc8d3b561c873b62cf475b2286db0087 First_Release release ver. 0.2.0.[781dbca]
+* a55684b1d3cd9027f4105f7bc9b26ee585853bb1 Empty commit
+* 433b3f6ac5b3642507da6417cccf815b16aae0ac (dvlpr1_local1/main, dvlpr1_local1_main) Upd sdk to use pph
+* 781dbca9fab48a47a43ef4954c0ba5c336e5d06c First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+63 - mpfw_fw2-trdp-sdk-stm-stm32f769_disco-0trdp
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-trdp-sdk-stm-stm32f769_disco-0trdp git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-trdp-sdk-stm-stm32f769_disco-0trdp git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-trdp-sdk-stm-stm32f769_disco-0trdp git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-trdp-sdk-stm-stm32f769_disco-0trdp folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 70a5c09eb7d142af4d65cd328689699d8f4e0ce0 (HEAD -> github_main, github/main) First_Release release ver. 0.3.0.[7e87a07]
+* 0590c1331d20495c201fb13f9af877bc8138d2fa First_Release release ver. 0.2.0.[034e340]
+* 9214f332534f6e2a40d39d47d94014a56256e0bf Empty commit
+* 7e87a0766d0bed7359dcb43659bf5c7683261c4e (dvlpr1_local1/main, dvlpr1_local1_main) Upd set_public_dirs.cmake & include_files.cmake files
+* 034e3403665d490cce511005075cc934ebc24f5d Upd wsp (set_public_dirs, cpp_files & include_files .cmake files)
+* cd220db27779951fb1652864d3558475063c2bf3 First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+64 - mpfw_fw2-trdp-sdk-stm-stm32f769_disco-1trdp-usart
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-trdp-sdk-stm-stm32f769_disco-1trdp-usart git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-trdp-sdk-stm-stm32f769_disco-1trdp-usart git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2-trdp-sdk-stm-stm32f769_disco-1trdp-usart git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2-trdp-sdk-stm-stm32f769_disco-1trdp-usart folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 1e630c119512a495878d251e6c9e397941a3cfeb (HEAD -> github_main, github/main) First_Release release ver. 0.2.0.[4d9ea13]
+* 2b5d51e2179a1878cf28abc0f38a13efc0026918 Empty commit
+* 4d9ea137cb46caa6d7dee04a7b6f4bbc84b734c7 (dvlpr1_local1/main, dvlpr1_local1_main) First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+65 - mpfw_fw2_appl_app20240619
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2_appl_app20240619 git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2_appl_app20240619 git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2_appl_app20240619 git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2_appl_app20240619 folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* d5fdab93a9e4a45267f0d36d5bd43430a3211b05 (HEAD -> github_main, github/main) First_Release release ver. 0.3.0.[9f5cd88]
+* 985a08d3a078a99d6c31def7968be27b698257ec First_Release release ver. 0.2.0.[e9fe8cc]
+* 3db7b407c6f1df9ff2d39fe877736775a591de9e Empty commit
+* 9f5cd88811f362d03924f32f28c6cfc0ed73035e (dvlpr1_local1/main, dvlpr1_local1_main) Upd (now CMAKE_SRC_VER_MODULE is a list)
+* 42c505b5d3933ae66605de33b42c88dcb9f033cc Upd wsp (remove 3 init files & upd CMakeLists.txt)
+* e9fe8cc01a4110a2e5998245253a7c6ba1dbc435 Add new wsp version (v_10appl, auto-generation & remove 3 init files)
+* 817c782cef210bdc0e08a54f8c6b03ffcadbe1af Add new wsp version to implement the split of trsdp_sdk libraries (nxp & stm32f769_disco)
+* 63742e881b78f7692a4076f97e8846097034dbeb Trivial Update
+* 5244266be9bdebccc4d15770566d283a7adfe0bc First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+66 - mpfw_fw2_appl_app20240619_new
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2_appl_app20240619_new git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2_appl_app20240619_new git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2_appl_app20240619_new git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2_appl_app20240619_new folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 21734bcf4a7b213b64e7a41f53a72e163ef770c8 (HEAD -> github_main, github/main) First_Release release ver. 0.3.0.[b494be6]
+* adbcd2cd419ea39646956c6b40c2bf0d1b4d10ce First_Release release ver. 0.2.0.[127b644]
+* 0e7115fc92a33b23a64c3e58b2fd9686956e6273 Empty commit
+* b494be6b96542d01d1554a6e0b3afa12682fd87a (dvlpr1_local1/main, dvlpr1_local1_main) Remove unused trdp/sdk folder
+* 127b644f588bd6e0455fb0f4474e1ce467c2d2bf First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+67 - mpfw_fw2_appl_app20250424
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2_appl_app20250424 git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2_appl_app20250424 git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2_appl_app20250424 git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2_appl_app20250424 folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 8c32fbe850ad09e7ef70313ccf9f9246e4a9f22f (HEAD -> github_main, github/main) First_Release release ver. 0.3.0.[dedc99f]
+* 9b09a9fd4a8682fc17c3f836eb55e9a80e5e1632 First_Release release ver. 0.2.0.[5303113]
+* 167a50b0d378496cfd9358bcc19ded30fb12def2 Empty commit
+* dedc99f0c27b17d0a5c6999a521821763c53c600 (dvlpr1_local1/main, dvlpr1_local1_main) Add new wsp
+* c4787c40f2e09cf08465916c416593430f890f93 Upd & Split CMakeLists.txt & Add set_build_params.sh file
+* 97e67c6f0004441679652017d2137aa7183d570d Update init_module_name.cmake script
+* 5303113540a89f64ce164ff8b1d734fa80797cbf First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+68 - mpfw_fw2_appl_app20250625_4appl
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2_appl_app20250625_4appl git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2_appl_app20250625_4appl git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2_appl_app20250625_4appl git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2_appl_app20250625_4appl folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* 32607d401c774b17648470b814db66e6a3109e54 (HEAD -> github_main, github/main) First_Release release ver. 0.3.0.[61452ae]
+* 416eb6216fa7da5e99667542b951047c01b3fd83 First_Release release ver. 0.2.0.[fa29e3c]
+* 6eab07b1db920e18190e46e2d4c07af0fa601cfb Empty commit
+* 61452aed088040b169ae485b6a13a4738868d2ad (dvlpr1_local1/main, dvlpr1_local1_main) Add new wsp
+* fa29e3c667e37f09b401d513644abfe30b2f6f2b First commit
+***                                                            ***
+******************************************************************
+******************************************************************
+***                                                            ***
+69 - mpfw_fw2_appl_app20250625_5main
+    
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2_appl_app20250625_5main git:push
+    ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2_appl_app20250625_5main git:log
+[1;32mSTART ...[0;0m
+[1;33mget_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mchk_input_params ...[0;0m
+[1;34m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0;0m
+[1;33mget_input_params ... step_result: 3[0;0m
+[1;32mStart - environment of integration manager configuration (--env-intgrm) [0;0m
+[1;31menvironment of integration manager params: mpfw_fw2_appl_app20250625_5main git:log[0;0m
+[1;32mINFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601/mpfw_fw2_appl_app20250625_5main folder already exist[0;0m
+[1;32mINFO - git repository is already initialized[0;0m
+[1;33mINFO - performing 'git log' command[0;0m
+* fd52dde45bde20afe03a21474852175cfc52434e (HEAD -> github_main, github/main) First_Release release ver. 0.2.0.[d1bb405]
+* 62ff458469100b7c9140ca1ad29e55173c2f3c41 Empty commit
+* d1bb405b6bab71e3e1dc5ae091f4b5c5d7b4a326 (dvlpr1_local1/main, dvlpr1_local1_main) First commit
+***                                                            ***
+******************************************************************

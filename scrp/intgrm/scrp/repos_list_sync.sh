@@ -46,7 +46,7 @@
             echo_clrd_2 1 35 "$item_id: " 1 33 "$item"
 
             [ "$public_intgrm" = "local" ] && {
-                worksation_intgrm_opt="--ws-intgrm test1"
+                worksation_intgrm_opt="--ws-intgrm test3"
                 public_repo="$HOME/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/remote/public/https/github/$item"
                 public_protocol="file://"
             }
@@ -107,10 +107,10 @@
             [ "$perform_syncro" = "yes" ] && {
                 perform_syncro="no"
                 
-                repos_list_log_2[$item_id]="./scrp/intgrm/scrp/repos_sync.sh $scenario_intgrm_opt $worksation_intgrm_opt --publc \"$public_repo_with_protocol\" --dvlpr \"$developer_repo_with_protocol\" --rel-name First_Release --rel-null 1 3  --rel-inc 2"
-                repos_list_chk_1[$item_id]="./scrp/intgrm/scrp/repos_sync.sh $scenario_intgrm_opt $worksation_intgrm_opt --env-intgrm \"${item%.git}\" git:log"
+                repos_list_log_2[$item_id]="./repos_sync.sh $scenario_intgrm_opt $worksation_intgrm_opt --publc \"$public_repo_with_protocol\" --dvlpr \"$developer_repo_with_protocol\" --rel-name First_Release --rel-null 1 3  --rel-inc 2"
+                repos_list_chk_1[$item_id]="./repos_sync.sh $scenario_intgrm_opt $worksation_intgrm_opt --env-intgrm \"${item%.git}\" git:log"
                 echo_clrd 1 35 "repos_list_log_2[$item_id]"
-                ./scrp/intgrm/scrp/repos_sync.sh $scenario_intgrm_opt $worksation_intgrm_opt --publc "$public_repo_with_protocol" --dvlpr "$developer_repo_with_protocol" --rel-name First_Release --rel-null 1 3  --rel-inc 2
+                ./repos_sync.sh $scenario_intgrm_opt $worksation_intgrm_opt --publc "$public_repo_with_protocol" --dvlpr "$developer_repo_with_protocol" --rel-name First_Release --rel-null 1 3  --rel-inc 2
             }
             true
 

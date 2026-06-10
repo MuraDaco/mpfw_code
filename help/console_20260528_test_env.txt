@@ -1,0 +1,949 @@
+work@umtiefs-Mac-mini scrp %    
+  [Restored 28 May 2026 at 06:31:44]
+Last login: Thu May 28 06:31:37 on console
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr-remote test_dvlpr_remote_repos modulo_test_20260528_A 
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 5
+Start - environment of developer remote configuration (--env-dvlpr-remote) 
+environment of developer params: test_dvlpr_remote_repos modulo_test_20260528_A
+INFO - root folder of remote repos existS - l_root_remote_repos_folder: /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos
+INFO - creating /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_A.git folder/'remote repository'
+Initialized empty Git repository in /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_A.git/
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A 
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - creating /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder
+Initialized empty Git repository in /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A/.git/
+INFO - git repository is already initialized
+work@umtiefs-Mac-mini scrp % ls -al  /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+total 0
+drwxr-xr-x  3 work  staff   96 May 28 17:17 .
+drwxr-xr-x  3 work  staff   96 May 28 17:17 ..
+drwxr-xr-x  9 work  staff  288 May 28 17:17 .git
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:remote                                                         
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:remote
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git remote' command
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:remote_config:test_dvlpr_remote_repos
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:remote_config:test_dvlpr_remote_repos
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:remote                               
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:remote
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git remote' command
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git remote_config:test_dvlpr_remote_repos
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git remote_config:test_dvlpr_remote_repos
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:remote                               
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:remote
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git remote' command
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:remote_config:test_dvlpr_remote_repos
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:remote_config:test_dvlpr_remote_repos
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A remote_config:test_dvlpr_remote_repos 
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A remote_config:test_dvlpr_remote_repos
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - configuring remote repository ...
+INFO - env_dvlpr_cmd_param_2: test_dvlpr_remote_repos
+INFO -  remote repo folder exists
+performing 'git remote add my_public_repo "file:///Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_A.git"' command
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:remote                               
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:remote
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git remote' command
+my_public_repo
+work@umtiefs-Mac-mini scrp % 
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A new_files                            
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A new_files
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - creating new files & committing them
+INFO - performing 'git push' command
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:log   
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:log
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git log' command
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:status 
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:status
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git status' command
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	file_dw.txt
+	file_ud.txt
+	file_up.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:push  
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:push
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git push' command
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream my_public_repo main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:push
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:push
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git push' command
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream my_public_repo main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:push:set-upstream
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:push:set-upstream
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git push --set-upstream my_public_repo main' command
+error: src refspec main does not match any
+error: failed to push some refs to 'file:///Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_A.git'
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:status           
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:status
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git status' command
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	file_dw.txt
+	file_ud.txt
+	file_up.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:commit:First_commit
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:commit:First_commit
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git commit' command
+[main (root-commit) 04d368b] First_commit
+ 3 files changed, 4 insertions(+)
+ create mode 100644 file_dw.txt
+ create mode 100644 file_ud.txt
+ create mode 100644 file_up.txt
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:status             
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:status
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git status' command
+On branch main
+nothing to commit, working tree clean
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:log                
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:log
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git log' command
+* 04d368b9374de461eb7853062df298215db658d9 (HEAD -> main) First_commit
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:push:set-upstream  
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:push:set-upstream
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git push --set-upstream my_public_repo main' command
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 346 bytes | 346.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To file:///Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_A.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'my_public_repo/main'.
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:log              
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:log
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git log' command
+* 04d368b9374de461eb7853062df298215db658d9 (HEAD -> main, my_public_repo/main) First_commit
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A upd_files              
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A upd_files
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - updating new files & committing them
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:log  
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:log
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git log' command
+* 04d368b9374de461eb7853062df298215db658d9 (HEAD -> main, my_public_repo/main) First_commit
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:staus
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:staus
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:status
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:status
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git status' command
+On branch main
+Your branch is up to date with 'my_public_repo/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   file_dw.txt
+	modified:   file_ud.txt
+	modified:   file_up.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:commit:Second_commit
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:commit:Second_commit
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git commit' command
+[main fe2b942] Second_commit
+ 3 files changed, 5 insertions(+)
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:log                 
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:log
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git log' command
+* fe2b9423f63540cef49aaf940453d4b6ba9f7c17 (HEAD -> main) Second_commit
+* 04d368b9374de461eb7853062df298215db658d9 (my_public_repo/main) First_commit
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:push                
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:push
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git push' command
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 466 bytes | 466.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To file:///Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_A.git
+   04d368b..fe2b942  main -> main
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_A git:log 
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_A git:log
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_A folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git log' command
+* fe2b9423f63540cef49aaf940453d4b6ba9f7c17 (HEAD -> main, my_public_repo/main) Second_commit
+* 04d368b9374de461eb7853062df298215db658d9 First_commit
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr-remote test_dvlpr_remote_repos modulo_test_20260528_B
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 5
+Start - environment of developer remote configuration (--env-dvlpr-remote) 
+environment of developer params: test_dvlpr_remote_repos modulo_test_20260528_B
+INFO - root folder of remote repos existS - l_root_remote_repos_folder: /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos
+INFO - creating /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_B.git folder/'remote repository'
+Initialized empty Git repository in /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_B.git/
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - creating /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder
+Initialized empty Git repository in /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B/.git/
+INFO - git repository is already initialized
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B git:remote_config:test_dvlpr_remote_repos
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B git:remote_config:test_dvlpr_remote_repos
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B git:remote                               
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B git:remote
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git remote' command
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B remote_config:test_dvlpr_remote_repos 
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B remote_config:test_dvlpr_remote_repos
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+INFO - configuring remote repository ...
+INFO - env_dvlpr_cmd_param_2: test_dvlpr_remote_repos
+INFO -  remote repo folder exists
+performing 'git remote add my_public_repo "file:///Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_B.git"' command
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B git:remote                           
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B git:remote
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git remote' command
+my_public_repo
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B new_files
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B new_files
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+INFO - creating new files & committing them
+INFO - performing 'git push' command
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B git:commit:First_commit___
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B git:commit:First_commit___
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git commit' command
+[main (root-commit) 80a8463] First_commit___
+ 3 files changed, 4 insertions(+)
+ create mode 100644 file_dw.txt
+ create mode 100644 file_ud.txt
+ create mode 100644 file_up.txt
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B git:push:set-upstream     
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B git:push:set-upstream
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git push --set-upstream my_public_repo main' command
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 348 bytes | 348.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To file:///Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_B.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'my_public_repo/main'.
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B git:log              
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B git:log
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git log' command
+* 80a846334dbcaa60ebe5f9fdd714feb067f55944 (HEAD -> main, my_public_repo/main) First_commit___
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B upd_files                 
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B upd_files
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+INFO - updating new files & committing them
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B git:commit:Second_commit---
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B git:commit:Second_commit---
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git commit' command
+[main d865007] Second_commit---
+ 3 files changed, 5 insertions(+)
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B git:push                   
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B git:push
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git push' command
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 471 bytes | 471.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To file:///Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_B.git
+   80a8463..d865007  main -> main
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B git:log                    
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B git:log
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git log' command
+* d865007fd228040c510c66af4cf5027e58a867ed (HEAD -> main, my_public_repo/main) Second_commit---
+* 80a846334dbcaa60ebe5f9fdd714feb067f55944 First_commit___
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B upd_files                  
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B upd_files
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+INFO - updating new files & committing them
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B git:commit:Third_commit~^~
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B git:commit:Third_commit~^~
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git commit' command
+[main 96e2e5f] Third_commit~^~
+ 3 files changed, 4 insertions(+)
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B git:push                   
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B git:push
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git push' command
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 491 bytes | 491.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To file:///Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_B.git
+   d865007..96e2e5f  main -> main
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B git:log                   
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B git:log
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git log' command
+* 96e2e5f9c7291153fc2e28f58e86f10c3ce69f3b (HEAD -> main, my_public_repo/main) Third_commit~^~
+* d865007fd228040c510c66af4cf5027e58a867ed Second_commit---
+* 80a846334dbcaa60ebe5f9fdd714feb067f55944 First_commit___
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr-remote test_dvlpr_remote_repos modulo_test_20260528_C  
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 5
+Start - environment of developer remote configuration (--env-dvlpr-remote) 
+environment of developer params: test_dvlpr_remote_repos modulo_test_20260528_C
+INFO - root folder of remote repos existS - l_root_remote_repos_folder: /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos
+INFO - creating /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_C.git folder/'remote repository'
+Initialized empty Git repository in /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_C.git/
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_C                    
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_C
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C
+INFO - creating /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C folder
+Initialized empty Git repository in /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C/.git/
+INFO - git repository is already initialized
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_C remote_config:test_dvlpr_remote_repos   
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_C remote_config:test_dvlpr_remote_repos
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C folder already exist
+INFO - git repository is already initialized
+INFO - configuring remote repository ...
+INFO - env_dvlpr_cmd_param_2: test_dvlpr_remote_repos
+INFO -  remote repo folder exists
+performing 'git remote add my_public_repo "file:///Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_C.git"' command
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_C git:remote                           
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_C git:remote
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git remote' command
+my_public_repo
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_C new_files                 
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_C new_files
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C folder already exist
+INFO - git repository is already initialized
+INFO - creating new files & committing them
+INFO - performing 'git push' command
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_C git:commit:First_commit.....
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_C git:commit:First_commit.....
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git commit' command
+[main (root-commit) 26051a4] First_commit.....
+ 3 files changed, 4 insertions(+)
+ create mode 100644 file_dw.txt
+ create mode 100644 file_ud.txt
+ create mode 100644 file_up.txt
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_B git:push:set-upstream      
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_B git:push:set-upstream
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_B folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git push --set-upstream my_public_repo main' command
+branch 'main' set up to track 'my_public_repo/main'.
+Everything up-to-date
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_C git:push:set-upstream      
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_C git:push:set-upstream
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git push --set-upstream my_public_repo main' command
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 347 bytes | 347.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To file:///Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_C.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'my_public_repo/main'.
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_C upd_files                 
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_C upd_files
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C folder already exist
+INFO - git repository is already initialized
+INFO - updating new files & committing them
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_C git:commit:Second_commit°°°°°
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_C git:commit:Second_commit°°°°°
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git commit' command
+[main 49124a7] Second_commit°°°°°
+ 3 files changed, 5 insertions(+)
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_C git:push                     
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_C git:push
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git push' command
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 475 bytes | 475.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To file:///Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/remote/developer/test_dvlpr_remote_repos/modulo_test_20260528_C.git
+   26051a4..49124a7  main -> main
+work@umtiefs-Mac-mini scrp % ./repos_sync.sh --env-dvlpr dvlpr3_ws4 modulo_test_20260528_C git:log                      
+START ...
+get_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+chk_input_params ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+get_input_params ... step_result: 4
+Start - environment of developer configuration (--env-dvlpr) 
+environment of developer params: dvlpr3_ws4 modulo_test_20260528_C git:log
+/Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C
+INFO - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_1/developers/dvlpr3_ws4/modulo_test_20260528_C folder already exist
+INFO - git repository is already initialized
+INFO - performing 'git log' command
+* 49124a71fd4b822e7209635e825554fd104899bf (HEAD -> main, my_public_repo/main) Second_commit°°°°°
+* 26051a4bbfb254f5226bd1b9d50c39a4605725f4 First_commit.....
+work@umtiefs-Mac-mini scrp % 
