@@ -549,11 +549,11 @@ function chk_status_remote_repo_publc   {
             glovars_upd "repo_remote_status_publc" "$fetch_result"
             step_result=0
         } || {
-            echo_clrd 1 33 "ERROR - the  'git show-branch --sha1-name $repo_publc_nick_name/main | wc -l' command failed"
+            echo_clrd 1 31 "ERROR - the  'git show-branch --sha1-name $repo_publc_nick_name/main | wc -l' command failed"
             exit 1
         }
     } || {
-        echo_clrd 1 33 "ERROR - the  'git fetch $repo_publc_nick_name' command failed"
+        echo_clrd 1 31 "ERROR - the  'git fetch $repo_publc_nick_name' command failed"
         exit 1
     }
 
@@ -573,11 +573,11 @@ function chk_status_remote_repo   {
             glovars_upd "repo_remote_status_$1" "$fetch_result"
             step_result=0
         } || {
-            echo_clrd 1 33 "ERROR - the  \"git show-branch --sha1-name $l_repo_xxx_nick_name/main | wc -l\" command failed"
+            echo_clrd 1 31 "ERROR - the  \"git show-branch --sha1-name $l_repo_xxx_nick_name/main | wc -l\" command failed"
             exit 1
         }
     } || {
-        echo_clrd 1 33 "ERROR - the  \"git fetch $l_repo_xxx_nick_name\" command failed"
+        echo_clrd 1 31 "ERROR - the  \"git fetch $l_repo_xxx_nick_name\" command failed"
         exit 1
     }
 
@@ -1354,10 +1354,24 @@ function env_integration_manager  {
                 echo_clrd 1 33 "INFO - performing 'git status' command"
                 git status
             }
+
             [ "$env_intgrm_cmd_param_2" = "log" ] && {
                 echo_clrd 1 33 "INFO - performing 'git log' command"
+                # git log --pretty=oneline --decorate --graph --all
                 git logpretty
             }
+
+            [ "$env_intgrm_cmd_param_2" = "tag" ] && {
+                env_intgrm_cmd_param_3=$(echo "$env_intgrm_cmd" | cut -d':' -f3)
+                [ -n "$env_intgrm_cmd_param_3" ] && {
+                    echo_clrd 1 33 "INFO - performing 'git tag \"$env_intgrm_cmd_param_3\"' command"
+                    git tag "$env_intgrm_cmd_param_3"
+                } || {
+                    echo_clrd 1 31 "INFO - warning - it is not possible to perform the 'git tag' command because you did not set the tag name as third parameter"
+                    # git tag "$env_intgrm_cmd_param_3"
+                }
+            }
+
             [ "$env_intgrm_cmd_param_2" = "remote" ] && {
                 env_intgrm_cmd_param_3=$(echo "$env_intgrm_cmd" | cut -d':' -f3)
                 [ -z "$env_intgrm_cmd_param_3" ] && {
@@ -1373,14 +1387,14 @@ function env_integration_manager  {
                 env_intgrm_cmd_param_3=$(echo "$env_intgrm_cmd" | cut -d':' -f3)
                 [ -z "$env_intgrm_cmd_param_3" ] && {
                     echo_clrd 1 33 "INFO - performing 'git push github github_main:main' command"
-                    git push github github_main:main
+                    git push github github_main:main --tags
                     true
                 } || {
                     [ "$env_intgrm_cmd_param_3" = "set-upstream" ] && {
                         env_intgrm_cmd_param_4=$(echo "$env_intgrm_cmd" | cut -d':' -f4)
                         [ -z "$env_intgrm_cmd_param_4" ] && {
                             echo_clrd 1 33 "INFO - performing 'git push --set-upstream github github_main' command"
-                            git push --set-upstream github github_main:main
+                            git push --set-upstream github github_main:main --tags
                         }
                     }
                     true

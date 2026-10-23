@@ -140,17 +140,23 @@
         } && {
             echo_clrd_2 1 35 "$item_id: " 1 33 "$item"
 
-            [ -n "$command" ]  && {
+            command_1=${command%:*}
+            [ -n "$command_1" ]  && {
 
-                [ "push" = "$command" ]  && {
+                [ "push" = "$command_1" ]  && {
                     repos_list_chk_1[$item_id]="./repos_sync.sh $scenario_intgrm_opt $worksation_intgrm_opt --env-intgrm $item git:log"
                     repos_list_log_2[$item_id]="./repos_sync.sh $scenario_intgrm_opt $worksation_intgrm_opt --env-intgrm $item git:push"
                     echo_clrd 1 35 "repos_list_log_2[$item_id]:    ${repos_list_log_2[$item_id]}"
                     ./repos_sync.sh $scenario_intgrm_opt $worksation_intgrm_opt --env-intgrm $item git:push
                 } 
-                [ "log" = "$command" ]  && {
+                [ "log" = "$command_1" ]  && {
                     repos_list_chk_1[$item_id]="./repos_sync.sh $scenario_intgrm_opt $worksation_intgrm_opt --env-intgrm $item git:log"
                     repos_list_log_2[$item_id]="./repos_sync.sh $scenario_intgrm_opt $worksation_intgrm_opt --env-intgrm $item git:status"
+                }
+                [ "tag" = "$command_1" ]  && {
+                    repos_list_chk_1[$item_id]="./repos_sync.sh $scenario_intgrm_opt $worksation_intgrm_opt --env-intgrm $item git:log"
+                    repos_list_log_2[$item_id]="./repos_sync.sh $scenario_intgrm_opt $worksation_intgrm_opt --env-intgrm $item git:t$command"
+                    ./repos_sync.sh $scenario_intgrm_opt $worksation_intgrm_opt --env-intgrm $item git:$command
                 }
                 true
 

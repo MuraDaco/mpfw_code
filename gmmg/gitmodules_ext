@@ -336,6 +336,13 @@
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2_main_app20250424_5main.git
+	storage = smb_mypass2
 [submodule "appl/app20250424/mpfw_fw2_appl_app20250424"]
 	onstorage = smb_mypass2
 	onmachine = onglinetsmbmac
@@ -638,6 +645,13 @@
 	parent = code/mpfw_code
 	originurl = 
 	storage = smb_mypass2
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-main-app20250424-5main.git
+	storage = smb_mypass2
 [submodule "fnct/hw/layer/mpfw_fw2-fnct-hw-1trdp-sdk-nxp"]
 	onstorage = smb_mypass2
 	onmachine = onglinetsmbmac
@@ -695,6 +709,14 @@
 	originurl = 
 	storage = smb_mypass2
 [submodule "fnct/base_hw/layer/mpfw_fw2-fnct-base_hw-0abst"]
+	onstorage = smb_mypass2
+	onmachine = onglinetsmbmac
+	onrouter = 
+	repogroup = projects
+	parent = code/mpfw_code
+	originurl = 
+	storage = smb_mypass2
+[submodule "fnct/core/layer/mpfw_fw2-fnct-core-0abst"]
 	onstorage = smb_mypass2
 	onmachine = onglinetsmbmac
 	onrouter = 

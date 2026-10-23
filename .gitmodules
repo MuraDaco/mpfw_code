@@ -256,3 +256,6 @@
 [submodule "fnct/base_hw/layer/mpfw_fw2-fnct-base_hw-0abst"]
 	path = fnct/base_hw/layer/mpfw_fw2-fnct-base_hw-0abst
 	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-base_hw-0abst.git
+[submodule "fnct/core/layer/mpfw_fw2-fnct-core-0abst"]
+	path = fnct/core/layer/mpfw_fw2-fnct-core-0abst
+	url = file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-core-0abst.git

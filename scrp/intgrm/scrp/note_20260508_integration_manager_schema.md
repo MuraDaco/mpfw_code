@@ -1,4 +1,346 @@
 
+----
+
+Thu 22 Oct 2026 16:25:38 CEST
+
+work@umtiefs-Mac-mini src % ls -al /Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/ | grep mpfw_fw2 
+
+
+
+mpfw_code.git
+mpfw_code_apps_tst_20221206.git
+mpfw_code_apps_tst_20230703app.git
+mpfw_code_apps_tst_20230810app.git
+mpfw_code_apps_tst_20240203app.git
+mpfw_code_apps_tst_20240317app.git
+mpfw_code_apps_tst_20240429app.git
+mpfw_code_apps_tst_20240619app.git
+mpfw_code_cmake.git
+mpfw_code_libs_common.git
+mpfw_code_libs_fw2_core_core.git
+mpfw_code_libs_fw2_wrapper_core.git
+mpfw_code_libs_fw2_wrapper_resources.git
+mpfw_code_libs_sdk_mac.git
+mpfw_code_libs_sdk_mac_ext.git
+mpfw_code_libs_sdk_nxp.git
+mpfw_code_libs_sdk_stm.git
+mpfw_code_libs_sdk_stm32f769_disco.git
+mpfw_code_libs_sdk_stm32f769_disco_mod.git
+mpfw_code_main_stm_20230420.git
+mpfw_code_main_stm_20230424.git
+mpfw_code_main_stm_20230501.git
+mpfw_code_main_stm_20230504.git
+mpfw_code_main_stm_20230505.git
+mpfw_code_main_stm_20230516.git
+mpfw_code_main_stm_20230520.git
+mpfw_code_main_tst_20221229.git
+mpfw_code_main_tst_20230522.git
+mpfw_code_main_tst_20230703main.git
+mpfw_code_main_tst_20230810main.git
+mpfw_code_main_tst_20240203main.git
+mpfw_code_main_tst_20240317main.git
+mpfw_code_main_tst_20240429main.git
+mpfw_code_main_tst_20240619main.git
+
+
+
+
+
+
+mpfw_fw2-appl-app20240619_new_bis-4appl.git               
+mpfw_fw2-appl-app20250424-4appl.git                       
+mpfw_fw2-fnct-base-0abst.git                              
+mpfw_fw2-fnct-base-4test.git                              
+mpfw_fw2-fnct-base_hw-0abst.git                           
+mpfw_fw2-fnct-core-0abst.git                              
+mpfw_fw2-fnct-core-2wrpr.git                              
+mpfw_fw2-fnct-core-3real.git                              
+mpfw_fw2-fnct-hw-0abst-trdp-sdk-mac.git                   
+mpfw_fw2-fnct-hw-0abst.git                                
+mpfw_fw2-fnct-hw-1trdp-sdk-mac.git                        
+mpfw_fw2-fnct-hw-1trdp-sdk-nxp.git                        
+mpfw_fw2-fnct-hw-1trdp-sdk-stm-stm32f769_disco.git        
+mpfw_fw2-fnct-hw-2wrpr-sdk.git                            
+mpfw_fw2-fnct-hw-3real.git                                
+mpfw_fw2-fnct-res-1trdp-sdk-nxp.git                       
+mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco.git       
+mpfw_fw2-fnct-res-2wrpr-sdk.git                           
+mpfw_fw2-fnct-tui-0abst-trdp-sdk-mac.git                  
+mpfw_fw2-fnct-tui-0abst.git                               
+mpfw_fw2-fnct-tui-2wrpr-ui.git                            
+mpfw_fw2-fnct-tui-2wrpr.git                               
+mpfw_fw2-fnct-tui-3real-trdp-sdk-mac.git                  
+mpfw_fw2-fnct-tui-3real.git                               
+mpfw_fw2-main-app20240619_new_bis-5main.git               
+mpfw_fw2-main-app20250424-5main.git                       
+mpfw_fw2-trdp-sdk-mac-0trdp.git                           
+mpfw_fw2-trdp-sdk-mac-1trdp.git                           
+mpfw_fw2-trdp-sdk-nxp-0trdp.git                           
+mpfw_fw2-trdp-sdk-nxp-1trdp-usart.git                     
+mpfw_fw2-trdp-sdk-stm-stm32f769_disco-0trdp.git           
+mpfw_fw2-trdp-sdk-stm-stm32f769_disco-1trdp-usart.git     
+mpfw_fw2_appl_app20240619.git                             
+mpfw_fw2_appl_app20240619_new.git                         
+mpfw_fw2_appl_app20250424.git                             
+mpfw_fw2_appl_app20250625_4appl.git                       
+mpfw_fw2_appl_app20250625_5main.git                       
+mpfw_fw2_cmake.git                                        
+mpfw_fw2_fnct_base.git                                    
+mpfw_fw2_fnct_core_2wrpr.git                              
+mpfw_fw2_fnct_core_3real.git                              
+mpfw_fw2_fnct_hw_0abst.git                                
+mpfw_fw2_fnct_hw_1trdp_sdk.git                            
+mpfw_fw2_fnct_hw_2wrpr.git                                
+mpfw_fw2_fnct_hw_3real.git                                
+mpfw_fw2_fnct_res_1trdp_sdk.git                           
+mpfw_fw2_fnct_res_2wrpr.git                               
+mpfw_fw2_fnct_tui_0abst.git                               
+mpfw_fw2_fnct_tui_2wrpr.git                               
+mpfw_fw2_fnct_tui_3real.git                               
+mpfw_fw2_main_app20240619_5main.git                       
+mpfw_fw2_main_app20250424_5main.git                       
+mpfw_fw2_trdp_mac_0abst.git                               
+mpfw_fw2_trdp_nxp_0abst.git                               
+mpfw_fw2_trdp_stm32f769_disco_0abst.git                   
+
+work@umtiefs-Mac-mini src %                                                                                   
+
+
+work@umtiefs-Mac-mini src % ls -al ~/ObsiData/distributed_git/integration_manager_workflow/scenario_reale/manager/intgrm_github_20260601 
+mpfw_code
+mpfw_code_apps_tst_20221206
+mpfw_code_apps_tst_20230703app
+mpfw_code_apps_tst_20230810app
+mpfw_code_apps_tst_20240203app
+mpfw_code_apps_tst_20240317app
+mpfw_code_apps_tst_20240429app
+mpfw_code_apps_tst_20240619app
+mpfw_code_cmake
+mpfw_code_libs_common
+mpfw_code_libs_fw2_core_core
+mpfw_code_libs_fw2_wrapper_core
+mpfw_code_libs_fw2_wrapper_resources
+mpfw_code_libs_sdk_mac
+mpfw_code_libs_sdk_mac_ext
+mpfw_code_libs_sdk_nxp
+mpfw_code_libs_sdk_stm
+mpfw_code_libs_sdk_stm32f769_disco
+mpfw_code_libs_sdk_stm32f769_disco_mod
+mpfw_code_main_stm_20230420
+mpfw_code_main_stm_20230424
+mpfw_code_main_stm_20230501
+mpfw_code_main_stm_20230504
+mpfw_code_main_stm_20230505
+mpfw_code_main_stm_20230516
+mpfw_code_main_stm_20230520
+mpfw_code_main_tst_20221229
+mpfw_code_main_tst_20230522
+mpfw_code_main_tst_20230703main
+mpfw_code_main_tst_20230810main
+mpfw_code_main_tst_20240203main
+mpfw_code_main_tst_20240317main
+mpfw_code_main_tst_20240429main
+mpfw_code_main_tst_20240619main
+
+
+
+
+
+
+mpfw_fw2-appl-app20240619_new_bis-4appl.git               mpfw_fw2-appl-app20240619_new_bis-4appl
+mpfw_fw2-appl-app20250424-4appl.git                       mpfw_fw2-appl-app20250424-4appl
+mpfw_fw2-fnct-base-0abst.git                              mpfw_fw2-fnct-base-0abst
+mpfw_fw2-fnct-base-4test.git                              mpfw_fw2-fnct-base-4test
+mpfw_fw2-fnct-base_hw-0abst.git                           mpfw_fw2-fnct-base_hw-0abst
+mpfw_fw2-fnct-core-0abst.git                              
+mpfw_fw2-fnct-core-2wrpr.git                              mpfw_fw2-fnct-core-2wrpr
+mpfw_fw2-fnct-core-3real.git                              mpfw_fw2-fnct-core-3real
+mpfw_fw2-fnct-hw-0abst-trdp-sdk-mac.git                   mpfw_fw2-fnct-hw-0abst-trdp-sdk-mac
+mpfw_fw2-fnct-hw-0abst.git                                mpfw_fw2-fnct-hw-0abst
+mpfw_fw2-fnct-hw-1trdp-sdk-mac.git                        mpfw_fw2-fnct-hw-1trdp-sdk-mac
+mpfw_fw2-fnct-hw-1trdp-sdk-nxp.git                        mpfw_fw2-fnct-hw-1trdp-sdk-nxp
+mpfw_fw2-fnct-hw-1trdp-sdk-stm-stm32f769_disco.git        mpfw_fw2-fnct-hw-1trdp-sdk-stm-stm32f769_disco
+mpfw_fw2-fnct-hw-2wrpr-sdk.git                            mpfw_fw2-fnct-hw-2wrpr-sdk
+mpfw_fw2-fnct-hw-3real.git                                mpfw_fw2-fnct-hw-3real
+mpfw_fw2-fnct-res-1trdp-sdk-nxp.git                       mpfw_fw2-fnct-res-1trdp-sdk-nxp
+mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco.git       mpfw_fw2-fnct-res-1trdp-sdk-stm-stm32f769_disco
+mpfw_fw2-fnct-res-2wrpr-sdk.git                           mpfw_fw2-fnct-res-2wrpr-sdk
+mpfw_fw2-fnct-tui-0abst-trdp-sdk-mac.git                  mpfw_fw2-fnct-tui-0abst
+mpfw_fw2-fnct-tui-0abst.git                               mpfw_fw2-fnct-tui-0abst-trdp-sdk-mac
+mpfw_fw2-fnct-tui-2wrpr-ui.git                            mpfw_fw2-fnct-tui-2wrpr
+mpfw_fw2-fnct-tui-2wrpr.git                               mpfw_fw2-fnct-tui-2wrpr-ui
+mpfw_fw2-fnct-tui-3real-trdp-sdk-mac.git                  mpfw_fw2-fnct-tui-3real
+mpfw_fw2-fnct-tui-3real.git                               mpfw_fw2-fnct-tui-3real-trdp-sdk-mac
+mpfw_fw2-main-app20240619_new_bis-5main.git               mpfw_fw2-main-app20240619_new_bis-5main
+mpfw_fw2-main-app20250424-5main.git                       mpfw_fw2-main-app20250424-5main
+mpfw_fw2-trdp-sdk-mac-0trdp.git                           mpfw_fw2-trdp-sdk-mac-0trdp
+mpfw_fw2-trdp-sdk-mac-1trdp.git                           mpfw_fw2-trdp-sdk-mac-1trdp
+mpfw_fw2-trdp-sdk-nxp-0trdp.git                           mpfw_fw2-trdp-sdk-nxp-0trdp
+mpfw_fw2-trdp-sdk-nxp-1trdp-usart.git                     mpfw_fw2-trdp-sdk-nxp-1trdp-usart
+mpfw_fw2-trdp-sdk-stm-stm32f769_disco-0trdp.git           mpfw_fw2-trdp-sdk-stm-stm32f769_disco-0trdp
+mpfw_fw2-trdp-sdk-stm-stm32f769_disco-1trdp-usart.git     mpfw_fw2-trdp-sdk-stm-stm32f769_disco-1trdp-usart
+mpfw_fw2_appl_app20240619.git                             mpfw_fw2_appl_app20240619
+mpfw_fw2_appl_app20240619_new.git                         mpfw_fw2_appl_app20240619_new
+mpfw_fw2_appl_app20250424.git                             mpfw_fw2_appl_app20250424
+mpfw_fw2_appl_app20250625_4appl.git                       mpfw_fw2_appl_app20250625_4appl
+mpfw_fw2_appl_app20250625_5main.git                       mpfw_fw2_appl_app20250625_5main
+mpfw_fw2_cmake.git                                        mpfw_fw2_cmake
+mpfw_fw2_fnct_base.git                                    mpfw_fw2_fnct_base
+mpfw_fw2_fnct_core_2wrpr.git                              mpfw_fw2_fnct_core_2wrpr
+mpfw_fw2_fnct_core_3real.git                              mpfw_fw2_fnct_core_3real
+mpfw_fw2_fnct_hw_0abst.git                                mpfw_fw2_fnct_hw_0abst
+mpfw_fw2_fnct_hw_1trdp_sdk.git                            mpfw_fw2_fnct_hw_1trdp_sdk
+mpfw_fw2_fnct_hw_2wrpr.git                                mpfw_fw2_fnct_hw_2wrpr
+mpfw_fw2_fnct_hw_3real.git                                mpfw_fw2_fnct_hw_3real
+mpfw_fw2_fnct_res_1trdp_sdk.git                           mpfw_fw2_fnct_res_1trdp_sdk
+mpfw_fw2_fnct_res_2wrpr.git                               mpfw_fw2_fnct_res_2wrpr
+mpfw_fw2_fnct_tui_0abst.git                               mpfw_fw2_fnct_tui_0abst
+mpfw_fw2_fnct_tui_2wrpr.git                               mpfw_fw2_fnct_tui_2wrpr
+mpfw_fw2_fnct_tui_3real.git                               mpfw_fw2_fnct_tui_3real
+mpfw_fw2_main_app20240619_5main.git                       mpfw_fw2_main_app20240619_5main
+mpfw_fw2_main_app20250424_5main.git                       mpfw_fw2_main_app20250424_5main
+mpfw_fw2_trdp_mac_0abst.git                               mpfw_fw2_trdp_mac_0abst
+mpfw_fw2_trdp_nxp_0abst.git                               mpfw_fw2_trdp_nxp_0abst
+mpfw_fw2_trdp_stm32f769_disco_0abst.git                   mpfw_fw2_trdp_stm32f769_disco_0abst
+
+
+
+- ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --publc "https://github.com/MuraDaco/mpfw_fw2-fnct-core-0abst.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_fw2-fnct-core-0abst.git" --rel-name  Update_First_Release --rel-null 1 3 --rel-inc 2
+    - se la repository dello sviluppatore è nuova verrà automaticamente creata una nuova repository per l'integration manager
+    - se manca la connessione alla repository remota pubblica (quella gestita dall'integration manager) la procedura non può essere eseguita (e non viene creata neppure quella locale dell'integration manager) e quindi esce con errore
+        - ad esempio:
+            - fatal: unable to access 'https://github.com/MuraDaco/mpfw_fw2-fnct-core-0abst.git/': Failed to connect to github.com port 443 after 2 ms: Couldn't connect to server
+            - ERROR - the  'git fetch github' command failed
+
+./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-core-0abst git:push
+./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2-fnct-core-0abst git:tag:v_20261019
+
+---
+
+
+- procedura di archiviazione
+    - steps 1: creazione lista dei file per ciascuna piattaforma
+        - build_platform_cmake2.sh nxp "nxp" archive
+        - build_platform_cmake2.sh mac "mac;ncurses" archive
+    - step 2: creazione della directory di archivio
+        - { cat appl_app20250424_files_n_dirs_nxp.txt; cat appl_app20250424_files_n_dirs_mac.txt } | sort | uniq | archive.sh
+            - la directory di archivio è fissa, dipende solo dall'applicazione che si vuole archiviare
+            - archive/${APP_NAME}/mpfw_code
+
+
+---
+
+Wed 21 Oct 2026 19:21:19 CEST
+
+
+- analisi del comando
+    - repos_list_sync2.sh
+        - esempio 1
+            - ./repos_list_sync2.sh --public-intgrm <reale> [reale] [github_20260601] --public-dvlpr <reale> --rel-name Update_First_Release --rel-null 1 3  --rel-inc 2 --range-down 0 --range-up 2
+        - preparazione
+            - harddisk di dove risiedono le repository remote dello sviluppatore in particolare l'harddisk [mypass2]
+            - in un contesto 
+                - <reale>
+                    - essere collegati a internet e avere le credenziali agiornate per poter accedere la rpository remota di github
+                - <test> (reale parziale)
+                    - decidere quale directory simulerà github
+        - da dove eseguirlo
+            - nella directory dove risiede quindi
+                - [scrp/intgrm/scrp]
+        - descrizione opzioni e parametri
+            - opzione [--public-intgrm] con i parametri <reale> [reale] [github_20260601]
+                - indica l'url 
+                    - della directory dove risiedono le repositories locali dei vari moduli gestiti dall'intergration manager
+                        - ad esempio i due parametri
+                            - [reale] 
+                            - [github_20260601]
+                        - permettono di definire la seguente directory
+                            - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_[reale]/manager/intgrm_[github_20260601]
+                                - quindi i paramnetri [reale] e [github_20260601] identificano la parte variabile del path
+                    - dove risiedono le repositories remote associate a quelle locali di cui al punto precedente
+                        - ad esempio il parametro
+                            - <reale>
+                                - indica che deve prendere come url, dove si trovano le repository remote pubbliche ovvero quelle gestite dall'integration manager, https://github.com/MuraDaco
+                            - N.B.: i possibili valori del primo parametro dell'opzione [--public-intgrm] sono <reale> e <test>
+                                - nel caso sia <test> ci sarà un quarto parametro che servirà a definire la directory che simula quella remote presente su github, dal momento che siamo in un contesto di <test>
+                                - un esempio nel caso di <test> puàò essere
+                                    - --public-intgrm <test> [reale] [test4] [test_AAA]
+                                        - l'url della diectory locale che simula quella su github sarà
+                                            - file:///Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_[reale]/remote/public/https/[test_AAA]
+                                                - quindi i parametri [reale] e [test_AAA] identificano la parte variabile del path
+            - opzione [--public-dvlpr] con parametri <reale>
+                - indica l'url della repository remota "pubblica" (nel senso che ci può accedere in sola lettura l'integration manager) dello sviluppatore
+                    - nel
+                    - N.B.: anche per l'opzione [--public-dvlpr] il primo parametro può assumere solo due valori <reale> e <test>
+                        - nel caso il primo parametro sia <test> allora ci saranno altri due parametri 
+                            - nel caso dell'esempio riportato di seguito 
+                                - [1] che indica lo scenario e la relativa sotto-directory
+                                - [test_dvlpr_remote_repos] che indica la directory associata allo scenario
+                        - esempio
+                            - /Users/work/ObsiData/distributed_git/integration_manager_workflow/scenario_[1]/remote/developer/[test_dvlpr_remote_repos]
+                                - quindi come si vede dall'esempio 
+            - opzione [--rel-name] Update_First_Release
+                - indica il messaggio da inserire nel commit
+            - opzione [--rel-null] 1 3
+                - i campi/fileds della versione dei moduli sono impostati a zero
+            - opzione [--rel-inc] 2 
+                - i campi/fileds della versione dei moduli sono incrementati di una unità
+                    - N.B.: considerando queste ultime tre opzioni avremo che il messaggio di commit sarà
+                        - "Update_First_Release ver. 0.5.0" nel caso la precedente versione sia "ver. x.4.x"
+            - opzione --range-down 0 
+            - opzione --range-up 2
+                - queste ultime due opzioni indicano il range dell'indice dei moduli da sincronizzare rispetto la lista che si ottiene eseguendo il comando 'ls -al' nella directory dove risiedono i moduli dello sviluppatore
+        - esempio 2
+            - ./repos_list_sync2.sh --public-intgrm reale reale github_20260601 --public-dvlpr reale --command push --range-down 0 --range-up 2
+        - esempio 3
+            - ./repos_list_sync2.sh --public-intgrm reale reale github_20260601 --public-dvlpr reale --command tag:v_20260610 --range-down 0 --range-up 2
+
+
+        
+- procedure di accesso a github
+    - github
+        - creare o rigenerare un nuovo token
+            - N.B.: scegliere di rigenereare evita di configurare un nuovo token
+            - andare in 
+                - adram
+                    - settings
+                        - Developer settings -> https://github.com/settings/apps
+                            - Personal access tokens -> https://github.com/settings/tokens
+                                - Tokens (classic)
+    - configurazione del pc per impostare un accesso a github "automatico" senza dover digitare manualmente utente e password
+        - keychain Access
+            - File
+                - New password Item ...
+                    - Account: il nome dell'account github ovver [adram]
+                    - Passowrd: la copia del token (ad. es [ghp_dkjhdsjhdfs......])
+                - doppio click sul nuovo item creato ed accertarsi che 
+                    - nella finestra del tab [Access_Control] e
+                    - nella sotto-finestra [Always_allow_access_by_these_applications] ci sia 
+                        - [git-credential-osxkeychain]
+            - oppure accertarsi che
+            - nel keychain [login]/[password] ci sia
+                - l'elemento riferito al github con i dati 
+                    - Account: [adram]
+                    - Password: copia  del token attivo (ad. es [ghp_dkjhdsjhdfs.....])
+        - git
+            - usare il comando
+                - work@umtiefs-Mac-mini mac % git config --list --show-origin
+                    - un possibile output del comando 
+                        - file:/Library/Developer/CommandLineTools/usr/share/git-core/gitconfig   credential.helper=osxkeychain
+                        - file:/Library/Developer/CommandLineTools/usr/share/git-core/gitconfig   init.defaultbranch=main
+                        - file:/Users/work/.gitconfig     protocol.file.allow=always
+                        - file:/Users/work/.gitconfig     user.name=work
+                        - file:/Users/work/.gitconfig     user.email=work@sonoma.macmini.local
+                        - file:/Users/work/.gitconfig     alias.logpretty=log --pretty=oneline --decorate --graph --all
+                        - file:/Users/work/ObsiData/repo__main/.git/modules/smdl/repo__prjs/modules/smdl/mpfw/modules/code/mpfw_code/modules/main/app20250424/layer/mpfw_fw2-main-app20250424-5main/config        core.repositoryformatversion=0
+                        - file:/Users/work/ObsiData/repo__main/.git/modules/smdl/repo__prjs/modules/smdl/mpfw/modules/code/mpfw_code/modules/main/app20250424/layer/mpfw_fw2-main-app20250424-5main/config        core.filemode=true
+                        - file:/Users/work/ObsiData/repo__main/.git/modules/smdl/repo__prjs/modules/smdl/mpfw/modules/code/mpfw_code/modules/main/app20250424/layer/mpfw_fw2-main-app20250424-5main/config        core.bare=false
+                - ed accertarsi che ci sia il parametro
+                    - credential.helper=osxkeychain
+                
+
+
+
 ---
 
 Wed 10 Jun 2026 17:23:01 CEST
@@ -14,8 +356,8 @@ Wed 10 Jun 2026 17:23:01 CEST
         - ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_fw2_cmake git:log
     - mpfw_code
         - ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --publc "https://github.com/MuraDaco/mpfw_code.git" --dvlpr "file:///Volumes/mypass2/ObsiDataRemote/Year_2023/repo__prjs/mpfw_code.git" --rel-name  Update_First_Release --rel-null 1 3 --rel-inc 2
-        - ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_code git:push
         - ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_code git:log
+        - ./repos_sync.sh --scn-intgrm reale --ws-intgrm github_20260601 --env-intgrm mpfw_code git:push
 
 ---
 
